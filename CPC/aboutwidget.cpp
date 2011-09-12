@@ -119,7 +119,7 @@ void AboutWidget::settingsValue(const KeySettings& settings,  bool reg) {
 
         ui->timeLabel->setText(QString("%1 Days").arg(availableDays));
 
-        // free version, write install time & last usage time
+        // free version, write install time & last usage time.
         //SettingsHandler:: writeInstallTime(settings.installTime);
         //SettingsHandler:: writeLastUsageTime(settings.lastUsageTime);
     }
