@@ -1,0 +1,29 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>WebFerret</Plugin-Name>
+<Plugin-Category>Thrid-Party Application History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>WebFerret Search History List</Name> 
+<Objects>
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\FerretSoft\NetFerret\CurrentVersion\Web</Location>
+<Patterns>
+<Pattern>Search History</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

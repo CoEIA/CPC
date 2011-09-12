@@ -1,0 +1,94 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>Gator</Plugin-Name>
+<Plugin-Category>Thrid-Party Application History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>Gator Passwords and Log Files</Name> 
+<Objects>
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%WINDIR%</Location>
+<Patterns>
+<Pattern>GatorPlugin.log</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%WINDIR%</Location>
+<Patterns>
+<Pattern>GatorSetup.log</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%WINDIR%</Location>
+<Patterns>
+<Pattern>GatorUninstaller.log</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\gator.com\gator</Location>
+<Patterns>
+<Pattern>Gator.log</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Folder</Type>
+<Command>DeleteAllBellow</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\gator.com\gator\Banners</Location>
+<Patterns>
+<Pattern>*.*</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Folder</Type>
+<Command>DeleteAllBellow</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\gator.com\gator\Scripts</Location>
+<Patterns>
+<Pattern>*.*</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

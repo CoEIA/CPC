@@ -1,0 +1,68 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>FlashGet</Plugin-Name>
+<Plugin-Category>Download and Upload History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>FlashGet Recent File List and Download File Log</Name> 
+<Objects>
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\JetCar\JetCar</Location>
+<Patterns>
+<Pattern>Recent File List</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Folder</Type>
+<Command>DeleteMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\FlashGet</Location>
+<Patterns>
+<Pattern>Default.bk*</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\FlashGet</Location>
+<Patterns>
+<Pattern>Default.jcd</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\FlashGet</Location>
+<Patterns>
+<Pattern>Default.jcd.bak</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

@@ -1,0 +1,29 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>Miranda ICQ</Plugin-Name>
+<Plugin-Category>Chat and Instant Messaging History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>Miranda ICQ History Information</Name> 
+<Objects>
+<Object>
+<Type>Folder</Type>
+<Command>DeleteMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\Miranda ICQ</Location>
+<Patterns>
+<Pattern>*.hst</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

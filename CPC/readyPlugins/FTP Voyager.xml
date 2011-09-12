@@ -1,0 +1,68 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>FTP Voyager</Plugin-Name>
+<Plugin-Category>Download and Upload History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>FTP Voyager Recent Accessed Sites</Name> 
+<Objects>
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Rhino Software\FTP Voyager</Location>
+<Patterns>
+<Pattern>Most Recent Sites</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\RhinoSoft.com\FTP Voyager</Location>
+<Patterns>
+<Pattern>FTPVoyager.qc</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\RhinoSoft.com\FTP Voyager</Location>
+<Patterns>
+<Pattern>LocalCache.cache</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\RhinoSoft.com\FTP Voyager</Location>
+<Patterns>
+<Pattern>FTP Voyager Scheduler.SCH.Backup</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

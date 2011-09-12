@@ -1,0 +1,42 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>StarOffice</Plugin-Name>
+<Plugin-Category>MS-Office History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>StarOffice Recent File List</Name> 
+<Objects>
+<Object>
+<Type>File</Type>
+<Command>EraseMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%SystemDrive%</Location>
+<Patterns>
+<Pattern>[Soffice-Picklist]</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\StarOffice8\user\registry\data\org\openoffice\Office</Location>
+<Patterns>
+<Pattern>Common.xcu</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

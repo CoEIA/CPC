@@ -1,0 +1,237 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>Borland Delphi v7</Plugin-Name>
+<Plugin-Category>Thrid-Party Application History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>Delphi 7 History and MRU</Name> 
+<Objects>
+<Object>
+<Type>ValueList</Type>
+<Command>DeleteMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Borland\Delphi\7.0\Session</Location>
+<Patterns>
+<Pattern>Project</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>ValueList</Type>
+<Command>DeleteMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Borland\Delphi\7.0\Closed Files</Location>
+<Patterns>
+<Pattern>File</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>ValueList</Type>
+<Command>DeleteMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Borland\Delphi\7.0\Closed Projects</Location>
+<Patterns>
+<Pattern>File</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>ValueList</Type>
+<Command>DeleteMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Borland\Delphi\7.0\History Lists\hlSearchText</Location>
+<Patterns>
+<Pattern>Item</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Borland\Delphi\7.0\History Lists\hlSearchText</Location>
+<Patterns>
+<Pattern>Count</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Borland\Delphi\7.0\History Lists\hlLibraryPath</Location>
+<Patterns>
+<Pattern>Count</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>ValueList</Type>
+<Command>DeleteMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Borland\Delphi\7.0\History Lists\hlLibraryPath</Location>
+<Patterns>
+<Pattern>Item</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Borland\Delphi\7.0\History Lists\hlDPLOutput</Location>
+<Patterns>
+<Pattern>Count</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>ValueList</Type>
+<Command>DeleteMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Borland\Delphi\7.0\History Lists\hlDPLOutput</Location>
+<Patterns>
+<Pattern>Item</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Borland\Delphi\7.0\History Lists\hlDCPOutput</Location>
+<Patterns>
+<Pattern>Count</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>ValueList</Type>
+<Command>DeleteMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Borland\Delphi\7.0\History Lists\hlDCPOutput</Location>
+<Patterns>
+<Pattern>Item</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Borland\Delphi\7.0\History Lists\hIPackgeSearchPath</Location>
+<Patterns>
+<Pattern>Count</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>ValueList</Type>
+<Command>DeleteMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Borland\Delphi\7.0\History Lists\hIPackgeSearchPath</Location>
+<Patterns>
+<Pattern>Item</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Borland\Delphi\7.0\History Lists\hIBrowsingPath</Location>
+<Patterns>
+<Pattern>Count</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>ValueList</Type>
+<Command>DeleteMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Borland\Delphi\7.0\History Lists\hIBrowsingPath</Location>
+<Patterns>
+<Pattern>Item</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\Borland\Delphi7\Bin</Location>
+<Patterns>
+<Pattern>delphi32.dsk</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\Borland\Delphi7\Bin</Location>
+<Patterns>
+<Pattern>delphi32.~dsk</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

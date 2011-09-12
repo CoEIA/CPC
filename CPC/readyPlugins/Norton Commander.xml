@@ -1,0 +1,146 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>Norton Commander</Plugin-Name>
+<Plugin-Category>Thrid-Party Application History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>Norton Commander Recent Acitivity</Name> 
+<Objects>
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Symantec\Norton Commander\nc_comp</Location>
+<Patterns>
+<Pattern>Recent File List</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Symantec\Norton Commander\nc_comp\Compare Files</Location>
+<Patterns>
+<Pattern>File Name 1</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Symantec\Norton Commander\nc_comp\Compare Files</Location>
+<Patterns>
+<Pattern>File Name 2</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Symantec\Norton Commander\NC</Location>
+<Patterns>
+<Pattern>Recent File List</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Symantec\Norton Commander\NC\MRU</Location>
+<Patterns>
+<Pattern>Copy Destination</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Symantec\Norton Commander\NC\MRU</Location>
+<Patterns>
+<Pattern>Filters</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Symantec\Norton Commander\NC\MRU</Location>
+<Patterns>
+<Pattern>Find Source</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Symantec\Norton Commander\NC\MRU</Location>
+<Patterns>
+<Pattern>Mkdir</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Symantec\Norton Commander\NC\MRU</Location>
+<Patterns>
+<Pattern>Select</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Symantec\Norton Commander\NC\MRU</Location>
+<Patterns>
+<Pattern>Split Size</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

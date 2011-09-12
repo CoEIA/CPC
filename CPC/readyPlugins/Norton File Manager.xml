@@ -1,0 +1,55 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>Norton File Manager</Plugin-Name>
+<Plugin-Category>Thrid-Party Application History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>Norton File Manager Recent File List</Name> 
+<Objects>
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Symantec\Navigator\FileAssist</Location>
+<Patterns>
+<Pattern>History Lists</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Symantec\Navigator\FILEMGR\FMDirTree</Location>
+<Patterns>
+<Pattern>Hist</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Symantec\Navigator\SYMFDLG4</Location>
+<Patterns>
+<Pattern>History_Lists</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

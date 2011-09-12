@@ -1,0 +1,228 @@
+<CoEIA-Plugins>
+	<Metadata>
+		<Plugin-Name>Internet Explorer 5.x - 8.x</Plugin-Name>
+		<Plugin-Category>Internet Browsing History</Plugin-Category>
+		<Plugin-Version>1.0</Plugin-Version>
+	</Metadata>
+	
+	<Data>
+		<Items>
+			<Item>
+				<Name>Temp Internet Files Folder</Name>
+				<Objects>
+					<Object>
+						<Type>Folder</Type>
+						<Command>DeleteAllBellow</Command>
+						
+						<Path>
+							<OS name="XP">
+								<Location>%USERPROFILE%\Local Settings\Temporary Internet Files</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+								</Patterns>
+							</OS>
+							
+							<OS name="SEVEN">
+								<Location>%USERPROFILE%\AppData\Local\Microsoft\Windows\Temporary Internet Files</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+								</Patterns>
+							</OS>
+						</Path>
+					</Object>
+				</Objects>
+			</Item>		
+		
+			<Item>
+				<Name>History (Visited Sites)</Name>
+				<Objects>
+					<Object>
+						<Type>Folder</Type>
+						<Command>DeleteAllBellow</Command>
+						
+						<Path>
+							<OS name="XP">
+								<Location>%USERPROFILE%\Local Settings\History\History.IE5</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+								</Patterns>
+							</OS>
+							
+							<OS name="SEVEN">
+								<Location>%USERPROFILE%\AppData\Local\Microsoft\Windows\History</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+								</Patterns>
+							</OS>
+						</Path>
+					</Object>
+				</Objects>
+			</Item>
+			
+			<Item>
+				<Name>Favorites (Bookmarked sites)</Name>
+				<Objects>
+					<Object>
+						<Type>Folder</Type>
+						<Command>DeleteAllBellow</Command>
+						
+						<Path>
+							<OS name="ALL">
+								<Location>%USERPROFILE%\Favorites</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+								</Patterns>
+							</OS>
+						</Path>
+					</Object>
+				</Objects>
+			</Item>
+
+			<Item>
+				<Name>Cookies</Name>
+				<Objects>
+					<Object>
+						<Type>Folder</Type>
+						<Command>DeleteAllBellow</Command>
+						
+						<Path>
+							<OS name="XP">
+								<Location>%USERPROFILE%\Cookies</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+								</Patterns>
+							</OS>
+							
+							<OS name="SEVEN">
+								<Location>%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Cookies</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+								</Patterns>
+							</OS>
+						</Path>
+					</Object>
+				</Objects>
+			</Item>
+			
+			<Item>
+				<Name>Index.dat</Name>
+				<Objects>
+					<Object>
+						<Type>File</Type>
+						<Command>Delete</Command>
+						
+						<Path>
+							<OS name="XP">
+								<Location>%USERPROFILE%\Cookies</Location>
+								<Patterns>
+									<Pattern>index.dat</Pattern>
+								</Patterns>	
+							</OS>
+							
+							<OS name="SEVEN">
+								<Location>%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Cookies</Location>
+								<Patterns>
+									<Pattern>index.dat</Pattern>
+								</Patterns>	
+							</OS>
+						</Path>
+					</Object>
+					
+					<Object>
+						<Type>File</Type>
+						<Command>Delete</Command>
+						
+						<Path>
+							<OS name="XP">
+								<Location>%USERPROFILE%\Local Settings\Temporary Internet Files\Content.IE5</Location>
+								<Patterns>
+									<Pattern>index.dat</Pattern>
+								</Patterns>	
+							</OS>
+							
+							<OS name="SEVEN">
+								<Location>%USERPROFILE%\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5</Location>
+								<Patterns>
+									<Pattern>index.dat</Pattern>
+								</Patterns>		
+							</OS>
+						</Path>
+					</Object>
+				</Objects>
+			</Item>
+			
+			<Item>
+				<Name>Address bar History</Name>
+				<Objects>
+					<Object>
+						<Type>Key</Type>
+						<Command>DeleteAllBellow</Command>
+						
+						<Path>
+							<OS name="ALL">
+								<Location>HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TypedURLs</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+								</Patterns>
+							</OS>
+						</Path>
+					</Object>
+				</Objects>
+			</Item>
+					
+			<Item>
+				<Name>Auto-Complete Form Data</Name>
+				<Objects>
+					<Object>
+						<Type>Key</Type>
+						<Command>DeleteAllBellow</Command>
+						
+						<Path>
+							<OS name="ALL">
+								<Location>HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\IntelliForms\Storage1</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+								</Patterns>
+							</OS>
+						</Path>
+					</Object>
+					
+					<Object>
+						<Type>Key</Type>
+						<Command>DeleteAllBellow</Command>
+						
+						<Path>
+							<OS name="ALL">
+								<Location>HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\IntelliForms\Storage2</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+								</Patterns>
+							</OS>
+						</Path>
+					</Object>
+				</Objects>
+			</Item>
+			
+			<Item>
+				<Name>Download Program Files</Name>
+				<Objects>
+					<Object>
+						<Type>File</Type>
+						<Command>Delete</Command>
+						
+						<Path>
+							<OS name="ALL">
+								<Location>%WINDIR%\Downloaded Program Files</Location>
+								<Patterns>
+									<Pattern>erma.inf</Pattern>
+								</Patterns>									
+							</OS>
+						</Path>
+					</Object>
+				</Objects>
+			</Item>
+		</Items>
+	</Data>
+	
+</CoEIA-Plugins>
+	

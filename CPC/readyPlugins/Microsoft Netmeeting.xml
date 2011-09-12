@@ -1,0 +1,42 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>Microsoft Netmeeting</Plugin-Name>
+<Plugin-Category>MS-Office History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>Microsoft Netmeeting History</Name> 
+<Objects>
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Conferencing\UI</Location>
+<Patterns>
+<Pattern>CallMRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\NetMeeting</Location>
+<Patterns>
+<Pattern>CallLog.dat</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

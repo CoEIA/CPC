@@ -1,0 +1,42 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>Windows Live Toolbar</Plugin-Name>
+<Plugin-Category>ToolBar Application History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>Windows Live Toolbar Search History</Name> 
+<Objects>
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\MSN Apps\SearchBox</Location>
+<Patterns>
+<Pattern>History</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\MSN Apps\MSN Toolbar</Location>
+<Patterns>
+<Pattern>SearchStrings</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

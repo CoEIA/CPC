@@ -1,0 +1,29 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>Microsoft Word Backup Files</Plugin-Name>
+<Plugin-Category>MS-Office History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>Microsoft Word Backup Files</Name> 
+<Objects>
+<Object>
+<Type>Folder</Type>
+<Command>DeleteAllBellow</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\Microsoft\Word</Location>
+<Patterns>
+<Pattern>*.*</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

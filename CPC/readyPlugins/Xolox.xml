@@ -1,0 +1,29 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>Xolox</Plugin-Name>
+<Plugin-Category>Thrid-Party Application History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>Xolox Search History</Name> 
+<Objects>
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Xolox</Location>
+<Patterns>
+<Pattern>Search History</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

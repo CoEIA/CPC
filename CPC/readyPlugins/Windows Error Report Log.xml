@@ -1,0 +1,42 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>Windows Error Report Log</Plugin-Name>
+<Plugin-Category>Windows Cache and History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>Windows Error Report Log</Name> 
+<Objects>
+<Object>
+<Type>Folder</Type>
+<Command>DeleteAllBellow</Command>
+<Path>
+<OS name="ALL">
+<Location>%USERPROFILE%\Local Settings\Application Data\Microsoft\Windows\WER\ReportArchive</Location>
+<Patterns>
+<Pattern>*.*</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Folder</Type>
+<Command>DeleteAllBellow</Command>
+<Path>
+<OS name="ALL">
+<Location>%USERPROFILE%\Local Settings\Application Data\Microsoft\Windows\WER\ReportQueue</Location>
+<Patterns>
+<Pattern>*.*</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

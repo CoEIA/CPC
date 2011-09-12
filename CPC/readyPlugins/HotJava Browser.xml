@@ -1,0 +1,42 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>HotJava Browser</Plugin-Name>
+<Plugin-Category>Internet Browsing History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>HotJava Browser Cookies and History</Name> 
+<Objects>
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\HotJava\jre\.hotjava</Location>
+<Patterns>
+<Pattern>cookies</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\HotJava\jre\.hotjava</Location>
+<Patterns>
+<Pattern>urlpool</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

@@ -1,0 +1,94 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>Ontrack PowerDesk 5</Plugin-Name>
+<Plugin-Category>Thrid-Party Application History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>Delete PowerDesk 5 History</Name> 
+<Objects>
+<Object>
+<Type>ValueList</Type>
+<Command>DeleteMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Ontrack\PowerDesk\CurrentVersion\ExplorerPlus\Create Folder</Location>
+<Patterns>
+<Pattern>History</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>ValueList</Type>
+<Command>DeleteMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Ontrack\PowerDesk\CurrentVersion\ExplorerPlus\Copy_Move To</Location>
+<Patterns>
+<Pattern>History</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Ontrack\PowerDesk\CurrentVersion\PDFind</Location>
+<Patterns>
+<Pattern>Extensions</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Ontrack\PowerDesk\CurrentVersion\PDFind</Location>
+<Patterns>
+<Pattern>FileNames</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Ontrack\PowerDesk\CurrentVersion\PDFind</Location>
+<Patterns>
+<Pattern>Paths</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Ontrack\PowerDesk\CurrentVersion\PDFind</Location>
+<Patterns>
+<Pattern>Texts</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

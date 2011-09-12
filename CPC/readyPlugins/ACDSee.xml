@@ -1,0 +1,224 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>ACDSee</Plugin-Name>
+<Plugin-Category>Multimedia History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>ACDSee History Information</Name> 
+<Objects>
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\ACD Systems\ACDSee\50</Location>
+<Patterns>
+<Pattern>Favorites</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\ACD Systems\ACDSee\50</Location>
+<Patterns>
+<Pattern>LastFolder</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\ACD Systems\ACDSee\50</Location>
+<Patterns>
+<Pattern>OpenFolder</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\ACD Systems\ACDSee\50</Location>
+<Patterns>
+<Pattern>ImageDB</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\ACD Systems\ACDSee\50</Location>
+<Patterns>
+<Pattern>HistMCFDestFolder</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\ACD Systems\ACDSee\50</Location>
+<Patterns>
+<Pattern>HistPaths</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\ACD Systems\ACDSee\50</Location>
+<Patterns>
+<Pattern>HistSearchText</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\ACD Systems\ACDSee\50</Location>
+<Patterns>
+<Pattern>HistFileFilters</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\ACD Systems\ACDSee</Location>
+<Patterns>
+<Pattern>Favorites</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\ACD Systems\ACDSee</Location>
+<Patterns>
+<Pattern>LastFolder</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\ACD Systems\ACDSee</Location>
+<Patterns>
+<Pattern>OpenFolder</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\ACD Systems\ACDSee</Location>
+<Patterns>
+<Pattern>ImageDB</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\ACD Systems\ACDSee</Location>
+<Patterns>
+<Pattern>HistMCFDestFolder</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\ACD Systems\ACDSee</Location>
+<Patterns>
+<Pattern>HistPaths</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Folder</Type>
+<Command>DeleteMatchWithinSub</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\ACD Systems</Location>
+<Patterns>
+<Pattern>ImageDB.ddf</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Folder</Type>
+<Command>DeleteMatchWithinSub</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\ACD Systems</Location>
+<Patterns>
+<Pattern>ImageDB.dtf</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

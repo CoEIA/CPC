@@ -1,0 +1,42 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>Windows Live Messenger</Plugin-Name>
+<Plugin-Category>Chat and Instant Messaging History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>Windows Live Messenger History</Name> 
+<Objects>
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\MessengerService\ListCache</Location>
+<Patterns>
+<Pattern>.NET Messenger Service</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Folder</Type>
+<Command>DeleteMatchWithinSub</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\Microsoft\MSN Messenger</Location>
+<Patterns>
+<Pattern>*.sqm</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

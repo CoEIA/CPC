@@ -1,0 +1,380 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>RealOne and RealPlayer</Plugin-Name>
+<Plugin-Category>Multimedia History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>RealOne and RealPlayer Play History</Name> 
+<Objects>
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\RealNetworks\RealPlayer\6.0\Preferences</Location>
+<Patterns>
+<Pattern>DownloadDir</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\RealNetworks\RealPlayer\6.0\Preferences</Location>
+<Patterns>
+<Pattern>HistoryList</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\RealNetworks\RealPlayer\6.0\Preferences</Location>
+<Patterns>
+<Pattern>LastOpenFileDir</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>KeyList</Type>
+<Command>DeleteMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\RealNetworks\RealPlayer\6.0\Preferences</Location>
+<Patterns>
+<Pattern>MostRecentClips</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>KeyList</Type>
+<Command>DeleteMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\RealNetworks\RealPlayer\6.0\Preferences</Location>
+<Patterns>
+<Pattern>OpenLocationClips</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>KeyList</Type>
+<Command>DeleteMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_LOCAL_MACHINE\Software\Classes\Software\RealNetworks\RealPlayer\6.0\Preferences</Location>
+<Patterns>
+<Pattern>MostRecentClips</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\RealNetworks\RealPlayer\12.0\Preferences</Location>
+<Patterns>
+<Pattern>DownloadDir</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\RealNetworks\RealPlayer\12.0\Preferences</Location>
+<Patterns>
+<Pattern>HistoryList</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\RealNetworks\RealPlayer\12.0\Preferences</Location>
+<Patterns>
+<Pattern>LastOpenFileDir</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>KeyList</Type>
+<Command>DeleteMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\RealNetworks\RealPlayer\12.0\Preferences</Location>
+<Patterns>
+<Pattern>MostRecentClips</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>KeyList</Type>
+<Command>DeleteMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\RealNetworks\RealPlayer\12.0\Preferences</Location>
+<Patterns>
+<Pattern>OpenLocationClips</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>KeyList</Type>
+<Command>DeleteMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_LOCAL_MACHINE\Software\Classes\Software\RealNetworks\RealPlayer\12.0\Preferences</Location>
+<Patterns>
+<Pattern>MostRecentClips</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\Real\RealOne Player</Location>
+<Patterns>
+<Pattern>urls.ini</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\Real\RealOne Player</Location>
+<Patterns>
+<Pattern>cookies.txt</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\Real\RealOne Player</Location>
+<Patterns>
+<Pattern>realplayer.ste</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\Real\RealOne Player</Location>
+<Patterns>
+<Pattern>ctd.dat</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Folder</Type>
+<Command>DeleteAllBellow</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\Real\RealOne Player\History</Location>
+<Patterns>
+<Pattern>*.*</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Folder</Type>
+<Command>DeleteAllBellow</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\Real\RealOne Player\Temp</Location>
+<Patterns>
+<Pattern>*.*</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Folder</Type>
+<Command>DeleteAllBellow</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\Real\RealOne Player\ThumbsCache</Location>
+<Patterns>
+<Pattern>*.*</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\Real\RealPlayer</Location>
+<Patterns>
+<Pattern>urls.ini</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\Real\RealPlayer</Location>
+<Patterns>
+<Pattern>cookies.txt</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\Real\RealPlayer</Location>
+<Patterns>
+<Pattern>realplayer.ste</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\Real\RealPlayer</Location>
+<Patterns>
+<Pattern>ctd.dat</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Folder</Type>
+<Command>DeleteAllBellow</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\Real\RealPlayer\History</Location>
+<Patterns>
+<Pattern>*.*</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Folder</Type>
+<Command>DeleteAllBellow</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\Real\RealPlayer\Temp</Location>
+<Patterns>
+<Pattern>*.*</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Folder</Type>
+<Command>DeleteAllBellow</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\Real\RealPlayer\ThumbsCache</Location>
+<Patterns>
+<Pattern>*.*</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\Real\RealPlayer</Location>
+<Patterns>
+<Pattern>RealPlayer-log.txt</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\Common Files\Real\Update_OB</Location>
+<Patterns>
+<Pattern>RealPlayer-log.txt</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

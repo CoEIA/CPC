@@ -1,0 +1,166 @@
+<CoEIA-Plugins>
+	<Metadata>
+		<Plugin-Name>Google Chrome 1.x - 6.x</Plugin-Name>
+		<Plugin-Category>Internet Browsing History</Plugin-Category>
+		<Plugin-Version>1.0</Plugin-Version>
+	</Metadata>
+	
+	<Data>
+		<Items>
+			<Item>
+				<Name>Browsing and download history</Name>
+				<Objects>
+					<Object>
+						<Type>File</Type>
+						<Command>Delete</Command>
+						
+						<Path>
+							<OS name="XP">
+								<Location>%USERPROFILE%\Local Settings\Application Data\Google\Chrome\User Data\Default</Location>
+								<Patterns>
+									<Pattern>Archived History</Pattern>
+									<Pattern>Archived History-journal</Pattern>
+									<Pattern>Current Session</Pattern>
+									<Pattern>Current Tabs</Pattern>
+									<Pattern>Thumbnails</Pattern>
+									<Pattern>Thumbnails-journal</Pattern>
+									<Pattern>Visited Links</Pattern>
+									<Pattern>Last Session</Pattern>
+									<Pattern>Last Tabs</Pattern>
+									<Pattern>History*</Pattern>
+								</Patterns>
+							</OS>
+							
+							<OS name="SEVEN">
+								<Location>%USERPROFILE%\AppData\Local\Google\Chrome\User Data\Default</Location>
+								<Patterns>
+									<Pattern>Archived History</Pattern>
+									<Pattern>Archived History-journal</Pattern>
+									<Pattern>Current Session</Pattern>
+									<Pattern>Current Tabs</Pattern>
+									<Pattern>Thumbnails</Pattern>
+									<Pattern>Thumbnails-journal</Pattern>
+									<Pattern>Visited Links</Pattern>
+									<Pattern>Last Session</Pattern>
+									<Pattern>Last Tabs</Pattern>
+									<Pattern>History*</Pattern>
+								</Patterns>
+							</OS>
+						</Path>
+					</Object>
+				</Objects>
+			</Item>
+			
+			<Item>
+				<Name>Cache</Name>
+				<Objects>
+					<Object>
+						<Type>Folder</Type>
+						<Command>DeleteAllBellow</Command>
+						
+						<Path>
+							<OS name="XP">
+								<Location>%USERPROFILE%\Local Settings\Application Data\Google\Chrome\User Data\Default\Cache</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+									<Pattern>*</Pattern>
+								</Patterns>
+							</OS>
+							
+							<OS name="SEVEN">
+								<Location>%USERPROFILE%\AppData\Local\Google\Chrome\User Data\Default\Cache</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+									<Pattern>*</Pattern>
+								</Patterns>
+							</OS>
+						</Path>
+					</Object>
+				</Objects>				
+			</Item>
+			
+			<Item>
+				<Name>Cookies</Name>
+				<Objects>
+					<Object>
+						<Type>File</Type>
+						<Command>Delete</Command>
+						
+						<Path>
+							<OS name="XP">
+								<Location>%USERPROFILE%\Local Settings\Application Data\Google\Chrome\User Data\Default</Location>
+								<Patterns>
+									<Pattern>Cookies</Pattern>
+								</Patterns>
+							</OS>
+							
+							<OS name="SEVEN">
+								<Location>%USERPROFILE%\AppData\Local\Google\Chrome\User Data\Default</Location>
+								<Patterns>
+									<Pattern>Cookies</Pattern>
+								</Patterns>
+							</OS>
+						</Path>
+					</Object>
+				</Objects>				
+			</Item>
+			
+			<Item>
+				<Name>Saved form data and passwords</Name>
+				<Objects>
+					<Object>
+						<Type>File</Type>
+						<Command>Delete</Command>
+						
+						<Path>
+							<OS name="XP">
+								<Location>%USERPROFILE%\Local Settings\Application Data\Google\Chrome\User Data\Default</Location>
+								<Patterns>
+									<Pattern>Web Data</Pattern>
+									<Pattern>Login Data</Pattern>
+								</Patterns>
+							</OS>
+							
+							<OS name="SEVEN">
+								<Location>%USERPROFILE%\AppData\Local\Google\Chrome\User Data\Default</Location>
+								<Patterns>
+									<Pattern>Web Data</Pattern>
+									<Pattern>Login Data</Pattern>
+								</Patterns>
+							</OS>
+						</Path>
+					</Object>
+				</Objects>				
+			</Item>
+		
+			<Item>
+				<Name>Bookmarks</Name>
+				<Objects>
+					<Object>
+						<Type>File</Type>
+						<Command>Delete</Command>
+						
+						<Path>
+							<OS name="XP">
+								<Location>%USERPROFILE%\Local Settings\Application Data\Google\Chrome\User Data\Default</Location>
+								<Patterns>
+									<Pattern>Bookmarks</Pattern>
+									<Pattern>Bookmarks.bak</Pattern>
+								</Patterns>
+							</OS>
+							
+							<OS name="SEVEN">
+								<Location>%USERPROFILE%\AppData\Local\Google\Chrome\User Data\Default</Location>
+								<Patterns>
+									<Pattern>Bookmarks</Pattern>
+									<Pattern>Bookmarks.bak</Pattern>
+								</Patterns>
+							</OS>
+						</Path>
+					</Object>
+				</Objects>				
+			</Item>
+			
+		</Items>
+	</Data>
+</CoEIA-Plugins>

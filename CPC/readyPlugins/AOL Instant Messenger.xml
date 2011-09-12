@@ -1,0 +1,42 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>AOL Instant Messenger</Plugin-Name>
+<Plugin-Category>Chat and Instant Messaging History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>AOL Instant Messenger Cache Files and Cookies</Name> 
+<Objects>
+<Object>
+<Type>Folder</Type>
+<Command>DeleteMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%WINDIR%\aim95</Location>
+<Patterns>
+<Pattern>*.dat</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Folder</Type>
+<Command>DeleteMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%WINDIR%\aim95</Location>
+<Patterns>
+<Pattern>*.tmp</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

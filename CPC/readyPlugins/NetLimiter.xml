@@ -1,0 +1,55 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>NetLimiter</Plugin-Name>
+<Plugin-Category>Thrid-Party Application History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>NetLimiter 1.x Scheduler.dat, History/Statistic File</Name> 
+<Objects>
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\LockTime\NetLimiter\data</Location>
+<Patterns>
+<Pattern>scheduler.dat</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\LockTime\NetLimiter\history</Location>
+<Patterns>
+<Pattern>*hist.dat</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\LockTime\NetLimiter\stats</Location>
+<Patterns>
+<Pattern>nlstat*.dat</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

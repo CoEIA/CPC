@@ -1,0 +1,55 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>Star Downloader</Plugin-Name>
+<Plugin-Category>Download and Upload History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>Star Downloader History File</Name> 
+<Objects>
+<Object>
+<Type>Folder</Type>
+<Command>DeleteAllBellow</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\Star Downloader\Partial Downloads</Location>
+<Patterns>
+<Pattern>*.*</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\Star Downloader</Location>
+<Patterns>
+<Pattern>serverstats.txt</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\Star Downloader</Location>
+<Patterns>
+<Pattern>LastURLs</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

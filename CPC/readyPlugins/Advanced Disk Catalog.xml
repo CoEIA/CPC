@@ -1,0 +1,29 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>Advanced Disk Catalog</Plugin-Name>
+<Plugin-Category>Thrid-Party Application History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>Advanced Disk Catalog Recent Search History</Name> 
+<Objects>
+<Object>
+<Type>ValueList</Type>
+<Command>DeleteMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_LOCAL_MACHINE\Software\Elcom\Advanced Disk Catalog\Search</Location>
+<Patterns>
+<Pattern>What</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

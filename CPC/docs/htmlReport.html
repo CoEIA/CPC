@@ -1,0 +1,45 @@
+<html><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+<title>CPC HTML Report</title>
+
+<style type="text/css"> TABLE,TD,TH {border-style:solid; border-color:black;} TD,TH {background:white;margin:0;line-height:100%;padding-left:0.5em;padding-right:0.5em;} TD {border-width:0 1px 0 0;} TH {border-width:1px 1px 1px 0;} TR TD.h {color:red;} TABLE {border-spacing:0; border-collapse:collapse;border-width:0 0 1px 1px;} P,H1,H2,H3,TH {font-family:verdana,arial,sans-serif;font-size:10pt;} TD {font-family:courier,monospace;font-size:10pt;} TABLE.hdft {border-spacing:0;border-collapse:collapse;border-style:none;} TABLE.hdft TH,TABLE.hdft TD {border-style:none;line-height:normal;} TABLE.hdft TH.tl,TABLE.hdft TD.tl {background:#6699CC;color:white;} TABLE.hdft TD.nv {background:#6633DD;color:white;} .nv A:link {color:white;} .nv A:visited {color:white;} .nv A:active {color:yellow;} TABLE.hdft A:link {color:white;} TABLE.hdft A:visited {color:white;} TABLE.hdft A:active {color:yellow;} .in {color:#356085;} TABLE.s TD {padding-left:0.25em;padding-right:0.25em;} TABLE.s TD.l {padding-left:0.25em;padding-right:0.25em;text-align:right;background:#F0F0F0;} TABLE.s TR.z TD {background:#FF9999;} TABLE.s TR.p TD {background:#FFFF88;} TABLE.s TR.c TD {background:#CCFFCC;} A:link {color:#0000EE;text-decoration:none;} A:visited {color:#0000EE;text-decoration:none;} A:hover {color:#0000EE;text-decoration:underline;} TABLE.cn {border-width:0 0 1px 0;} TABLE.s {border-width:1px 0 1px 1px;} TD.h {color:red;border-width:0 1px 0 0;} TD.f {border-width:0 1px 0 1px;} TD.hf {color:red;border-width:0 1px 0 1px;} TH.f {border-width:1px 1px 1px 1px;} TR.cis TD {background:#F0F0F0;} TR.cis TD {border-width:1px 1px 1px 0;} TR.cis TD.h {color:red;border-width:1px 1px 1px 0;} TR.cis TD.f {border-width:1px 1px 1px 1px;} TR.cis TD.hf {color:red;border-width:1px 1px 1px 1px;} TD.b {border-style:none;background:transparent;line-height:50%;}  TD.bt {border-width:1px 0 0 0;background:transparent;line-height:50%;} TR.o TD {background:#F0F0F0;}TABLE.it {border-style:none;}TABLE.it TD,TABLE.it TH {border-style:none;}</style>
+
+</head>
+
+<body>
+
+<table class="hdft" width="100%" cellspacing="0"><tbody>
+<tr><th class="tl">Center of Excellence in Information Assurance - CoEIA Privacy Controls (CPC) Report (generated in %DATE% )</th></tr><tr><td class="nv">CPC Removal Report</td></tr></tbody></table>
+
+<h3>SUMMARY: </h3>
+<table class="it" cellspacing="0">
+<tbody>
+<tr><td>total number of successfully deleted files: </td><td> %SUCC_NUM% </td></tr>
+<tr><td>total number of fauiler deleted files: </td><td> %ERR_NUM% </td></tr>
+</tbody></table>
+
+<h3>Files Cannot Deleted (locked by OS or current working in memory):</h3>
+
+<table width="100%" cellspacing="0"><tbody>
+<tr><th class="f">File Path</th></tr>
+%FILE_ERR_PATH%
+</tbody></table>
+
+<p></p>
+
+<h3>Files that Deleted Successfully:</h3>
+
+<table width="100%" cellspacing="0"><tbody>
+<tr><th class="f">File Path</th></tr>
+%FILE_SUCC_PATH%
+</tbody></table>
+
+
+<p></p>
+
+<table class="hdft" width="100%" cellspacing="0"><tbody>
+<tr><td class="nv">[CoEIA Privacy Controls - CPC V 1.1]</td></tr>
+<tr><td class="tl"><a href="http://coeia.edu.sa">Center of Excellence in Information Assurance (C) 2011</td></tr>
+</tbody></table>
+
+</body></html>

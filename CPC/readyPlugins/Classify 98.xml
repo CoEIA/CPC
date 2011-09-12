@@ -1,0 +1,29 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>Classify 98</Plugin-Name>
+<Plugin-Category>Thrid-Party Application History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>Classify 98 Report Files (*.htm)</Name> 
+<Objects>
+<Object>
+<Type>Folder</Type>
+<Command>DeleteMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\TRELLIAN\Classify 98\reports</Location>
+<Patterns>
+<Pattern>*.htm</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

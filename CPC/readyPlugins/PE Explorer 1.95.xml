@@ -1,0 +1,29 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>PE Explorer 1.95</Plugin-Name>
+<Plugin-Category>Thrid-Party Application History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>PE Explorer 1.95 Recent File List</Name> 
+<Objects>
+<Object>
+<Type>File</Type>
+<Command>EraseMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\PE Explorer\peexp.ini</Location>
+<Patterns>
+<Pattern>[Params]->FILE</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

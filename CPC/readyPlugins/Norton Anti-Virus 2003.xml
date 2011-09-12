@@ -1,0 +1,68 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>Norton Anti-Virus 2003</Plugin-Name>
+<Plugin-Category>Security Application History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>Norton Anti-Virus 2003 Activity Logs</Name> 
+<Objects>
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\Norton AntiVirus</Location>
+<Patterns>
+<Pattern>Activity.log</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\Norton AntiVirus</Location>
+<Patterns>
+<Pattern>AVApp.log</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\Norton AntiVirus</Location>
+<Patterns>
+<Pattern>AVError.log</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\Norton AntiVirus</Location>
+<Patterns>
+<Pattern>AVVirus.log</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

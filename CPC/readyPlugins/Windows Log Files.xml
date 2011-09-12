@@ -1,0 +1,146 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>Windows Log Files</Plugin-Name>
+<Plugin-Category>Windows Cache and History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>Windows Log Files</Name> 
+<Objects>
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%SystemDrive%</Location>
+<Patterns>
+<Pattern>SCANDISK.LOG</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%WINDIR%</Location>
+<Patterns>
+<Pattern>*.bak</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%WINDIR%</Location>
+<Patterns>
+<Pattern>*.log</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%WINDIR%</Location>
+<Patterns>
+<Pattern>*log.txt</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Folder</Type>
+<Command>DeleteAllBellow</Command>
+<Path>
+<OS name="ALL">
+<Location>%WINDIR%\Debug</Location>
+<Patterns>
+<Pattern>*.*</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Folder</Type>
+<Command>DeleteAllBellow</Command>
+<Path>
+<OS name="ALL">
+<Location>%WINDIR%\security\logs\</Location>
+<Patterns>
+<Pattern>*.*</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Folder</Type>
+<Command>DeleteMatchWithinSub</Command>
+<Path>
+<OS name="ALL">
+<Location>%WINDIR%\SYSTEM\WBEM\logs</Location>
+<Patterns>
+<Pattern>*.lo*</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Folder</Type>
+<Command>DeleteMatchWithinSub</Command>
+<Path>
+<OS name="ALL">
+<Location>%WINDIR%\SYSTEM32\WBEM\logs</Location>
+<Patterns>
+<Pattern>*.lo*</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%WINDIR%</Location>
+<Patterns>
+<Pattern>SchedLgU.txt</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%WINDIR%\MiniDump</Location>
+<Patterns>
+<Pattern>*.dmp</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

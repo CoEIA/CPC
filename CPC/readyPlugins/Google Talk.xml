@@ -1,0 +1,42 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>Google Talk</Plugin-Name>
+<Plugin-Category>Chat and Instant Messaging History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>Google Talk History</Name> 
+<Objects>
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%USERPROFILE%\Local Settings\Application Data\Google\Google Talk\status</Location>
+<Patterns>
+<Pattern>*.txt</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%USERPROFILE%\Local Settings\Application Data\Google\Google Talk\chatlogs</Location>
+<Patterns>
+<Pattern>*.log</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

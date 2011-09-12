@@ -1,0 +1,42 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>Outlook Express 5/6</Plugin-Name>
+<Plugin-Category>Email Trash</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>Outlook Express 5/6 Deleted Mails</Name> 
+<Objects>
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\Identities\{your folder name here}\Microsoft\Outlook Express</Location>
+<Patterns>
+<Pattern>Deleted Items.dbx</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%USERPROFILE%\Local Settings\Application Data\Identities\{your folder name here}\Microsoft\Outlook Express</Location>
+<Patterns>
+<Pattern>Deleted Items.dbx</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

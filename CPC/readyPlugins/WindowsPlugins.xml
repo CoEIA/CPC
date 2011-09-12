@@ -1,0 +1,428 @@
+<CoEIA-Plugins>
+	<Metadata>
+		<Plugin-Name>Windows Entry</Plugin-Name>
+		<Plugin-Category>Windows Cache and History</Plugin-Category>
+		<Plugin-Version>1.0</Plugin-Version>
+	</Metadata>
+	
+	<Data>
+		<Items>
+			<Item>
+				<Name>Last Registry Key Viewed</Name>
+				<Objects>
+					<Object>
+						<Type>Value</Type>
+						<Command>Delete</Command>
+						
+						<Path>
+							<OS name="ALL">
+								<Location>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Applets\Regedit</Location>
+								<Patterns>
+									<Pattern>LastKey</Pattern>
+								</Patterns>
+							</OS>
+						</Path>
+					</Object>
+				</Objects>
+			</Item>
+			
+			<Item>
+				<Name>Run Commands History</Name>
+				<Objects>
+					<Object>
+						<Type>Value</Type>
+						<Command>DeleteAllBellow</Command>
+						
+						<Path>
+							<OS name="ALL">
+								<Location>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMR</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+								</Patterns>	
+							</OS>
+						</Path>
+					</Object>
+				</Objects>
+			</Item>
+			
+			<Item>
+				<Name>Documents History and Recenlty Opened Items</Name>
+				<Objects>
+					<Object>
+						<Type>Key</Type>
+						<Command>DeleteAllBellow</Command>
+						
+						<Path>
+							<OS name="ALL">
+								<Location>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+								</Patterns>	
+							</OS>
+						</Path>
+						
+					</Object>
+				</Objects>
+			</Item>
+			
+			<Item>
+				<Name>Temporary Files Directory</Name>
+				<Objects>
+					<Object>
+						<Type>Folder</Type>
+						<Command>DeleteAllBellow</Command>
+						
+						<Path>
+							<OS name="XP">
+								<Location>%USERPROFILE%\Local Settings\Temp</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+								</Patterns>	
+							</OS>
+							
+							<OS name="SEVEN">
+								<Location>%USERPROFILE%\AppData\Local\Temp</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+								</Patterns>	
+							</OS>
+						</Path>
+					</Object>
+				</Objects>
+			</Item>
+			
+			<Item>
+				<Name>Flush Recycle Bin</Name>
+				<Objects>
+					<Object>
+						<Type>Folder</Type>
+						<Command>FillAndDeleteAllBellow</Command>
+						
+						<Path>
+							<OS name="XP">
+								<Location>%SystemDrive%\RECYCLER\%FILLPATH%</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+								</Patterns>	
+							</OS>
+							
+							<OS name="SEVEN">
+								<Location>%SystemDrive%\$Recycle.Bin\%FILLPATH%</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+								</Patterns>	
+							</OS>
+						</Path>
+					</Object>
+				</Objects>
+			</Item>
+			
+			<Item>
+				<Name>Paging (Swap) File</Name>
+				<Objects>
+					<Object>
+						<Type>File</Type>
+						<Command>Delete</Command>
+						
+						<Path>
+							<OS name="ALL">
+								<Location>%SystemDrive%\</Location>
+								<Patterns>
+									<Pattern>pagefile.sys</Pattern>
+								</Patterns>								
+							</OS>
+						</Path>
+					</Object>
+				</Objects>
+			</Item>
+			
+			<Item>
+				<Name>Windows Prefetch Files</Name>
+				<Objects>
+					<Object>
+						<Type>Folder</Type>
+						<Command>DeleteAllBellow</Command>
+						
+						<Path>
+							<OS name="ALL">
+								<Location>%WINDIR%\Prefetch</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+								</Patterns>	
+							</OS>
+						</Path>
+					</Object>
+				</Objects>
+			</Item>
+			
+			<Item>
+				<Name>MS-Paint Recent File List</Name>
+				<Objects>
+					<Object>
+						<Type>Key</Type>
+						<Command>DeleteAllBellow</Command>
+						
+						<Path>
+							<OS name="ALL">
+								<Location>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Applets\Paint\Recent File List</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+								</Patterns>	
+							</OS>
+						</Path>
+					</Object>
+				</Objects>
+			</Item>
+			
+			<Item>
+				<Name>Commands Dialogs History</Name>
+				<Objects>
+					<Object>
+						<Type>Key</Type>
+						<Command>DeleteAllBellow</Command>
+						
+						<Path>
+							<OS name="ALL">
+								<Location>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSavePidlMRU</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+								</Patterns>	
+							</OS>
+						</Path>
+					</Object>
+					
+					<Object>
+						<Type>Key</Type>
+						<Command>DeleteAllBellow</Command>
+						
+						<Path>
+							<OS name="ALL">
+								<Location>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\LastVisitedPidlMRU</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+								</Patterns>	
+							</OS>
+						</Path>
+					</Object>
+				</Objects>
+			</Item>
+			
+			<Item>
+				<Name>WordPad Recent File List</Name>
+				<Objects>
+					<Object>
+						<Type>Key</Type>
+						<Command>DeleteAllBellow</Command>
+						
+						<Path>
+							<OS name="ALL">
+								<Location>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Applets\Wordpad\Recent File List</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+								</Patterns>	
+							</OS>
+						</Path>
+					</Object>
+				</Objects>
+			</Item>
+			
+			<Item>
+				<Name>Application Debugging History</Name>
+				<Objects>
+					<Object>
+						<Type>Folder</Type>
+						<Command>DeleteAllBellow</Command>
+						
+						<Path>
+							<OS name="ALL">
+								<Location>%WINDIR%\Debug</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+								</Patterns>	
+							</OS>
+						</Path>
+					</Object>
+				</Objects>
+			</Item>
+			
+			<Item>
+				<Name>Temporary Windows Updates Files</Name>
+				<Objects>
+					<Object>
+						<Type>Folder</Type>
+						<Command>DeleteAllBellow</Command>
+						
+						<Path>
+							<OS name="ALL">
+								<Location>%WINDIR%\SoftwareDistribution\Download</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+								</Patterns>	
+							</OS>
+						</Path>
+					</Object>
+				</Objects>
+			</Item>
+			
+			<Item>
+				<Name>Disk Error Log Files</Name>
+				<Objects>
+					<Object>
+						<Type>File</Type>
+						<Command>Delete</Command>
+						
+						<Path>
+							<OS name="XP">
+								<Location>%WINDIR%\system32\config</Location>
+								<Patterns>
+									<Pattern>AppEvent.Evt</Pattern>
+								</Patterns>								
+							</OS>
+							
+							<OS name="SEVEN">
+								<Location>%WINDIR%\system32\Winevt\Logs</Location>	
+								<Patterns>
+									<Pattern>Application.evtx</Pattern>
+								</Patterns>		
+							</OS>
+						</Path>
+					</Object>
+				</Objects>
+			</Item>
+			
+			<Item>
+				<Name>Windows Log Files</Name>
+				<Objects>
+					<Object>
+						<Type>File</Type>
+						<Command>Delete</Command>
+						
+						<Path>
+							<OS name="ALL">
+								<Location>%WINDIR%\Logs</Location>
+								<Patterns>
+									<Pattern>DirectX.log</Pattern>
+								</Patterns>									
+							</OS>
+						</Path>
+					</Object>
+					
+					<Object>
+						<Type>File</Type>
+						<Command>Delete</Command>
+						
+						<Path>
+							<OS name="ALL">
+								<Location>%WINDIR%</Location>
+								<Patterns>
+									<Pattern>setupapi.log</Pattern>
+								</Patterns>	
+							</OS>
+						</Path>
+					</Object>
+					
+					<Object>
+						<Type>File</Type>
+						<Command>Delete</Command>
+						
+						<Path>
+							<OS name="ALL">
+								<Location>%WINDIR%\SYSTEM\WBEM\logs</Location>
+								<Patterns>
+									<Pattern>*.lo*</Pattern>
+								</Patterns>	
+							</OS>
+						</Path>
+					</Object>
+				</Objects>
+			</Item>
+			
+			<Item>
+				<Name>Windows Temp Folder</Name>
+				<Objects>
+					<Object>
+						<Type>Folder</Type>
+						<Command>DeleteAllBellow</Command>
+						
+						<Path>
+							<OS name="ALL">
+								<Location>%SystemDrive%\Temp</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+								</Patterns>	
+							</OS>
+						</Path>
+					</Object>
+					
+					<Object>
+						<Type>Folder</Type>
+						<Command>DeleteAllBellow</Command>
+						
+						<Path>
+							<OS name="ALL">
+								<Location>%WINDIR%\Temp</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+								</Patterns>	
+							</OS>
+						</Path>
+					</Object>
+				</Objects>
+			</Item>
+			
+			<Item>
+				<Name>Start Menu Click History</Name>
+				<Objects>
+					<Object>
+						<Type>Value</Type>
+						<Command>FillAndDeleteBellow</Command>
+						
+						<Path>
+							<OS name="ALL">
+								<Location>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\%FILLPATH%\Count</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+								</Patterns>	
+							</OS>
+						</Path>
+					</Object>
+				</Objects>
+			</Item>
+			
+			<Item>
+				<Name>Start Menu Order History</Name>
+				<Objects>
+					<Object>
+						<Type>Key</Type>
+						<Command>DeleteAllBellow</Command>
+						
+						<Path>
+							<OS name="ALL">
+								<Location>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\MenuOrder\Start Menu</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+								</Patterns>	
+							</OS>
+						</Path>
+					</Object>
+					
+					<Object>
+						<Type>Key</Type>
+						<Command>DeleteAllBellow</Command>
+						
+						<Path>
+							<OS name="ALL">
+								<Location>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\MenuOrder\Start Menu2</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+								</Patterns>	
+							</OS>
+						</Path>
+					</Object>
+					
+				</Objects>
+			</Item>
+		</Items>
+	</Data>
+	
+</CoEIA-Plugins>

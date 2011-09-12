@@ -1,0 +1,94 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>QuickTime Player</Plugin-Name>
+<Plugin-Category>Multimedia History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>QuickTime Player History</Name> 
+<Objects>
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_LOCAL_MACHINE\Software\Apple Computer, Inc.\QuickTime</Location>
+<Patterns>
+<Pattern>Recent Movies</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Folder</Type>
+<Command>DeleteAllBellow</Command>
+<Path>
+<OS name="ALL">
+<Location>%USERPROFILE%\Local Settings\Application Data\Apple Computer\QuickTime\downloads</Location>
+<Patterns>
+<Pattern>*.*</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Folder</Type>
+<Command>DeleteAllBellow</Command>
+<Path>
+<OS name="ALL">
+<Location>%UserProfile%\AppData\LocalLow\Apple Computer\quicktime\downloads</Location>
+<Patterns>
+<Pattern>*.*</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%CommonAppData%\QuickTime</Location>
+<Patterns>
+<Pattern>QuickTimeFavorites.qtr</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\Apple Computer\QuickTime</Location>
+<Patterns>
+<Pattern>QTPlayerSession.xml</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%UserProfile%\QuickTime</Location>
+<Patterns>
+<Pattern>QTPlayerSession.xml</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

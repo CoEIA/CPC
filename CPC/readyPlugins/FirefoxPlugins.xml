@@ -1,0 +1,244 @@
+<CoEIA-Plugins>
+	<Metadata>
+		<Plugin-Name>Firefox 1.x - 8.x</Plugin-Name>
+		<Plugin-Category>Internet Browsing History</Plugin-Category>
+		<Plugin-Version>1.0</Plugin-Version>
+	</Metadata>
+	
+	<Data>
+		<Items>
+			<Item>
+				<Name>Browsing history</Name>
+				<Objects>
+					<Object>
+						<Type>File</Type>
+						<Command>FillAndDelete</Command>
+						
+						<Path>
+							<OS name="XP">
+								<Location>%USERPROFILE%\Application Data\Mozilla\Firefox\Profiles\%FILLPATH%</Location>
+								<Patterns>
+									<Pattern>places.sqlite</Pattern>
+								</Patterns>
+							</OS>
+							
+							<OS name="SEVEN">
+								<Location>%USERPROFILE%\AppData\Roaming\Mozilla\Firefox\Profiles\%FILLPATH%</Location>
+								<Patterns>
+									<Pattern>places.sqlite</Pattern>
+								</Patterns>
+							</OS>
+						</Path>
+					</Object>
+				</Objects>				
+			</Item>
+			
+			<Item>
+				<Name>Saved Forms and Search History</Name>
+				<Objects>
+					<Object>
+						<Type>File</Type>
+						<Command>FillAndDelete</Command>
+						
+						<Path>
+							<OS name="XP">
+								<Location>%USERPROFILE%\Application Data\Mozilla\Firefox\Profiles\%FILLPATH%</Location>
+								<Patterns>
+									<Pattern>formhistory.sqlite</Pattern>
+								</Patterns>
+							</OS>
+							
+							<OS name="SEVEN">
+								<Location>%USERPROFILE%\AppData\Roaming\Mozilla\Firefox\Profiles\%FILLPATH%</Location>
+								<Patterns>
+									<Pattern>formhistory.sqlite</Pattern>
+								</Patterns>
+							</OS>
+						</Path>
+					</Object>
+				</Objects>				
+			</Item>
+
+			<Item>
+				<Name>Download History</Name>
+				<Objects>
+					<Object>
+						<Type>File</Type>
+						<Command>FillAndDelete</Command>
+						
+						<Path>
+							<OS name="XP">
+								<Location>%USERPROFILE%\Application Data\Mozilla\Firefox\Profiles\%FILLPATH%</Location>
+								<Patterns>
+									<Pattern>downloads.sqlite</Pattern>
+								</Patterns>
+							</OS>
+							
+							<OS name="SEVEN">
+								<Location>%USERPROFILE%\AppData\Roaming\Mozilla\Firefox\Profiles\%FILLPATH%</Location>
+								<Patterns>
+									<Pattern>downloads.sqlite</Pattern>
+								</Patterns>
+							</OS>
+						</Path>
+					</Object>
+				</Objects>				
+			</Item>
+
+			<Item>
+				<Name>Cookies</Name>
+				<Objects>
+					<Object>
+						<Type>File</Type>
+						<Command>FillAndDelete</Command>
+						
+						<Path>
+							<OS name="XP">
+								<Location>%USERPROFILE%\Application Data\Mozilla\Firefox\Profiles\%FILLPATH%</Location>
+								<Patterns>
+									<Pattern>cookies.sqlite</Pattern>
+								</Patterns>
+							</OS>
+							
+							<OS name="SEVEN">
+								<Location>%USERPROFILE%\AppData\Roaming\Mozilla\Firefox\Profiles\%FILLPATH%</Location>
+								<Patterns>
+									<Pattern>cookies.sqlite</Pattern>
+								</Patterns>
+							</OS>
+						</Path>
+					</Object>
+				</Objects>				
+			</Item>
+
+			<Item>
+				<Name>Saved Password</Name>
+				<Objects>
+					<Object>
+						<Type>File</Type>
+						<Command>FillAndDelete</Command>
+						
+						<Path>
+							<OS name="XP">
+								<Location>%USERPROFILE%\Application Data\Mozilla\Firefox\Profiles\%FILLPATH%</Location>
+								<Patterns>
+									<Pattern>signons.sqlite</Pattern>
+								</Patterns>
+							</OS>
+							
+							<OS name="SEVEN">
+								<Location>%USERPROFILE%\AppData\Roaming\Mozilla\Firefox\Profiles\%FILLPATH%</Location>
+								<Patterns>
+									<Pattern>signons.sqlite</Pattern>
+								</Patterns>
+							</OS>
+						</Path>
+					</Object>
+				</Objects>				
+			</Item>
+
+			<Item>
+				<Name>Key database and master password information</Name>
+				<Objects>
+					<Object>
+						<Type>File</Type>
+						<Command>FillAndDelete</Command>
+						
+						<Path>
+							<OS name="XP">
+								<Location>%USERPROFILE%\Application Data\Mozilla\Firefox\Profiles\%FILLPATH%</Location>
+								<Patterns>
+									<Pattern>key3.db</Pattern>
+								</Patterns>
+							</OS>
+							
+							<OS name="SEVEN">
+								<Location>%USERPROFILE%\AppData\Roaming\Mozilla\Firefox\Profiles\%FILLPATH%</Location>
+								<Patterns>
+									<Pattern>key3.db</Pattern>
+								</Patterns>
+							</OS>
+						</Path>
+					</Object>
+				</Objects>				
+			</Item>
+			
+			<Item>
+				<Name>Site preferences</Name>
+				<Objects>
+					<Object>
+						<Type>File</Type>
+						<Command>FillAndDelete</Command>
+						
+						<Path>
+							<OS name="XP">
+								<Location>%USERPROFILE%\Application Data\Mozilla\Firefox\Profiles\%FILLPATH%</Location>
+								<Patterns>
+									<Pattern>permissions.sqlite</Pattern>
+								</Patterns>
+							</OS>
+							
+							<OS name="SEVEN">
+								<Location>%USERPROFILE%\AppData\Roaming\Mozilla\Firefox\Profiles\%FILLPATH%</Location>
+								<Patterns>
+									<Pattern>permissions.sqlite</Pattern>
+								</Patterns>
+							</OS>
+						</Path>
+					</Object>
+
+					<Object>
+						<Type>File</Type>
+						<Command>FillAndDelete</Command>
+						
+						<Path>
+							<OS name="XP">
+								<Location>%USERPROFILE%\Application Data\Mozilla\Firefox\Profiles\%FILLPATH%</Location>
+								<Patterns>
+									<Pattern>content-prefs.sqlite</Pattern>
+								</Patterns>
+							</OS>
+							
+							<OS name="SEVEN">
+								<Location>%USERPROFILE%\AppData\Roaming\Mozilla\Firefox\Profiles\%FILLPATH%</Location>
+								<Patterns>
+									<Pattern>content-prefs.sqlite</Pattern>
+								</Patterns>
+							</OS>
+						</Path>
+					</Object>
+					
+				</Objects>				
+			</Item>	
+
+			<Item>
+				<Name>Cache</Name>
+				<Objects>
+					<Object>
+						<Type>Folder</Type>
+						<Command>FillAndDeleteAllBellow</Command>
+						
+						<Path>
+							<OS name="XP">
+								<Location>%USERPROFILE%\Local Settings\Application Data\Mozilla\Firefox\Profiles\%FILLPATH%\Cache</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+									<Pattern>*</Pattern>
+								</Patterns>
+							</OS>
+							
+							<OS name="SEVEN">
+								<Location>%USERPROFILE%\AppData\Local\Mozilla\Firefox\Profiles\%FILLPATH%\Cache</Location>
+								<Patterns>
+									<Pattern>*.*</Pattern>
+									<Pattern>*</Pattern>
+								</Patterns>
+							</OS>
+						</Path>
+					</Object>
+				</Objects>				
+			</Item>
+			
+		</Items>
+	</Data>
+</CoEIA-Plugins>

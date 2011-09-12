@@ -1,0 +1,315 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>Disk Explorer Professional 3</Plugin-Name>
+<Plugin-Category>Thrid-Party Application History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>Disk Explorer Professional 3 Search History</Name> 
+<Objects>
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Antelope Studios\Disk Explorer Professional 3\Search</Location>
+<Patterns>
+<Pattern>File 0</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Antelope Studios\Disk Explorer Professional 3\Search</Location>
+<Patterns>
+<Pattern>File 1</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Antelope Studios\Disk Explorer Professional 3\Search</Location>
+<Patterns>
+<Pattern>File 2</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Antelope Studios\Disk Explorer Professional 3\Search</Location>
+<Patterns>
+<Pattern>File 3</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Antelope Studios\Disk Explorer Professional 3\Search</Location>
+<Patterns>
+<Pattern>File 4</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Antelope Studios\Disk Explorer Professional 3\Search</Location>
+<Patterns>
+<Pattern>File 5</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Antelope Studios\Disk Explorer Professional 3\Search</Location>
+<Patterns>
+<Pattern>File 6</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Antelope Studios\Disk Explorer Professional 3\Search</Location>
+<Patterns>
+<Pattern>File 7</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Antelope Studios\Disk Explorer Professional 3\Search</Location>
+<Patterns>
+<Pattern>File 8</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Antelope Studios\Disk Explorer Professional 3\Search</Location>
+<Patterns>
+<Pattern>File 9</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Antelope Studios\Disk Explorer Professional 3\Search</Location>
+<Patterns>
+<Pattern>File 10</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Antelope Studios\Disk Explorer Professional 3\Search</Location>
+<Patterns>
+<Pattern>File 11</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Antelope Studios\Disk Explorer Professional 3\Search</Location>
+<Patterns>
+<Pattern>File 12</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Antelope Studios\Disk Explorer Professional 3\Search</Location>
+<Patterns>
+<Pattern>File 13</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Antelope Studios\Disk Explorer Professional 3\Search</Location>
+<Patterns>
+<Pattern>File 14</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Antelope Studios\Disk Explorer Professional 3\Search</Location>
+<Patterns>
+<Pattern>File 15</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Antelope Studios\Disk Explorer Professional 3\Search</Location>
+<Patterns>
+<Pattern>File 16</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Antelope Studios\Disk Explorer Professional 3\Search</Location>
+<Patterns>
+<Pattern>File 17</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Antelope Studios\Disk Explorer Professional 3\Search</Location>
+<Patterns>
+<Pattern>File 18</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Antelope Studios\Disk Explorer Professional 3\Search</Location>
+<Patterns>
+<Pattern>File 19</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Antelope Studios\Disk Explorer Professional 3\Search</Location>
+<Patterns>
+<Pattern>File 20</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Antelope Studios\Disk Explorer Professional 3\Search</Location>
+<Patterns>
+<Pattern>File 21</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Antelope Studios\Disk Explorer Professional 3\Search</Location>
+<Patterns>
+<Pattern>File 22</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

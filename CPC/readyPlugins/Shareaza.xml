@@ -1,0 +1,68 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>Shareaza</Plugin-Name>
+<Plugin-Category>File Sharing History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>Shareaza Search History</Name> 
+<Objects>
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Shareaza\Shareaza</Location>
+<Patterns>
+<Pattern>Search</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Folder</Type>
+<Command>DeleteMatchWithinSub</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\Shareaza\data</Location>
+<Patterns>
+<Pattern>*.dat</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Folder</Type>
+<Command>DeleteAllBellow</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\Shareaza\incomplete</Location>
+<Patterns>
+<Pattern>*.*</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Folder</Type>
+<Command>DeleteAllBellow</Command>
+<Path>
+<OS name="ALL">
+<Location>%USERPROFILE%\Local Settings\Application Data\Shareaza\Incomplete</Location>
+<Patterns>
+<Pattern>*.*</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

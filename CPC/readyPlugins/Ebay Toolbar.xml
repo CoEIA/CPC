@@ -1,0 +1,29 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>Ebay Toolbar</Plugin-Name>
+<Plugin-Category>ToolBar Application History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>Ebay Toolbar Search History</Name> 
+<Objects>
+<Object>
+<Type>Folder</Type>
+<Command>DeleteMatchWithinSub</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\eBay\eBay Toolbar</Location>
+<Patterns>
+<Pattern>eBayhistory.*</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

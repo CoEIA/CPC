@@ -1,0 +1,380 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>UltraEdit</Plugin-Name>
+<Plugin-Category>Multimedia History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>UltraEdit Find/Replace History and Recent File/Compare List</Name> 
+<Objects>
+<Object>
+<Type>File</Type>
+<Command>EraseMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\IDMComp\UltraEdit\UEDIT32.INI</Location>
+<Patterns>
+<Pattern>[Recent File List]->File</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>EraseMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\IDMComp\UltraEdit\UEDIT32.INI</Location>
+<Patterns>
+<Pattern>[Find History]->0</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>EraseMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\IDMComp\UltraEdit\UEDIT32.INI</Location>
+<Patterns>
+<Pattern>[Find History]->1</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>EraseMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\IDMComp\UltraEdit\UEDIT32.INI</Location>
+<Patterns>
+<Pattern>[Find History]->2</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>EraseMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\IDMComp\UltraEdit\UEDIT32.INI</Location>
+<Patterns>
+<Pattern>[Find History]->3</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>EraseMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\IDMComp\UltraEdit\UEDIT32.INI</Location>
+<Patterns>
+<Pattern>[Find History]->4</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>EraseMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\IDMComp\UltraEdit\UEDIT32.INI</Location>
+<Patterns>
+<Pattern>[Find History]->5</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>EraseMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\IDMComp\UltraEdit\UEDIT32.INI</Location>
+<Patterns>
+<Pattern>[Find History]->6</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>EraseMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\IDMComp\UltraEdit\UEDIT32.INI</Location>
+<Patterns>
+<Pattern>[Find History]->7</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>EraseMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\IDMComp\UltraEdit\UEDIT32.INI</Location>
+<Patterns>
+<Pattern>[Find History]->8</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>EraseMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\IDMComp\UltraEdit\UEDIT32.INI</Location>
+<Patterns>
+<Pattern>[Find History]->9</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>EraseMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\IDMComp\UltraEdit\UEDIT32.INI</Location>
+<Patterns>
+<Pattern>[Settings]->Last File</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>EraseMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\IDMComp\UltraEdit\UEDIT32.INI</Location>
+<Patterns>
+<Pattern>[UE-Compare]->First</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>EraseMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\IDMComp\UltraEdit\UEDIT32.INI</Location>
+<Patterns>
+<Pattern>[UE-Compare]->Second</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>EraseMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\IDMComp\UltraEdit\UEDIT32.INI</Location>
+<Patterns>
+<Pattern>[Recent File List]->File</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>EraseMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\IDMComp\UltraEdit\UEDIT32.INI</Location>
+<Patterns>
+<Pattern>[Find/Replace]->FindString</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>EraseMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\IDMComp\UltraEdit\UEDIT32.INI</Location>
+<Patterns>
+<Pattern>[Find/Replace]->ReplaceString</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>EraseMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\IDMComp\UltraEdit\UEDIT32.INI</Location>
+<Patterns>
+<Pattern>[Replace History]->0</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>EraseMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\IDMComp\UltraEdit\UEDIT32.INI</Location>
+<Patterns>
+<Pattern>[Replace History]->1</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>EraseMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\IDMComp\UltraEdit\UEDIT32.INI</Location>
+<Patterns>
+<Pattern>[Replace History]->2</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>EraseMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\IDMComp\UltraEdit\UEDIT32.INI</Location>
+<Patterns>
+<Pattern>[Replace History]->3</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>EraseMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\IDMComp\UltraEdit\UEDIT32.INI</Location>
+<Patterns>
+<Pattern>[Replace History]->4</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>EraseMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\IDMComp\UltraEdit\UEDIT32.INI</Location>
+<Patterns>
+<Pattern>[Replace History]->5</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>EraseMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\IDMComp\UltraEdit\UEDIT32.INI</Location>
+<Patterns>
+<Pattern>[Replace History]->6</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>EraseMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\IDMComp\UltraEdit\UEDIT32.INI</Location>
+<Patterns>
+<Pattern>[Replace History]->7</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>EraseMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\IDMComp\UltraEdit\UEDIT32.INI</Location>
+<Patterns>
+<Pattern>[Replace History]->8</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>EraseMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\IDMComp\UltraEdit\UEDIT32.INI</Location>
+<Patterns>
+<Pattern>[Replace History]->9</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\IDM Computer Solutions\UltraCompare</Location>
+<Patterns>
+<Pattern>history_right</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

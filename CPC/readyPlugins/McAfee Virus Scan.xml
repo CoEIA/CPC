@@ -1,0 +1,94 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>McAfee Virus Scan</Plugin-Name>
+<Plugin-Category>Security Application History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>McAfee Virus Scan Scan Logs and Activity Logs</Name> 
+<Objects>
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\Network Associates\VirusScan NT</Location>
+<Patterns>
+<Pattern>ScanLog.Txt</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\Network Associates\VirusScan NT</Location>
+<Patterns>
+<Pattern>VirusScan Activity Log.txt</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\McAfee\VirusScan NT</Location>
+<Patterns>
+<Pattern>ScanLog.Txt</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\McAfee\VirusScan NT</Location>
+<Patterns>
+<Pattern>VirusScan Activity Log.txt</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\McAfee\McAfee VirusScan</Location>
+<Patterns>
+<Pattern>ScanLog.Txt</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%ProgramFiles%\McAfee\McAfee VirusScan</Location>
+<Patterns>
+<Pattern>VirusScan Activity Log.txt</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

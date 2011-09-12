@@ -1,0 +1,55 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>Free Download Manager 1.x</Plugin-Name>
+<Plugin-Category>Download and Upload History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>FDM v1.x Recent File List</Name> 
+<Objects>
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\Free Download Manager</Location>
+<Patterns>
+<Pattern>downloads*.sav</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\Free Download Manager</Location>
+<Patterns>
+<Pattern>history.sav</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>File</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\Free Download Manager</Location>
+<Patterns>
+<Pattern>sites.sav</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

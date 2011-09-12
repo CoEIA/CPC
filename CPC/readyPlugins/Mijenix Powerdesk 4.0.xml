@@ -1,0 +1,198 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>Mijenix Powerdesk 4.0</Plugin-Name>
+<Plugin-Category>Thrid-Party Application History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>Mijenix Powerdesk 4.0 Recent File List</Name> 
+<Objects>
+<Object>
+<Type>ValueList</Type>
+<Command>DeleteMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Ontrack\PowerDesk\CurrentVersion\ExplorerPlus\UnZip To</Location>
+<Patterns>
+<Pattern>History</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>ValueList</Type>
+<Command>DeleteMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Ontrack\PowerDesk\CurrentVersion\ExplorerPlus\Zip To</Location>
+<Patterns>
+<Pattern>History</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>ValueList</Type>
+<Command>DeleteMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Ontrack\PowerDesk\CurrentVersion\ExplorerPlus\Compare Folders</Location>
+<Patterns>
+<Pattern>History</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>ValueList</Type>
+<Command>DeleteMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Ontrack\PowerDesk\CurrentVersion\ExplorerPlus\DOS Command Line</Location>
+<Patterns>
+<Pattern>History</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>ValueList</Type>
+<Command>DeleteMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Ontrack\PowerDesk\CurrentVersion\Viewer\ConvertDestination</Location>
+<Patterns>
+<Pattern>History</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Value</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Ontrack\PowerDesk\CurrentVersion\SizeManager</Location>
+<Patterns>
+<Pattern>CurrentPath</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Ontrack\PowerDesk\CurrentVersion\PDFind</Location>
+<Patterns>
+<Pattern>Extensions</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Ontrack\PowerDesk\CurrentVersion\PDFind</Location>
+<Patterns>
+<Pattern>FileNames</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Ontrack\PowerDesk\CurrentVersion\PDFind</Location>
+<Patterns>
+<Pattern>Paths</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Ontrack\PowerDesk\CurrentVersion\PDFind</Location>
+<Patterns>
+<Pattern>Texts</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>ValueList</Type>
+<Command>DeleteMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Ontrack\PowerDesk\CurrentVersion\Synchronizer</Location>
+<Patterns>
+<Pattern>History</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>ValueList</Type>
+<Command>DeleteMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Ontrack\PowerDesk\CurrentVersion\Toolbar</Location>
+<Patterns>
+<Pattern>History</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Ontrack\PowerDesk\CurrentVersion</Location>
+<Patterns>
+<Pattern>DlgDirectory</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Ontrack\PowerDesk\CurrentVersion</Location>
+<Patterns>
+<Pattern>DlgFile</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

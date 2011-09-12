@@ -1,0 +1,1615 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>Microsoft Office 2010</Plugin-Name>
+<Plugin-Category>MS-Office History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>Microsoft Office 2010 Recent File List</Name> 
+<Objects>
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Word</Location>
+<Patterns>
+<Pattern>File MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Word</Location>
+<Patterns>
+<Pattern>Place MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Word</Location>
+<Patterns>
+<Pattern>Recent Templates</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Word\Settings\Browse</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Word\Settings\File Open</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Word\Settings\File Save</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Word\Settings\Modify Location</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Word\Settings\Save As</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office Word\Settings\Browse</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office Word\Settings\File Open</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office Word\Settings\File Save</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office Word\Settings\Modify Location</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office Word\Settings\Save As</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Excel</Location>
+<Patterns>
+<Pattern>File MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Excel</Location>
+<Patterns>
+<Pattern>Place MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Excel</Location>
+<Patterns>
+<Pattern>Recent Templates</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Excel\Settings\Browse</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Excel\Settings\File Open</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Excel\Settings\File Save</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Excel\Settings\Modify Location</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Excel\Settings\Save As</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office Excel\Settings\Browse</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office Excel\Settings\File Open</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office Excel\Settings\File Save</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office Excel\Settings\Modify Location</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office Excel\Settings\Save As</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\PowerPoint</Location>
+<Patterns>
+<Pattern>File MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\PowerPoint</Location>
+<Patterns>
+<Pattern>Place MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\PowerPoint</Location>
+<Patterns>
+<Pattern>RecentFolderList</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft PowerPoint\Settings\Browse</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft PowerPoint\Settings\File Open</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft PowerPoint\Settings\File Save</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft PowerPoint\Settings\Open</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft PowerPoint\Settings\Save As</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office PowerPoint\Settings\Browse</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office PowerPoint\Settings\File Open</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office PowerPoint\Settings\File Save</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office PowerPoint\Settings\Open</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office PowerPoint\Settings\Save As</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Access</Location>
+<Patterns>
+<Pattern>File MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Access</Location>
+<Patterns>
+<Pattern>Recent Templates</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft PowerPoint\Settings\Default Database Path</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft PowerPoint\Settings\Default Theme for New Databases</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft PowerPoint\Settings\File New Database</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft PowerPoint\Settings\File Open</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft PowerPoint\Settings\File Save</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft PowerPoint\Settings\Open</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft PowerPoint\Settings\Save As</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office PowerPoint\Settings\Default Database Path</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office PowerPoint\Settings\Default Theme for New Databases</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office PowerPoint\Settings\File New Database</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office PowerPoint\Settings\File Open</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office PowerPoint\Settings\File Save</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office PowerPoint\Settings\Open</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office PowerPoint\Settings\Save As</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\InfoPath</Location>
+<Patterns>
+<Pattern>File MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\InfoPath</Location>
+<Patterns>
+<Pattern>Designer File MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\InfoPath</Location>
+<Patterns>
+<Pattern>Filler File MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\InfoPath</Location>
+<Patterns>
+<Pattern>Recent Templates</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft InfoPath\Settings\Browse</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft InfoPath\Settings\File Open</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft InfoPath\Settings\File Save</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft InfoPath\Settings\Open</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft InfoPath\Settings\Open in Design Mode</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft InfoPath\Settings\Save As</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office InfoPath\Settings\Browse</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office InfoPath\Settings\File Open</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office InfoPath\Settings\File Save</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office InfoPath\Settings\Open</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office InfoPath\Settings\Open in Design Mode</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office InfoPath\Settings\Save As</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Publisher</Location>
+<Patterns>
+<Pattern>File MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Publisher</Location>
+<Patterns>
+<Pattern>Recent Templates</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Publisher\Settings\File Open</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Publisher\Settings\File Save</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Publisher\Settings\Open Publication</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Publisher\Settings\Save As</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office Publisher\Settings\File Open</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office Publisher\Settings\File Save</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office Publisher\Settings\Open Publication</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office Publisher\Settings\Save As</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Visio</Location>
+<Patterns>
+<Pattern>File MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Visio</Location>
+<Patterns>
+<Pattern>Recent Templates</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Visio\Settings\Browse</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Visio\Settings\File Open</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Visio\Settings\File Save</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Visio\Settings\Open</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Visio\Settings\Save As</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office Visio\Settings\Browse</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office Visio\Settings\File Open</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office Visio\Settings\File Save</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office Visio\Settings\Open</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office Visio\Settings\Save As</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\OneNote</Location>
+<Patterns>
+<Pattern>OpenNotebooks</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\OneNote</Location>
+<Patterns>
+<Pattern>RecentNotebooks</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft OneNote\Settings\File Open</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft OneNote\Settings\File Save</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft OneNote\Settings\Open Backup</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft OneNote\Settings\Open Notebook</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft OneNote\Settings\Save As</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft OneNote\Settings\Select File</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft OneNote\Settings\Select Folder</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office OneNote\Settings\File Open</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office OneNote\Settings\File Save</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office OneNote\Settings\Open Backup</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office OneNote\Settings\Open Notebook</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office OneNote\Settings\Save As</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office OneNote\Settings\Select File</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office OneNote\Settings\Select Folder</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Outlook\Settings\Create or Open Outlook Data File</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Outlook\Settings\File Open</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Outlook\Settings\File Save</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Outlook\Settings\Open Calendar</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Outlook\Settings\Open Outlook Data File</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office Outlook\Settings\Create or Open Outlook Data File</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office Outlook\Settings\File Open</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office Outlook\Settings\File Save</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office Outlook\Settings\Open Calendar</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Common\Open Find\Microsoft Office Outlook\Settings\Open Outlook Data File</Location>
+<Patterns>
+<Pattern>File Name MRU</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\FrontPage\Explorer\FrontPage Explorer</Location>
+<Patterns>
+<Pattern>Recent File List</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\FrontPage\Explorer\FrontPage Explorer</Location>
+<Patterns>
+<Pattern>Recent Page List</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Key</Type>
+<Command>Delete</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\FrontPage\Explorer\FrontPage Explorer</Location>
+<Patterns>
+<Pattern>Recent Web List</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Folder</Type>
+<Command>DeleteAllBellow</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\Microsoft\Office\Recent</Location>
+<Patterns>
+<Pattern>*.*</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

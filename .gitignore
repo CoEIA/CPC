@@ -1,0 +1,14 @@
+/**/debug/
+/**/release/
+Makefile*
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+Thumbs.db
+*.[oa]
+*~
+*.dll
+*.exe
+object_script.*
+/**/*.pdb
+/**/*.pro.user*

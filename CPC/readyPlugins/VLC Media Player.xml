@@ -1,0 +1,42 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>VLC Media Player</Plugin-Name>
+<Plugin-Category>Multimedia History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>VLC Media Player Recent Play List</Name> 
+<Objects>
+<Object>
+<Type>File</Type>
+<Command>EraseMatch</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\vlc\vlc-qt-interface.ini</Location>
+<Patterns>
+<Pattern>[RecentsMRL]->list</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+<Object>
+<Type>Folder</Type>
+<Command>DeleteAllBellow</Command>
+<Path>
+<OS name="ALL">
+<Location>%AppData%\vlc\art\artistalbum</Location>
+<Patterns>
+<Pattern>*.*</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+
+</Objects> 
+</Item> 
+</Items> 
+</Data> 
+</CoEIA-Plugins>

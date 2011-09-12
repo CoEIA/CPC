@@ -1,0 +1,252 @@
+
+QToolButton {
+     border: 2px solid #250517;
+     border-radius: 6px;
+     background-color: #c69c6e;
+     min-width: 80px;
+}
+
+QToolButton:hover{
+    color: white;
+    border-color: #c69c6e;
+    background-color:#332216;
+}
+
+QToolButton:pressed{
+    background-color: #000000;
+    border-color: #c69c6e;
+}
+
+QPushButton#addShredButton,  QPushButton#clearShredButton,
+QPushButton#newButton,  QPushButton#deleteButton
+{
+     border: 2px solid #250517;
+     border-radius: 6px;
+     background-color: #c69c6e;
+     min-width: 80px;
+}
+
+QPushButton#addShredButton:hover,  QPushButton#clearShredButton:hover,
+QPushButton#newButton:hover,  QPushButton#deleteButton:hover
+{
+    color: white;
+    border-color: #c69c6e;
+    background-color:#332216;
+}
+
+QPushButton#addShredButton:pressed,  QPushButton#clearShredButton:pressed,
+QPushButton#newButton:pressed,  QPushButton#deleteButton:pressed
+{
+     background-color: #000000;
+     border-color: #c69c6e;
+     color: white;
+ }
+
+#0_toolButton:hover{
+    background-image: url(:/images/scanwhite.png);
+    background-color: transparent;
+}
+
+#0_toolButton {
+    background-image: url(:/images/scanblack.png);
+    background-color: transparent;
+}
+
+#0_toolButton:pressed, #0_toolButton:checked  {
+    background-image: url(:/images/scandark.png);
+    background-color: transparent;
+}
+
+#1_toolButton:hover {
+    background-image: url(:/images/optionswhite.png);
+    background-color: transparent;
+}
+
+#1_toolButton {
+    background-image: url(:/images/optionsblack.png);
+    background-color: transparent;
+}
+
+#1_toolButton:pressed, #1_toolButton:checked  {
+    background-image: url(:/images/optionsdark.png);
+    background-color: transparent;
+}
+
+#2_toolButton:hover {
+    background-image: url(:/images/schedulewhite.png);
+    background-color: transparent;
+}
+
+#2_toolButton  {
+    background-image: url(:/images/scheduleblack.png);
+    background-color: transparent;
+}
+
+#2_toolButton:pressed, #2_toolButton:checked  {
+    background-image: url(:/images/scheduledark.png);
+    background-color: transparent;
+}
+
+#3_toolButton:hover{
+    background-image: url(:/images/shredwhite.png);
+    background-color: transparent;
+}
+
+#3_toolButton  {
+    background-image: url(:/images/shredblack.png);
+    background-color: transparent;
+}
+
+#3_toolButton:pressed, #3_toolButton:checked  {
+    background-image: url(:/images/shreddark.png);
+    background-color: transparent;
+}
+
+#4_toolButton:hover {
+    background-image: url(:/images/aboutwhite.png);
+}
+
+#4_toolButton {
+    background-image: url(:/images/aboutblack.png);
+    background-color: transparent;
+}
+
+#4_toolButton:pressed, #4_toolButton:checked  {
+    background-image: url(:/images/aboutdark.png);
+    background-color: transparent;
+}
+
+QPushButton#startScanButton {
+    background-image: url(:/images/startblack.png);
+    background-color: transparent;
+}
+
+QPushButton#startScanButton:hover  {
+    background-image: url(:/images/startwhite.png);
+    background-color: transparent;
+}
+
+QPushButton#startScanButton:pressed  {
+    background-image: url(:/images/startdark.png);
+    background-color: transparent;
+}
+
+QLabel{
+    color: white;
+    font: 12px;
+}
+
+QDailog {
+    color: white;
+}
+
+QInputDialog, QProgressDialog {
+    background-color: #332216 ;
+    color : #c69c6e ;
+    font: bold 14px;
+}
+
+QMessageBox {
+    background-color: #332216 ;
+    color : #c69c6e ;
+    font: bold 14px;
+}
+
+QGroupBox{
+    color: #AFDCEC;
+    font: bold 14px;
+}
+
+QRadioButton{
+    color:white;
+    background-color: transparent;
+}
+
+QTreeView {
+    show-decoration-selected: 1;
+    icon-size: 48px;
+    background: cornsilk;
+}
+
+QTreeView::item {
+    border: 1px solid #d9d9d9;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 4px;
+}
+
+QTreeView::item:hover {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #e7effd, stop: 1 #cbdaf1);
+    border: 1px solid #bfcde4;
+}
+
+QTreeView::item:selected {
+    border: 1px solid #567dbc;
+}
+
+QTreeView::item:selected:active{
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #6ea1f1, stop: 1 #567dbc);
+}
+
+QTreeView::item:selected:!active {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #6b9be8, stop: 1 #577fbf);
+}
+
+QStatusBar {
+    background: #332216;
+    color:white;
+}
+
+QStatusBar::item{
+    background-color:black;
+}
+
+QToolTip {
+    border: 2px solid darkkhaki;
+    padding: 5px;
+    border-radius: 3px;
+    opacity: 300;
+}
+
+QComboBox, QLineEdit, QSpinBox, QTextEdit, QListView,QProgressBar, QTreeView{
+    background-color: cornsilk;
+    selection-color: #0a214c;
+    selection-background-color: #C19A6B;
+    border-width: 2px;
+    padding: 1px;
+    border-style: solid;
+    border-color: darkkhaki;
+    border-radius: 5px;
+}
+
+QListView {
+    show-decoration-selected: 1;
+}
+
+QListView::item:hover {
+    background-color: wheat;
+}
+
+QLineEdit {
+    border-width: 2px;
+    padding: 1px;
+    border-style: solid;
+    border-color: darkkhaki;
+    border-radius: 5px;
+}
+
+QLineEdit:focus{
+    border-width: 3px;
+    padding: 0px;
+}
+
+QCheckBox:hover {
+    background-color: wheat;
+}
+
+QMenu {
+    background-color: cornsilk;
+    selection-color: #0a214c;
+    selection-background-color: #C19A6B;
+    border: 1px solid;
+}
