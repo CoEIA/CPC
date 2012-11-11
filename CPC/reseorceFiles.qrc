@@ -311,5 +311,6 @@
         <file>docs/htmlReport.html</file>
         <file>translations/ar_sa.qm</file>
         <file>translations/en_us.qm</file>
+        <file>icons/cpcTray.png</file>
     </qresource>
 </RCC>

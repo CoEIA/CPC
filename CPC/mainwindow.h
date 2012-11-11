@@ -2,9 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QtGui/QMainWindow>
-#include <QtGui>
 #include <plugins.h>
-
+#include <QtGui>
 #include "welcomewidget.h"
 #include "optionswidget.h"
 #include "schedulewidget.h"
@@ -15,12 +14,15 @@
 #include "constants.h"
 #include "updatechecker.h"
 
+class QAction;
+
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
 
 public:
     MainWindow(bool scan = false, QWidget *parent = 0);
+    void setVisible(bool visible);
     ~MainWindow();
 
 public:
@@ -35,6 +37,7 @@ protected:
 private slots:
     void setCurrentWindow(int id);
     void scanProgressSlot();
+    void scanTraySlot();
     void finishScanProcessSlot();
     void showWelcomeWidgetSlot();
     void selectItemSlot(int index);
@@ -42,9 +45,10 @@ private slots:
     void finishUpdateSlot(bool);
     void errorUpdateSlot();
     void setLanguage(QAction* action) ;
+    void aboutTraySlot();
 
 private:
-    QStackedWidget * stackedWidget;
+    QStackedWidget *stackedWidget;
     QLabel *versionLabel;
     QSignalMapper *signalMapper;
     QMultiMap<QString, Plugins> plugins;
@@ -89,6 +93,21 @@ private:
 private:
     UpdateChecker thread;
     bool showPopupMessageWhenNoUpdate ;
+
+private:
+    void createActions();
+    void createTrayIcon();
+
+    QAction *minimizeAction;
+    QAction *aboutAction;
+    // QAction *maximizeAction;
+    QAction *restoreAction;
+    QAction *quitAction;
+    QAction *scanAction;
+
+    QSystemTrayIcon *trayIcon;
+    QMenu *trayIconMenu;
+
 };
 
 #endif // MAINWINDOW_H

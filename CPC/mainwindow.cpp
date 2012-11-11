@@ -7,7 +7,8 @@
 #include "settingshandler.h"
 #include "application.h"
 
-#include <QDebug>
+#include "aboutdialog.h"
+
 
 // http://127.0.0.1/wajdy/info.php?serial=OTkwR-lVHQ0-w2NTg-3MTJ9
 // http://127.0.0.1/wajdy/save.php?serial=asdf&ip=20.23.123
@@ -18,10 +19,14 @@ MainWindow::MainWindow(bool scan, QWidget *parent)
    // set windows size, title and icon image
    setupWindow();
 
+
    versionLabel = new QLabel(this);
 
    plugins = Utilities::readAllPlugins(":/readyPlugins");
    qDebug() << "Number of Plugins : " << plugins.size();
+
+   createActions();
+   createTrayIcon();
 
    welcomeWidget = new WelcomeWidget;
    optionWidget = new OptionsWidget(plugins);
@@ -41,6 +46,9 @@ MainWindow::MainWindow(bool scan, QWidget *parent)
    stackedWidget->addWidget(resultWidget);
 
    this->setCentralWidget(stackedWidget);
+
+   trayIcon->show();
+
    createDockWidget();
    createStatusBar();
    setStatusBarText();
@@ -91,6 +99,8 @@ MainWindow::MainWindow(bool scan, QWidget *parent)
        readSettings();
        automaticCheckForUpdate();
    }
+
+
 }
 
 void MainWindow::changeEvent(QEvent* event) {
@@ -103,8 +113,66 @@ void MainWindow::changeEvent(QEvent* event) {
 
 void MainWindow::closeEvent(QCloseEvent *event) {
     SettingsHandler::writeLastUsageTime(QDateTime::currentDateTime());
-    event->accept();
-    exit(0);
+    //event->accept();
+    //exit(0);
+    hide();
+    event->ignore();
+}
+void MainWindow::setVisible(bool visible)
+{
+    minimizeAction->setEnabled(visible);
+    //maximizeAction->setEnabled(!isMaximized());
+    restoreAction->setEnabled(isMaximized() || !visible);
+    QMainWindow::setVisible(visible);
+}
+void MainWindow::createActions()
+{
+    minimizeAction = new QAction(tr("Mi&nimize"), this);
+    connect(minimizeAction, SIGNAL(triggered()), this, SLOT(hide()));
+
+    aboutAction = new QAction(tr("About"),this);
+    connect(aboutAction, SIGNAL(triggered()), this, SLOT(aboutTraySlot()));
+
+    scanAction = new QAction(tr("Begin Scan"),this);
+    connect(scanAction, SIGNAL(triggered()), this, SLOT(scanTraySlot()));
+
+    //maximizeAction = new QAction(tr("Ma&ximize"), this);
+    //connect(maximizeAction, SIGNAL(triggered()), this, SLOT(showMaximized()));
+
+    restoreAction = new QAction(tr("Open CPC Application"), this);
+    connect(restoreAction, SIGNAL(triggered()), this, SLOT(showNormal()));
+
+    quitAction = new QAction(tr("Exit"), this);
+    connect(quitAction, SIGNAL(triggered()), qApp, SLOT(quit()));
+}
+
+void  MainWindow::createTrayIcon()
+{
+    trayIconMenu = new QMenu(this);
+    trayIconMenu->addAction(minimizeAction);
+    trayIconMenu->addAction(aboutAction);
+    //trayIconMenu->addAction(maximizeAction);
+    trayIconMenu->addAction(scanAction);
+    trayIconMenu->addAction(restoreAction);
+    trayIconMenu->addSeparator();
+    trayIconMenu->addAction(quitAction);
+
+    trayIcon = new QSystemTrayIcon(this);
+    QIcon icon(":/cpcIcon.ico");
+    trayIcon->setIcon(icon);
+    trayIcon->setContextMenu(trayIconMenu);
+
+}
+
+void MainWindow::aboutTraySlot()
+{
+    aboutdialog *dialog = new aboutdialog(this);
+    dialog->exec();
+//    QMessageBox* msgBox = new QMessageBox();
+//    msgBox->setWindowTitle("About");
+//    msgBox->setText("THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR HOLDERS INCLUDED IN THIS NOTICE BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL INDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.");
+//    msgBox->setWindowFlags(Qt::WindowStaysOnTopHint);
+//    msgBox->show();
 }
 
 void MainWindow::errorUpdateSlot() {
@@ -250,6 +318,11 @@ QMap<QString,PluginsResult> MainWindow:: convertToMap(QList<PluginsResult>& list
 }
 
 void MainWindow::scanProgressSlot() {
+    scanning();
+}
+
+void MainWindow::scanTraySlot(){
+    show();
     scanning();
 }
 

@@ -35,7 +35,8 @@ SOURCES += main.cpp\
     advancedshreddialog.cpp \
     htmlreport.cpp \
     enumeratethread.cpp \
-    application.cpp
+    application.cpp \
+    aboutdialog.cpp
 
 HEADERS  += mainwindow.h \
     optionswidget.h \
@@ -64,7 +65,8 @@ HEADERS  += mainwindow.h \
     advancedshreddialog.h \
     htmlreport.h \
     enumeratethread.h \
-    application.h
+    application.h \
+    aboutdialog.h
 
 FORMS    += \
     optionswidget.ui \
@@ -76,7 +78,8 @@ FORMS    += \
     resultwidget.ui \
     welcomewidget.ui \
     schedulerdialogue.ui \
-    advancedshreddialog.ui
+    advancedshreddialog.ui \
+    aboutdialog.ui
 
 RESOURCES += \
     reseorceFiles.qrc
