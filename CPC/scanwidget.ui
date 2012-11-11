@@ -39,9 +39,6 @@
         </property>
        </widget>
       </item>
-      <item>
-       <widget class="QWidget" name="imageWidget" native="true"/>
-      </item>
      </layout>
     </widget>
    </item>
