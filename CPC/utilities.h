@@ -40,6 +40,9 @@ public:
     static bool isProcessRun (QString processName);
     static void lunchProcess (QString path, bool wait);
 
+    static void loadEnglishStyle();
+    static void loadArabicStyle();
+
 };
 
 #endif // UTILITIES_H

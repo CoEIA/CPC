@@ -3,11 +3,10 @@
 
 #include "mainwindow.h"
 #include "application.h"
+#include "utilities.h"
 
 int main(int argc, char *argv[])
 {
-    //QApplication a(argc, argv);
-
     Application a(argc, argv);
     a.loadTranslations(":/translations");
     Application::setLanguage(QLocale::system().name());
@@ -20,10 +19,7 @@ int main(int argc, char *argv[])
 
     QDir::setCurrent(QCoreApplication::applicationDirPath());
 
-    QFile file(":/TestingGUI.qss");
-    file.open(QFile::ReadOnly);
-    QString StyleSheet = QLatin1String(file.readAll());
-    a.setStyleSheet(StyleSheet);
+    Utilities::loadEnglishStyle();
 
     if ( args.count() > 1 ) {
         MainWindow w(true);

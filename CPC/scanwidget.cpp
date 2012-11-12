@@ -96,7 +96,6 @@ void ScanWidget::retranslateUi () {
 void ScanWidget::changeEvent(QEvent* event) {
     if (event->type() == QEvent::LanguageChange) {
         ui->retranslateUi(this);
-        //retranslate();
     }
     else
         QWidget::changeEvent(event);
