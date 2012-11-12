@@ -71,6 +71,8 @@ MainWindow::MainWindow(bool scan, QWidget *parent)
    connect(&thread, SIGNAL(errorUpdateSignal()), this, SLOT(errorUpdateSlot()));
 
    //Arif code added
+   //connect(trayIcon, SIGNAL(trigger()),this, SLOT(hide()));
+
    connect(trayIcon, SIGNAL(activated(QSystemTrayIcon::ActivationReason)),
                 this, SLOT(iconActivated(QSystemTrayIcon::ActivationReason)));
 
@@ -178,9 +180,11 @@ void MainWindow::iconActivated(QSystemTrayIcon::ActivationReason reason)
 {
     switch (reason) {
          case QSystemTrayIcon::Trigger:
+            trayIconMenu->hide();
+            break;
          case QSystemTrayIcon::DoubleClick:
-
-             break;
+            showNormal();
+            break;
          case QSystemTrayIcon::MiddleClick:
 
              break;
