@@ -284,3 +284,19 @@ void Utilities:: printInDebug (const Plugins& plug) {
     }
     qDebug() << "";
 }
+
+void Utilities:: loadEnglishStyle() {
+    QFile file(":/config/EnglishGUI.qss");
+    file.open(QFile::ReadOnly);
+    QString StyleSheet = QLatin1String(file.readAll());
+    qApp->setStyleSheet(StyleSheet);
+    file.close();
+}
+
+void Utilities:: loadArabicStyle() {
+    QFile file(":/config/ArabicGUI.qss");
+    file.open(QFile::ReadOnly);
+    QString StyleSheet = QLatin1String(file.readAll());
+    qApp->setStyleSheet(StyleSheet);
+    file.close();
+}

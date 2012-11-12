@@ -1,3 +1,91 @@
+#0_toolButton:hover{
+    background-image: url(:/images/icons/scan/scanblack-ar.png);
+    background-color: transparent;
+}
+
+#0_toolButton {
+    background-image: url(:/images/icons/scan/scanwhite-ar.png);
+    background-color: transparent;
+}
+
+#0_toolButton:pressed, #0_toolButton:checked  {
+    background-image: url(:/images/icons/scan/scandark-ar.png);
+    background-color: transparent;
+}
+
+#1_toolButton:hover {
+    background-image: url(:/images/icons/options/optionsblack-ar.png);
+    background-color: transparent;
+}
+
+#1_toolButton {
+    background-image: url(:/images/icons/options/optionswhite-ar.png);
+    background-color: transparent;
+}
+
+#1_toolButton:pressed, #1_toolButton:checked  {
+    background-image: url(:/images/icons/options/optionsdark-ar.png);
+    background-color: transparent;
+}
+
+#2_toolButton:hover {
+    background-image: url(:/images/icons/schedule/scheduleblack-ar.png);
+    background-color: transparent;
+}
+
+#2_toolButton  {
+    background-image: url(:/images/icons/schedule/schedulewhite-ar.png);
+    background-color: transparent;
+}
+
+#2_toolButton:pressed, #2_toolButton:checked  {
+    background-image: url(:/images/icons/schedule/scheduledark-ar.png);
+    background-color: transparent;
+}
+
+#3_toolButton:hover{
+    background-image: url(:/images/icons/shred/shredblack-ar.png);
+    background-color: transparent;
+}
+
+#3_toolButton  {
+    background-image: url(:/images/icons/shred/shredwhite-ar.png);
+    background-color: transparent;
+}
+
+#3_toolButton:pressed, #3_toolButton:checked  {
+    background-image: url(:/images/icons/shred/shreddark-ar.png);
+    background-color: transparent;
+}
+
+#4_toolButton:hover {
+    background-image: url(:/images/icons/about/aboutblack-ar.png);
+}
+
+#4_toolButton {
+    background-image: url(:/images/icons/about/aboutwhite-ar.png);
+    background-color: transparent;
+}
+
+#4_toolButton:pressed, #4_toolButton:checked  {
+    background-image: url(:/images/icons/about/aboutdark-ar.png);
+    background-color: transparent;
+}
+
+QPushButton#startScanButton {
+    background-image: url(:/images/icons/start/startblack-ar.png);
+    background-color: transparent;
+}
+
+QPushButton#startScanButton:hover  {
+    background-image: url(:/images/icons/start/startwhite-ar.png);
+    background-color: transparent;
+}
+
+QPushButton#startScanButton:pressed  {
+    background-image: url(:/images/icons/start/startdark-ar.png);
+    background-color: transparent;
+}
 
 QToolButton {
      border: 2px solid #250517;
@@ -40,95 +128,6 @@ QPushButton#newButton:pressed,  QPushButton#deleteButton:pressed
      background-color: #000000;
      border-color: #c69c6e;
      color: white;
- }
-
-#0_toolButton:hover{
-    background-image: url(:/images/scanwhite.png);
-    background-color: transparent;
-}
-
-#0_toolButton {
-    background-image: url(:/images/scanblack.png);
-    background-color: transparent;
-}
-
-#0_toolButton:pressed, #0_toolButton:checked  {
-    background-image: url(:/images/scandark.png);
-    background-color: transparent;
-}
-
-#1_toolButton:hover {
-    background-image: url(:/images/optionswhite.png);
-    background-color: transparent;
-}
-
-#1_toolButton {
-    background-image: url(:/images/optionsblack.png);
-    background-color: transparent;
-}
-
-#1_toolButton:pressed, #1_toolButton:checked  {
-    background-image: url(:/images/optionsdark.png);
-    background-color: transparent;
-}
-
-#2_toolButton:hover {
-    background-image: url(:/images/schedulewhite.png);
-    background-color: transparent;
-}
-
-#2_toolButton  {
-    background-image: url(:/images/scheduleblack.png);
-    background-color: transparent;
-}
-
-#2_toolButton:pressed, #2_toolButton:checked  {
-    background-image: url(:/images/scheduledark.png);
-    background-color: transparent;
-}
-
-#3_toolButton:hover{
-    background-image: url(:/images/shredwhite.png);
-    background-color: transparent;
-}
-
-#3_toolButton  {
-    background-image: url(:/images/shredblack.png);
-    background-color: transparent;
-}
-
-#3_toolButton:pressed, #3_toolButton:checked  {
-    background-image: url(:/images/shreddark.png);
-    background-color: transparent;
-}
-
-#4_toolButton:hover {
-    background-image: url(:/images/aboutwhite.png);
-}
-
-#4_toolButton {
-    background-image: url(:/images/aboutblack.png);
-    background-color: transparent;
-}
-
-#4_toolButton:pressed, #4_toolButton:checked  {
-    background-image: url(:/images/aboutdark.png);
-    background-color: transparent;
-}
-
-QPushButton#startScanButton {
-    background-image: url(:/images/startblack.png);
-    background-color: transparent;
-}
-
-QPushButton#startScanButton:hover  {
-    background-image: url(:/images/startwhite.png);
-    background-color: transparent;
-}
-
-QPushButton#startScanButton:pressed  {
-    background-image: url(:/images/startdark.png);
-    background-color: transparent;
 }
 
 QLabel{

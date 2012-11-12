@@ -9,8 +9,8 @@ TARGET = CPC
 TEMPLATE = app
 LIBS += -lshlwapi
 
-TRANSLATIONS = ar_sa.ts \
-               en_us.ts
+TRANSLATIONS = config/ar_sa.ts \
+               config/en_us.ts
 
 SOURCES += main.cpp\
     mainwindow.cpp \
@@ -85,6 +85,7 @@ RESOURCES += \
     reseorceFiles.qrc
 
 OTHER_FILES += \
-    TestingGUI.qss \
+    config/ArabicGUI.qss \
+    config/EnglishGUI.qss
 
  RC_FILE = iconpath.rc

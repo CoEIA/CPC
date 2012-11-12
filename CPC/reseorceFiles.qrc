@@ -1,6 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>TestingGUI.qss</file>
         <file>images/startwhite.png</file>
         <file>images/aboutblack.png</file>
         <file>images/aboutwhite.png</file>
@@ -19,278 +18,276 @@
         <file>images/optionsdark.png</file>
         <file>images/scandark.png</file>
         <file>images/scheduledark.png</file>
-        <file>readyPlugins/SkypePlugins.xml</file>
-        <file>readyPlugins/WindowsLivePlugins.xml</file>
-        <file>readyPlugins/ChromePlugins.xml</file>
-        <file>readyPlugins/FirefoxPlugins.xml</file>
-        <file>readyPlugins/WindowsPlugins.xml</file>
-        <file>readyPlugins/IEPlugins.xml</file>
-        <file>readyPlugins/7-Zip Compression.xml</file>
-        <file>readyPlugins/AbsoluteFTP.xml</file>
-        <file>readyPlugins/ACDSee.xml</file>
-        <file>readyPlugins/Ace Utilities.xml</file>
-        <file>readyPlugins/Acoustica CD Label Maker.xml</file>
-        <file>readyPlugins/Acrobat Reader 5.xml</file>
-        <file>readyPlugins/Acrobat Reader 6.xml</file>
-        <file>readyPlugins/Acrobat Reader 7.xml</file>
-        <file>readyPlugins/Acrobat Reader 8.xml</file>
-        <file>readyPlugins/Acrobat Reader 9.xml</file>
-        <file>readyPlugins/Acrobat Reader 10.xml</file>
-        <file>readyPlugins/Adaptec Easy CD Creator.xml</file>
-        <file>readyPlugins/Adaptec's Audio CD.xml</file>
-        <file>readyPlugins/Ad-aware SE.xml</file>
-        <file>readyPlugins/AddSoft Log Files.xml</file>
-        <file>readyPlugins/AddWeb 3.0.xml</file>
-        <file>readyPlugins/Adobe Flash Player.xml</file>
-        <file>readyPlugins/Adobe Illustrator.xml</file>
-        <file>readyPlugins/Adobe ImageReady.xml</file>
-        <file>readyPlugins/Adobe Photoshop 6.0.xml</file>
-        <file>readyPlugins/Adobe Photoshop 7.0.xml</file>
-        <file>readyPlugins/Adobe Photoshop CS.xml</file>
-        <file>readyPlugins/Advanced Browser.xml</file>
-        <file>readyPlugins/Advanced Disk Catalog.xml</file>
-        <file>readyPlugins/Advanced MP3 Catalog.xml</file>
-        <file>readyPlugins/Agent NewsReader.xml</file>
-        <file>readyPlugins/Agnitum Outpost Pro.xml</file>
-        <file>readyPlugins/AIM Login Names.xml</file>
-        <file>readyPlugins/Alcohol MRU.xml</file>
-        <file>readyPlugins/AOL Bart.xml</file>
-        <file>readyPlugins/AOL Instant Messenger.xml</file>
-        <file>readyPlugins/AOL Spool.xml</file>
-        <file>readyPlugins/Ashampoo.xml</file>
-        <file>readyPlugins/AudioCatalyst.xml</file>
-        <file>readyPlugins/AudioGrabber.xml</file>
-        <file>readyPlugins/AutoPlay Media Studio 6.0.xml</file>
-        <file>readyPlugins/AutoPlay Media Studio Button Maker.xml</file>
-        <file>readyPlugins/Avant Browser.xml</file>
-        <file>readyPlugins/Axialis Icon Workshop 5.x.xml</file>
-        <file>readyPlugins/Axialis Media Browser.xml</file>
-        <file>readyPlugins/AX-Icons 4.x.xml</file>
-        <file>readyPlugins/Babylon Builder 2.2.xml</file>
-        <file>readyPlugins/Babylon.xml</file>
-        <file>readyPlugins/BearShare.xml</file>
-        <file>readyPlugins/BlazeDVD 2.0.xml</file>
-        <file>readyPlugins/BookReader.xml</file>
-        <file>readyPlugins/Borland Delphi v7.xml</file>
-        <file>readyPlugins/Cabinet Manager.xml</file>
-        <file>readyPlugins/Chameleon Web Browser.xml</file>
-        <file>readyPlugins/Classify 98.xml</file>
-        <file>readyPlugins/CoffeeCup DirectFTP.xml</file>
-        <file>readyPlugins/CoffeeCup GIF Animator.xml</file>
-        <file>readyPlugins/Cool Edit 2000 1.1.xml</file>
-        <file>readyPlugins/Cool Edit Pro.xml</file>
-        <file>readyPlugins/Copernic 2001 Basic.xml</file>
-        <file>readyPlugins/Copernic 2001 Plus.xml</file>
-        <file>readyPlugins/Copernic 2001 Pro.xml</file>
-        <file>readyPlugins/CRT 2.x.xml</file>
-        <file>readyPlugins/Cute MX.xml</file>
-        <file>readyPlugins/CuteFTP.xml</file>
-        <file>readyPlugins/CuteHTML.xml</file>
-        <file>readyPlugins/Disk Explorer Professional 3.xml</file>
-        <file>readyPlugins/Diskeeper 5.0.xml</file>
-        <file>readyPlugins/DivX Player.xml</file>
-        <file>readyPlugins/Download Accelerator.xml</file>
-        <file>readyPlugins/Ebay Toolbar.xml</file>
-        <file>readyPlugins/EditPad.xml</file>
-        <file>readyPlugins/EditPlus 2.xml</file>
-        <file>readyPlugins/eMule.xml</file>
-        <file>readyPlugins/Enfish Onespace.xml</file>
-        <file>readyPlugins/Enigma Browser.xml</file>
-        <file>readyPlugins/Eudora Mail.xml</file>
-        <file>readyPlugins/FlashGet.xml</file>
-        <file>readyPlugins/Fotostation 4.0.xml</file>
-        <file>readyPlugins/Free Download Manager.xml</file>
-        <file>readyPlugins/FTP Explorer.xml</file>
-        <file>readyPlugins/FTP Voyager.xml</file>
-        <file>readyPlugins/Fun CD.xml</file>
-        <file>readyPlugins/Gator.xml</file>
-        <file>readyPlugins/GetRight.xml</file>
-        <file>readyPlugins/Go!Zilla.xml</file>
-        <file>readyPlugins/GoldWave Digital Audio Editor.xml</file>
-        <file>readyPlugins/Google Deskbar.xml</file>
-        <file>readyPlugins/Google Desktop Search History.xml</file>
-        <file>readyPlugins/Google Talk.xml</file>
-        <file>readyPlugins/Google Toolbar.xml</file>
-        <file>readyPlugins/Google Video Player.xml</file>
-        <file>readyPlugins/Graphic Workshop Pro.xml</file>
-        <file>readyPlugins/Gravity Newsreader.xml</file>
-        <file>readyPlugins/Helios TextPad.xml</file>
-        <file>readyPlugins/Homesite 4.0.xml</file>
-        <file>readyPlugins/Hotbar 3.0.xml</file>
-        <file>readyPlugins/HotJava Browser.xml</file>
-        <file>readyPlugins/HTML-Kit.xml</file>
-        <file>readyPlugins/ICQ 5.xml</file>
-        <file>readyPlugins/ICQ 2002a.xml</file>
-        <file>readyPlugins/ICQ 2003a.xml</file>
-        <file>readyPlugins/iMesh.xml</file>
-        <file>readyPlugins/Inoculatelt PE Virus Scan.xml</file>
-        <file>readyPlugins/InterQuick.xml</file>
-        <file>readyPlugins/Irfanview 32.xml</file>
-        <file>readyPlugins/Jasc Animation Shop 3.xml</file>
-        <file>readyPlugins/JASC Paint Shop Pro.xml</file>
-        <file>readyPlugins/Jet Photo Shell.xml</file>
-        <file>readyPlugins/Juno.xml</file>
-        <file>readyPlugins/KaZaA Media Desktop.xml</file>
-        <file>readyPlugins/KillBox.xml</file>
-        <file>readyPlugins/K-Lite Codec Pack.xml</file>
-        <file>readyPlugins/Kodak Imaging for Windows.xml</file>
-        <file>readyPlugins/LeapFTP 2.6.xml</file>
-        <file>readyPlugins/Letterbox.xml</file>
-        <file>readyPlugins/LingoMail 1.x.xml</file>
-        <file>readyPlugins/LView Pro 2.x.xml</file>
-        <file>readyPlugins/Macromedia Dreamweaver MX.xml</file>
-        <file>readyPlugins/Macromedia Firework MX.xml</file>
-        <file>readyPlugins/Macromedia Flash MX.xml</file>
-        <file>readyPlugins/Magic ISO Maker 4.6.xml</file>
-        <file>readyPlugins/Mass Download.xml</file>
-        <file>readyPlugins/MasterSplitter.xml</file>
-        <file>readyPlugins/McAfee Virus Scan.xml</file>
-        <file>readyPlugins/MEDA MP3 Splitter.xml</file>
-        <file>readyPlugins/Media Player Classic.xml</file>
-        <file>readyPlugins/Metapad.xml</file>
-        <file>readyPlugins/MicroAngelo.xml</file>
-        <file>readyPlugins/Micrografx Picture Publisher 8.xml</file>
-        <file>readyPlugins/Microsoft AntiSpyware.xml</file>
-        <file>readyPlugins/Microsoft HTML Help.xml</file>
-        <file>readyPlugins/Microsoft Imaging.xml</file>
-        <file>readyPlugins/Microsoft Netmeeting.xml</file>
-        <file>readyPlugins/Microsoft Office 97.xml</file>
-        <file>readyPlugins/Microsoft Office 2000.xml</file>
-        <file>readyPlugins/Microsoft Office 2003.xml</file>
-        <file>readyPlugins/Microsoft Office 2007.xml</file>
-        <file>readyPlugins/Microsoft Office 2010.xml</file>
-        <file>readyPlugins/Microsoft Office InfoPath 2003.xml</file>
-        <file>readyPlugins/Microsoft Office XP.xml</file>
-        <file>readyPlugins/Microsoft Photo Editor 3.0.xml</file>
-        <file>readyPlugins/Microsoft Publisher 2000.xml</file>
-        <file>readyPlugins/Microsoft Visual C++ 6.0.xml</file>
-        <file>readyPlugins/Microsoft Word 2000.xml</file>
-        <file>readyPlugins/Microsoft Word Backup Files.xml</file>
-        <file>readyPlugins/Microsoft Works 4.0.xml</file>
-        <file>readyPlugins/Mijenix Powerdesk 4.0.xml</file>
-        <file>readyPlugins/Miranda ICQ.xml</file>
-        <file>readyPlugins/MIRC.xml</file>
-        <file>readyPlugins/Morpheus.xml</file>
-        <file>readyPlugins/Mozart 4.0.xml</file>
-        <file>readyPlugins/MSN Messenger User Account.xml</file>
-        <file>readyPlugins/MSN Messenger.xml</file>
-        <file>readyPlugins/MSN Toolbar.xml</file>
-        <file>readyPlugins/MusicMatch Jukebox.xml</file>
-        <file>readyPlugins/MyWay Advertising.xml</file>
-        <file>readyPlugins/Napster.xml</file>
-        <file>readyPlugins/Naviscope.xml</file>
-        <file>readyPlugins/Net Vampire 3.x.xml</file>
-        <file>readyPlugins/NetAnts.xml</file>
-        <file>readyPlugins/NetCaptor.xml</file>
-        <file>readyPlugins/NetLimiter.xml</file>
-        <file>readyPlugins/Netsonic.xml</file>
-        <file>readyPlugins/Netzip Download Demon.xml</file>
-        <file>readyPlugins/NewsBin Pro 4.xml</file>
-        <file>readyPlugins/Nokia PC Suite 6.xml</file>
-        <file>readyPlugins/Norton Anti-Virus 2000.xml</file>
-        <file>readyPlugins/Norton Anti-Virus 2003.xml</file>
-        <file>readyPlugins/Norton Commander.xml</file>
-        <file>readyPlugins/Norton File Manager.xml</file>
-        <file>readyPlugins/Norton Firewall.xml</file>
-        <file>readyPlugins/Norton Internet Security.xml</file>
-        <file>readyPlugins/Notepad2.xml</file>
-        <file>readyPlugins/NotePad Plus.xml</file>
-        <file>readyPlugins/O&amp;O Defrag Reports.xml</file>
-        <file>readyPlugins/OmniPage 10.0.xml</file>
-        <file>readyPlugins/Outlook Express 5, 6.xml</file>
-        <file>readyPlugins/Paint Shop Pro 5.0.xml</file>
-        <file>readyPlugins/Paint Shop Pro 7.0.xml</file>
-        <file>readyPlugins/Paint.NET.xml</file>
-        <file>readyPlugins/PasswordSafe.xml</file>
-        <file>readyPlugins/PE Explorer 1.95.xml</file>
-        <file>readyPlugins/Personal Ancestral File.xml</file>
-        <file>readyPlugins/PhotoCanvas 2.0.xml</file>
-        <file>readyPlugins/Photodex Compupic Pro.xml</file>
-        <file>readyPlugins/PhotoDraw 2000.xml</file>
-        <file>readyPlugins/PhotoImpact Viewer 4.0.xml</file>
-        <file>readyPlugins/PhotoImpact.xml</file>
-        <file>readyPlugins/PicoZip.xml</file>
-        <file>readyPlugins/PictureIt Digital Image Pro 7.0.xml</file>
-        <file>readyPlugins/PKZip for Windows.xml</file>
-        <file>readyPlugins/PolyView.xml</file>
-        <file>readyPlugins/Popup Purger.xml</file>
-        <file>readyPlugins/PopUpCop.xml</file>
-        <file>readyPlugins/PowerArc.xml</file>
-        <file>readyPlugins/PowerDesk 5.xml</file>
-        <file>readyPlugins/PowerDVD.xml</file>
-        <file>readyPlugins/PowerZip 6.0.xml</file>
-        <file>readyPlugins/Privacy Eraser Pro_Plugin Builder.xml</file>
-        <file>readyPlugins/QuickTime Player.xml</file>
-        <file>readyPlugins/RealNetworks Real Download.xml</file>
-        <file>readyPlugins/RealOne &amp; RealPlayer.xml</file>
-        <file>readyPlugins/RegEdit.xml</file>
-        <file>readyPlugins/Roxio Easy CD Creator.xml</file>
-        <file>readyPlugins/Safari.xml</file>
-        <file>readyPlugins/Save Now.xml</file>
-        <file>readyPlugins/Scour Exchange.xml</file>
-        <file>readyPlugins/SearchWolf.xml</file>
-        <file>readyPlugins/Shareaza.xml</file>
-        <file>readyPlugins/Skype.xml</file>
-        <file>readyPlugins/Smart Explorer.xml</file>
-        <file>readyPlugins/SmartDraw 6.xml</file>
-        <file>readyPlugins/Solways Internet Search.xml</file>
-        <file>readyPlugins/Sonic Foundry's Acid 2.0.xml</file>
-        <file>readyPlugins/Sonique.xml</file>
-        <file>readyPlugins/Spinner Plus.xml</file>
-        <file>readyPlugins/Star Downloader.xml</file>
-        <file>readyPlugins/StarOffice.xml</file>
-        <file>readyPlugins/SubmitWolf.xml</file>
-        <file>readyPlugins/SunJavaCache.xml</file>
-        <file>readyPlugins/SureThing CD Labeler.xml</file>
-        <file>readyPlugins/SWiSH 2.0.xml</file>
-        <file>readyPlugins/Teleport Pro.xml</file>
-        <file>readyPlugins/TextPad 4.x.xml</file>
-        <file>readyPlugins/ThumbsPlus 4.0.xml</file>
-        <file>readyPlugins/Tribal Voice's PowWow.xml</file>
-        <file>readyPlugins/Trillian.xml</file>
-        <file>readyPlugins/Trustfiles.xml</file>
-        <file>readyPlugins/TSW-WebCoder5.xml</file>
-        <file>readyPlugins/Ulead GIF Animator.xml</file>
-        <file>readyPlugins/Ulead Photo Express.xml</file>
-        <file>readyPlugins/Ultimate Paint.xml</file>
-        <file>readyPlugins/UltraEdit.xml</file>
-        <file>readyPlugins/UltraISO.xml</file>
-        <file>readyPlugins/uTorrent.xml</file>
-        <file>readyPlugins/Visual Basic 6.0.xml</file>
-        <file>readyPlugins/VLC Media Player.xml</file>
-        <file>readyPlugins/Vueprint.xml</file>
-        <file>readyPlugins/WebFerret.xml</file>
-        <file>readyPlugins/Wildstylz.xml</file>
-        <file>readyPlugins/WinAce 2.0.xml</file>
-        <file>readyPlugins/Winamp.xml</file>
-        <file>readyPlugins/Windows App Log Directory.xml</file>
-        <file>readyPlugins/Windows Commander.xml</file>
-        <file>readyPlugins/Windows Error Report Log.xml</file>
-        <file>readyPlugins/Windows FTP Accounts.xml</file>
-        <file>readyPlugins/Windows Live Messenger.xml</file>
-        <file>readyPlugins/Windows Live Toolbar.xml</file>
-        <file>readyPlugins/Windows Log Files.xml</file>
-        <file>readyPlugins/Windows Mapped Drives.xml</file>
-        <file>readyPlugins/Windows MUICache.xml</file>
-        <file>readyPlugins/Windows Recent Network Drive List.xml</file>
-        <file>readyPlugins/Windows Regedit Recent Key.xml</file>
-        <file>readyPlugins/Windows XP Prefetch Files.xml</file>
-        <file>readyPlugins/Windows XP Recent Run Programs.xml</file>
-        <file>readyPlugins/Windows XP Unread Mail Count.xml</file>
-        <file>readyPlugins/WinRAR.xml</file>
-        <file>readyPlugins/WinZip.xml</file>
-        <file>readyPlugins/Xara 3D 4.0.xml</file>
-        <file>readyPlugins/Xing MP3 Player.xml</file>
-        <file>readyPlugins/Xolox.xml</file>
-        <file>readyPlugins/Yahoo! Messenger Profiles.xml</file>
-        <file>readyPlugins/Yahoo! Messenger.xml</file>
-        <file>readyPlugins/Yahoo! Player.xml</file>
-        <file>readyPlugins/Yahoo! Toolbar.xml</file>
-        <file>readyPlugins/Yamaha S-YXG100.xml</file>
-        <file>readyPlugins/ZipMagic.xml</file>
-        <file>readyPlugins/Zone Alarm.xml</file>
-        <file>cpcIcon.ico</file>
-        <file>images/New_Image.PNG</file>
+        <file>Plugins/SkypePlugins.xml</file>
+        <file>Plugins/WindowsLivePlugins.xml</file>
+        <file>Plugins/ChromePlugins.xml</file>
+        <file>Plugins/FirefoxPlugins.xml</file>
+        <file>Plugins/WindowsPlugins.xml</file>
+        <file>Plugins/IEPlugins.xml</file>
+        <file>Plugins/7-Zip Compression.xml</file>
+        <file>Plugins/AbsoluteFTP.xml</file>
+        <file>Plugins/ACDSee.xml</file>
+        <file>Plugins/Ace Utilities.xml</file>
+        <file>Plugins/Acoustica CD Label Maker.xml</file>
+        <file>Plugins/Acrobat Reader 5.xml</file>
+        <file>Plugins/Acrobat Reader 6.xml</file>
+        <file>Plugins/Acrobat Reader 7.xml</file>
+        <file>Plugins/Acrobat Reader 8.xml</file>
+        <file>Plugins/Acrobat Reader 9.xml</file>
+        <file>Plugins/Acrobat Reader 10.xml</file>
+        <file>Plugins/Adaptec Easy CD Creator.xml</file>
+        <file>Plugins/Adaptec's Audio CD.xml</file>
+        <file>Plugins/Ad-aware SE.xml</file>
+        <file>Plugins/AddSoft Log Files.xml</file>
+        <file>Plugins/AddWeb 3.0.xml</file>
+        <file>Plugins/Adobe Flash Player.xml</file>
+        <file>Plugins/Adobe Illustrator.xml</file>
+        <file>Plugins/Adobe ImageReady.xml</file>
+        <file>Plugins/Adobe Photoshop 6.0.xml</file>
+        <file>Plugins/Adobe Photoshop 7.0.xml</file>
+        <file>Plugins/Adobe Photoshop CS.xml</file>
+        <file>Plugins/Advanced Browser.xml</file>
+        <file>Plugins/Advanced Disk Catalog.xml</file>
+        <file>Plugins/Advanced MP3 Catalog.xml</file>
+        <file>Plugins/Agent NewsReader.xml</file>
+        <file>Plugins/Agnitum Outpost Pro.xml</file>
+        <file>Plugins/AIM Login Names.xml</file>
+        <file>Plugins/Alcohol MRU.xml</file>
+        <file>Plugins/AOL Bart.xml</file>
+        <file>Plugins/AOL Instant Messenger.xml</file>
+        <file>Plugins/AOL Spool.xml</file>
+        <file>Plugins/Ashampoo.xml</file>
+        <file>Plugins/AudioCatalyst.xml</file>
+        <file>Plugins/AudioGrabber.xml</file>
+        <file>Plugins/AutoPlay Media Studio 6.0.xml</file>
+        <file>Plugins/AutoPlay Media Studio Button Maker.xml</file>
+        <file>Plugins/Avant Browser.xml</file>
+        <file>Plugins/Axialis Icon Workshop 5.x.xml</file>
+        <file>Plugins/Axialis Media Browser.xml</file>
+        <file>Plugins/AX-Icons 4.x.xml</file>
+        <file>Plugins/Babylon Builder 2.2.xml</file>
+        <file>Plugins/Babylon.xml</file>
+        <file>Plugins/BearShare.xml</file>
+        <file>Plugins/BlazeDVD 2.0.xml</file>
+        <file>Plugins/BookReader.xml</file>
+        <file>Plugins/Borland Delphi v7.xml</file>
+        <file>Plugins/Cabinet Manager.xml</file>
+        <file>Plugins/Chameleon Web Browser.xml</file>
+        <file>Plugins/Classify 98.xml</file>
+        <file>Plugins/CoffeeCup DirectFTP.xml</file>
+        <file>Plugins/CoffeeCup GIF Animator.xml</file>
+        <file>Plugins/Cool Edit 2000 1.1.xml</file>
+        <file>Plugins/Cool Edit Pro.xml</file>
+        <file>Plugins/Copernic 2001 Basic.xml</file>
+        <file>Plugins/Copernic 2001 Plus.xml</file>
+        <file>Plugins/Copernic 2001 Pro.xml</file>
+        <file>Plugins/CRT 2.x.xml</file>
+        <file>Plugins/Cute MX.xml</file>
+        <file>Plugins/CuteFTP.xml</file>
+        <file>Plugins/CuteHTML.xml</file>
+        <file>Plugins/Disk Explorer Professional 3.xml</file>
+        <file>Plugins/Diskeeper 5.0.xml</file>
+        <file>Plugins/DivX Player.xml</file>
+        <file>Plugins/Download Accelerator.xml</file>
+        <file>Plugins/Ebay Toolbar.xml</file>
+        <file>Plugins/EditPad.xml</file>
+        <file>Plugins/EditPlus 2.xml</file>
+        <file>Plugins/eMule.xml</file>
+        <file>Plugins/Enfish Onespace.xml</file>
+        <file>Plugins/Enigma Browser.xml</file>
+        <file>Plugins/Eudora Mail.xml</file>
+        <file>Plugins/FlashGet.xml</file>
+        <file>Plugins/Fotostation 4.0.xml</file>
+        <file>Plugins/Free Download Manager.xml</file>
+        <file>Plugins/FTP Explorer.xml</file>
+        <file>Plugins/FTP Voyager.xml</file>
+        <file>Plugins/Fun CD.xml</file>
+        <file>Plugins/Gator.xml</file>
+        <file>Plugins/GetRight.xml</file>
+        <file>Plugins/Go!Zilla.xml</file>
+        <file>Plugins/GoldWave Digital Audio Editor.xml</file>
+        <file>Plugins/Google Deskbar.xml</file>
+        <file>Plugins/Google Desktop Search History.xml</file>
+        <file>Plugins/Google Talk.xml</file>
+        <file>Plugins/Google Toolbar.xml</file>
+        <file>Plugins/Google Video Player.xml</file>
+        <file>Plugins/Graphic Workshop Pro.xml</file>
+        <file>Plugins/Gravity Newsreader.xml</file>
+        <file>Plugins/Helios TextPad.xml</file>
+        <file>Plugins/Homesite 4.0.xml</file>
+        <file>Plugins/Hotbar 3.0.xml</file>
+        <file>Plugins/HotJava Browser.xml</file>
+        <file>Plugins/HTML-Kit.xml</file>
+        <file>Plugins/ICQ 5.xml</file>
+        <file>Plugins/ICQ 2002a.xml</file>
+        <file>Plugins/ICQ 2003a.xml</file>
+        <file>Plugins/iMesh.xml</file>
+        <file>Plugins/Inoculatelt PE Virus Scan.xml</file>
+        <file>Plugins/InterQuick.xml</file>
+        <file>Plugins/Irfanview 32.xml</file>
+        <file>Plugins/Jasc Animation Shop 3.xml</file>
+        <file>Plugins/JASC Paint Shop Pro.xml</file>
+        <file>Plugins/Jet Photo Shell.xml</file>
+        <file>Plugins/Juno.xml</file>
+        <file>Plugins/KaZaA Media Desktop.xml</file>
+        <file>Plugins/KillBox.xml</file>
+        <file>Plugins/K-Lite Codec Pack.xml</file>
+        <file>Plugins/Kodak Imaging for Windows.xml</file>
+        <file>Plugins/LeapFTP 2.6.xml</file>
+        <file>Plugins/Letterbox.xml</file>
+        <file>Plugins/LingoMail 1.x.xml</file>
+        <file>Plugins/LView Pro 2.x.xml</file>
+        <file>Plugins/Macromedia Dreamweaver MX.xml</file>
+        <file>Plugins/Macromedia Firework MX.xml</file>
+        <file>Plugins/Macromedia Flash MX.xml</file>
+        <file>Plugins/Magic ISO Maker 4.6.xml</file>
+        <file>Plugins/Mass Download.xml</file>
+        <file>Plugins/MasterSplitter.xml</file>
+        <file>Plugins/McAfee Virus Scan.xml</file>
+        <file>Plugins/MEDA MP3 Splitter.xml</file>
+        <file>Plugins/Media Player Classic.xml</file>
+        <file>Plugins/Metapad.xml</file>
+        <file>Plugins/MicroAngelo.xml</file>
+        <file>Plugins/Micrografx Picture Publisher 8.xml</file>
+        <file>Plugins/Microsoft AntiSpyware.xml</file>
+        <file>Plugins/Microsoft HTML Help.xml</file>
+        <file>Plugins/Microsoft Imaging.xml</file>
+        <file>Plugins/Microsoft Netmeeting.xml</file>
+        <file>Plugins/Microsoft Office 97.xml</file>
+        <file>Plugins/Microsoft Office 2000.xml</file>
+        <file>Plugins/Microsoft Office 2003.xml</file>
+        <file>Plugins/Microsoft Office 2007.xml</file>
+        <file>Plugins/Microsoft Office 2010.xml</file>
+        <file>Plugins/Microsoft Office InfoPath 2003.xml</file>
+        <file>Plugins/Microsoft Office XP.xml</file>
+        <file>Plugins/Microsoft Photo Editor 3.0.xml</file>
+        <file>Plugins/Microsoft Publisher 2000.xml</file>
+        <file>Plugins/Microsoft Visual C++ 6.0.xml</file>
+        <file>Plugins/Microsoft Word 2000.xml</file>
+        <file>Plugins/Microsoft Word Backup Files.xml</file>
+        <file>Plugins/Microsoft Works 4.0.xml</file>
+        <file>Plugins/Mijenix Powerdesk 4.0.xml</file>
+        <file>Plugins/Miranda ICQ.xml</file>
+        <file>Plugins/MIRC.xml</file>
+        <file>Plugins/Morpheus.xml</file>
+        <file>Plugins/Mozart 4.0.xml</file>
+        <file>Plugins/MSN Messenger User Account.xml</file>
+        <file>Plugins/MSN Messenger.xml</file>
+        <file>Plugins/MSN Toolbar.xml</file>
+        <file>Plugins/MusicMatch Jukebox.xml</file>
+        <file>Plugins/MyWay Advertising.xml</file>
+        <file>Plugins/Napster.xml</file>
+        <file>Plugins/Naviscope.xml</file>
+        <file>Plugins/Net Vampire 3.x.xml</file>
+        <file>Plugins/NetAnts.xml</file>
+        <file>Plugins/NetCaptor.xml</file>
+        <file>Plugins/NetLimiter.xml</file>
+        <file>Plugins/Netsonic.xml</file>
+        <file>Plugins/Netzip Download Demon.xml</file>
+        <file>Plugins/NewsBin Pro 4.xml</file>
+        <file>Plugins/Nokia PC Suite 6.xml</file>
+        <file>Plugins/Norton Anti-Virus 2000.xml</file>
+        <file>Plugins/Norton Anti-Virus 2003.xml</file>
+        <file>Plugins/Norton Commander.xml</file>
+        <file>Plugins/Norton File Manager.xml</file>
+        <file>Plugins/Norton Firewall.xml</file>
+        <file>Plugins/Norton Internet Security.xml</file>
+        <file>Plugins/Notepad2.xml</file>
+        <file>Plugins/NotePad Plus.xml</file>
+        <file>Plugins/O&amp;O Defrag Reports.xml</file>
+        <file>Plugins/OmniPage 10.0.xml</file>
+        <file>Plugins/Outlook Express 5, 6.xml</file>
+        <file>Plugins/Paint Shop Pro 5.0.xml</file>
+        <file>Plugins/Paint Shop Pro 7.0.xml</file>
+        <file>Plugins/Paint.NET.xml</file>
+        <file>Plugins/PasswordSafe.xml</file>
+        <file>Plugins/PE Explorer 1.95.xml</file>
+        <file>Plugins/Personal Ancestral File.xml</file>
+        <file>Plugins/PhotoCanvas 2.0.xml</file>
+        <file>Plugins/Photodex Compupic Pro.xml</file>
+        <file>Plugins/PhotoDraw 2000.xml</file>
+        <file>Plugins/PhotoImpact Viewer 4.0.xml</file>
+        <file>Plugins/PhotoImpact.xml</file>
+        <file>Plugins/PicoZip.xml</file>
+        <file>Plugins/PictureIt Digital Image Pro 7.0.xml</file>
+        <file>Plugins/PKZip for Windows.xml</file>
+        <file>Plugins/PolyView.xml</file>
+        <file>Plugins/Popup Purger.xml</file>
+        <file>Plugins/PopUpCop.xml</file>
+        <file>Plugins/PowerArc.xml</file>
+        <file>Plugins/PowerDesk 5.xml</file>
+        <file>Plugins/PowerDVD.xml</file>
+        <file>Plugins/PowerZip 6.0.xml</file>
+        <file>Plugins/Privacy Eraser Pro_Plugin Builder.xml</file>
+        <file>Plugins/QuickTime Player.xml</file>
+        <file>Plugins/RealNetworks Real Download.xml</file>
+        <file>Plugins/RealOne &amp; RealPlayer.xml</file>
+        <file>Plugins/RegEdit.xml</file>
+        <file>Plugins/Roxio Easy CD Creator.xml</file>
+        <file>Plugins/Safari.xml</file>
+        <file>Plugins/Save Now.xml</file>
+        <file>Plugins/Scour Exchange.xml</file>
+        <file>Plugins/SearchWolf.xml</file>
+        <file>Plugins/Shareaza.xml</file>
+        <file>Plugins/Skype.xml</file>
+        <file>Plugins/Smart Explorer.xml</file>
+        <file>Plugins/SmartDraw 6.xml</file>
+        <file>Plugins/Solways Internet Search.xml</file>
+        <file>Plugins/Sonic Foundry's Acid 2.0.xml</file>
+        <file>Plugins/Sonique.xml</file>
+        <file>Plugins/Spinner Plus.xml</file>
+        <file>Plugins/Star Downloader.xml</file>
+        <file>Plugins/StarOffice.xml</file>
+        <file>Plugins/SubmitWolf.xml</file>
+        <file>Plugins/SunJavaCache.xml</file>
+        <file>Plugins/SureThing CD Labeler.xml</file>
+        <file>Plugins/SWiSH 2.0.xml</file>
+        <file>Plugins/Teleport Pro.xml</file>
+        <file>Plugins/TextPad 4.x.xml</file>
+        <file>Plugins/ThumbsPlus 4.0.xml</file>
+        <file>Plugins/Tribal Voice's PowWow.xml</file>
+        <file>Plugins/Trillian.xml</file>
+        <file>Plugins/Trustfiles.xml</file>
+        <file>Plugins/TSW-WebCoder5.xml</file>
+        <file>Plugins/Ulead GIF Animator.xml</file>
+        <file>Plugins/Ulead Photo Express.xml</file>
+        <file>Plugins/Ultimate Paint.xml</file>
+        <file>Plugins/UltraEdit.xml</file>
+        <file>Plugins/UltraISO.xml</file>
+        <file>Plugins/uTorrent.xml</file>
+        <file>Plugins/Visual Basic 6.0.xml</file>
+        <file>Plugins/VLC Media Player.xml</file>
+        <file>Plugins/Vueprint.xml</file>
+        <file>Plugins/WebFerret.xml</file>
+        <file>Plugins/Wildstylz.xml</file>
+        <file>Plugins/WinAce 2.0.xml</file>
+        <file>Plugins/Winamp.xml</file>
+        <file>Plugins/Windows App Log Directory.xml</file>
+        <file>Plugins/Windows Commander.xml</file>
+        <file>Plugins/Windows Error Report Log.xml</file>
+        <file>Plugins/Windows FTP Accounts.xml</file>
+        <file>Plugins/Windows Live Messenger.xml</file>
+        <file>Plugins/Windows Live Toolbar.xml</file>
+        <file>Plugins/Windows Log Files.xml</file>
+        <file>Plugins/Windows Mapped Drives.xml</file>
+        <file>Plugins/Windows MUICache.xml</file>
+        <file>Plugins/Windows Recent Network Drive List.xml</file>
+        <file>Plugins/Windows Regedit Recent Key.xml</file>
+        <file>Plugins/Windows XP Prefetch Files.xml</file>
+        <file>Plugins/Windows XP Recent Run Programs.xml</file>
+        <file>Plugins/Windows XP Unread Mail Count.xml</file>
+        <file>Plugins/WinRAR.xml</file>
+        <file>Plugins/WinZip.xml</file>
+        <file>Plugins/Xara 3D 4.0.xml</file>
+        <file>Plugins/Xing MP3 Player.xml</file>
+        <file>Plugins/Xolox.xml</file>
+        <file>Plugins/Yahoo! Messenger Profiles.xml</file>
+        <file>Plugins/Yahoo! Messenger.xml</file>
+        <file>Plugins/Yahoo! Player.xml</file>
+        <file>Plugins/Yahoo! Toolbar.xml</file>
+        <file>Plugins/Yamaha S-YXG100.xml</file>
+        <file>Plugins/ZipMagic.xml</file>
+        <file>Plugins/Zone Alarm.xml</file>
         <file>icons/Chat and Instant Messaging History.PNG</file>
         <file>icons/Desktop Search History.PNG</file>
         <file>icons/Download and Upload History.PNG</file>
@@ -311,6 +308,55 @@
         <file>docs/htmlReport.html</file>
         <file>translations/ar_sa.qm</file>
         <file>translations/en_us.qm</file>
-        <file>icons/cpcTray.png</file>
+        <file>images/icons/about/aboutblack-ar.png</file>
+        <file>images/icons/about/aboutblack-en.png</file>
+        <file>images/icons/about/aboutclose-ar.png</file>
+        <file>images/icons/about/aboutclose-en.png</file>
+        <file>images/icons/about/aboutdark-en.png</file>
+        <file>images/icons/about/aboutwhite-ar.png</file>
+        <file>images/icons/about/aboutwhite-en.png</file>
+        <file>images/icons/options/optionsblack-ar.png</file>
+        <file>images/icons/options/optionsblack-en.png</file>
+        <file>images/icons/options/optionsclose_ar.png</file>
+        <file>images/icons/options/optionsclose-en.png</file>
+        <file>images/icons/options/optionsdark-ar.png</file>
+        <file>images/icons/options/optionsdark-en.png</file>
+        <file>images/icons/options/optionswhite-ar.png</file>
+        <file>images/icons/options/optionswhite-en.png</file>
+        <file>images/icons/scan/scanblack-ar.png</file>
+        <file>images/icons/scan/scanblack-en.png</file>
+        <file>images/icons/scan/scanclose-ar.png</file>
+        <file>images/icons/scan/scanclose-en.png</file>
+        <file>images/icons/scan/scandark-ar.png</file>
+        <file>images/icons/scan/scandark-en.png</file>
+        <file>images/icons/scan/scanwhite-ar.png</file>
+        <file>images/icons/scan/scanwhite-en.png</file>
+        <file>images/icons/schedule/scheduleblack-ar.png</file>
+        <file>images/icons/schedule/scheduleblack-en.png</file>
+        <file>images/icons/schedule/scheduleclose-ar.png</file>
+        <file>images/icons/schedule/scheduleclose-en.png</file>
+        <file>images/icons/schedule/scheduledark-ar.png</file>
+        <file>images/icons/schedule/scheduledark-en.png</file>
+        <file>images/icons/schedule/schedulewhite-ar.png</file>
+        <file>images/icons/schedule/schedulewhite-en.png</file>
+        <file>images/icons/shred/shredblack-ar.png</file>
+        <file>images/icons/shred/shredblack-en.png</file>
+        <file>images/icons/shred/shredclose-ar.png</file>
+        <file>images/icons/shred/shredclose-en.png</file>
+        <file>images/icons/shred/shreddark-ar.png</file>
+        <file>images/icons/shred/shreddark-en.png</file>
+        <file>images/icons/shred/shredwhite-ar.png</file>
+        <file>images/icons/shred/shredwhite-en.png</file>
+        <file>images/icons/start/startblack-ar.png</file>
+        <file>images/icons/start/startblack-en.png</file>
+        <file>images/icons/start/startdark-ar.png</file>
+        <file>images/icons/start/startdark-en.png</file>
+        <file>images/icons/start/startwhite-ar.png</file>
+        <file>images/icons/start/startwhite-en.png</file>
+        <file>images/icons/about/aboutdark-ar.png</file>
+        <file>images/cpc_background.PNG</file>
+        <file>images/cpcIcon.ico</file>
+        <file>config/ArabicGUI.qss</file>
+        <file>config/EnglishGUI.qss</file>
     </qresource>
 </RCC>

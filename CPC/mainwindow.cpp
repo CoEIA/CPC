@@ -162,7 +162,7 @@ void  MainWindow::createTrayIcon()
     trayIconMenu->addAction(quitAction);
 
     trayIcon = new QSystemTrayIcon(this);
-    QIcon icon(":/cpcIcon.ico");
+    QIcon icon(":/images/cpcIcon.ico");
     trayIcon->setIcon(icon);
     trayIcon->setContextMenu(trayIconMenu);
 
@@ -252,9 +252,9 @@ void MainWindow::setupWindow() {
 
     this->setGeometry(windowRect);
     this->setMinimumSize(80, 60);
-    this->setWindowIcon(QIcon(":/cpcIcon.ico"));
+    this->setWindowIcon(QIcon(":/images/cpcIcon.ico"));
     this->setFixedSize(this->size().width(), this->size().height());
-    this->setStyleSheet("MainWindow {background-image: url(:/images/New_Image.PNG);}");
+    this->setStyleSheet("MainWindow {background-image: url(:/images/cpc_background.PNG);}");
 }
 
 MainWindow::~MainWindow()
@@ -388,6 +388,7 @@ void MainWindow:: createDockWidget () {
     scanButton->setToolTip("Strart Scanning");
     scanButton->setStatusTip("Start Scanning");
     connect(scanButton, SIGNAL(clicked()), signalMapper, SLOT(map()));
+
     signalMapper->setMapping(scanButton, Start);
 
     QPushButton *optionsButton = new QPushButton(this);
@@ -435,7 +436,7 @@ void MainWindow:: createDockWidget () {
 
 void MainWindow::createStatusBar() {
     this->statusBar()->showMessage("");
-    this->statusBar()->addPermanentWidget(new QLabel("CoEIA - Privacy Controls - مركز التميز لأمن المعلومات"));
+    this->statusBar()->addPermanentWidget(new QLabel(tr("CoEIA - Privacy Controls")));
     this->statusBar()->addPermanentWidget(versionLabel);
 
     helpLabel = new QLabel(this);
@@ -496,7 +497,15 @@ void MainWindow::setCurrentWindow(int id){
 
 void MainWindow::setLanguage(QAction* action) {
     Application::setLanguage(action->data().toString());
-    qApp->setLayoutDirection(QObject::tr("LTR")=="RTL" ? Qt::RightToLeft : Qt::LeftToRight);
+    qApp->setLayoutDirection(QObject::tr("LTR")== "RTL" ? Qt::RightToLeft : Qt::LeftToRight);
+
+    // change appliation style depend on the language
+    if ( action->data().toString() == "ar_SA" ) {
+        Utilities::loadArabicStyle();
+    }
+    else {
+        Utilities::loadEnglishStyle();
+    }
 }
 
 void MainWindow:: retranslate () {
