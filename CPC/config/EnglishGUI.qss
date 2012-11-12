@@ -13,6 +13,11 @@
     background-color: transparent;
 }
 
+#0_toolButton:disabled {
+    background-image: url(:/images/icons/scan/scanclose-en.png);
+    background-color: transparent;
+}
+
 #1_toolButton:hover {
     background-image: url(:/images/icons/options/optionsblack-en.png);
     background-color: transparent;
@@ -25,6 +30,11 @@
 
 #1_toolButton:pressed, #1_toolButton:checked  {
     background-image: url(:/images/icons/options/optionsdark-en.png);
+    background-color: transparent;
+}
+
+#1_toolButton:disabled {
+    background-image: url(:/images/icons/options/optionsclose-en.png);
     background-color: transparent;
 }
 
@@ -43,6 +53,11 @@
     background-color: transparent;
 }
 
+#2_toolButton:disabled {
+    background-image: url(:/images/icons/schedule/scheduleclose-en.png);
+    background-color: transparent;
+}
+
 #3_toolButton:hover{
     background-image: url(:/images/icons/shred/shredblack-en.png);
     background-color: transparent;
@@ -58,6 +73,11 @@
     background-color: transparent;
 }
 
+#3_toolButton:disabled  {
+    background-image: url(:/images/icons/shred/shredclose-en.png);
+    background-color: transparent;
+}
+
 #4_toolButton:hover {
     background-image: url(:/images/icons/about/aboutblack-en.png);
 }
@@ -69,6 +89,11 @@
 
 #4_toolButton:pressed, #4_toolButton:checked  {
     background-image: url(:/images/icons/about/aboutdark-en.png);
+    background-color: transparent;
+}
+
+#4_toolButton:disabled  {
+    background-image: url(:/images/icons/about/aboutclose-en.png);
     background-color: transparent;
 }
 

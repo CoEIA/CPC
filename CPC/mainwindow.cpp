@@ -19,10 +19,9 @@ MainWindow::MainWindow(bool scan, QWidget *parent)
    // set windows size, title and icon image
    setupWindow();
 
-
    versionLabel = new QLabel(this);
 
-   plugins = Utilities::readAllPlugins(":/readyPlugins");
+   plugins = Utilities::readAllPlugins(":/Plugins");
    qDebug() << "Number of Plugins : " << plugins.size();
 
    createActions();
