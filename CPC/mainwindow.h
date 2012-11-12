@@ -45,7 +45,9 @@ private slots:
     void finishUpdateSlot(bool);
     void errorUpdateSlot();
     void setLanguage(QAction* action) ;
-    void aboutTraySlot();
+
+    void aboutTraySlot();//Tray Slot added
+    void iconActivated(QSystemTrayIcon::ActivationReason reason);
 
 private:
     QStackedWidget *stackedWidget;

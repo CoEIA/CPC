@@ -17,6 +17,9 @@ public:
     
 private:
     Ui::aboutdialog *ui;
+
+private slots:
+    void abouthideSlot();
 };
 
 #endif // ABOUTDIALOG_H

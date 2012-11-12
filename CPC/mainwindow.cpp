@@ -70,6 +70,10 @@ MainWindow::MainWindow(bool scan, QWidget *parent)
    connect(&thread, SIGNAL(finishUpdateSignal(bool)), this, SLOT(finishUpdateSlot(bool)));
    connect(&thread, SIGNAL(errorUpdateSignal()), this, SLOT(errorUpdateSlot()));
 
+   //Arif code added
+   connect(trayIcon, SIGNAL(activated(QSystemTrayIcon::ActivationReason)),
+                this, SLOT(iconActivated(QSystemTrayIcon::ActivationReason)));
+
    // lunch schedule if its not work
    SettingsHandler::writeApplicationInfo();
    Utilities::addScheduleInStartup();
@@ -168,6 +172,21 @@ void MainWindow::aboutTraySlot()
 {
     aboutdialog *dialog = new aboutdialog(this);
     dialog->exec();
+}
+
+void MainWindow::iconActivated(QSystemTrayIcon::ActivationReason reason)
+{
+    switch (reason) {
+         case QSystemTrayIcon::Trigger:
+         case QSystemTrayIcon::DoubleClick:
+
+             break;
+         case QSystemTrayIcon::MiddleClick:
+
+             break;
+         default:
+             ;
+         }
 }
 
 void MainWindow::errorUpdateSlot() {
