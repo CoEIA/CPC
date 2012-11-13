@@ -1,0 +1,66 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>Windows Media Player 6.x - 12.x</Plugin-Name>
+<Plugin-Category>Multimedia History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+<Item>
+<Name>Media Player Recent URL List</Name> 
+<Objects>
+<Object>
+<Type>Key</Type>
+<Command>DeleteAllBellow</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\MediaPlayer\Player\RecentURLList</Location>
+<Patterns>
+	<Pattern>*.*</Pattern>
+</Patterns>	
+</OS>
+</Path>
+</Object>
+</Objects> 
+</Item> 
+
+<Item>
+<Name>Media Player Recent File List</Name> 
+<Objects>
+<Object>
+<Type>Key</Type>
+<Command>DeleteAllBellow</Command>
+<Path>
+<OS name="ALL">
+<Location>HKEY_CURRENT_USER\Software\Microsoft\MediaPlayer\Player\RecentFileList</Location>
+<Patterns>
+	<Pattern>*.*</Pattern>
+</Patterns>	
+</OS>
+</Path>
+</Object>
+</Objects> 
+</Item> 
+
+<Item>
+	<Name>Media Player History</Name>
+	<Objects>
+		<Object>
+			<Type>Folder</Type>
+			<Command>DeleteAllBellow</Command>
+			
+			<Path>
+				<OS name="SEVEN">
+					<Location>%LOCALAPPDATA%\Microsoft\Media Player</Location>
+					<Patterns>
+						<Pattern>*.*</Pattern>
+					</Patterns>	
+				</OS>
+			</Path>
+		</Object>
+	</Objects>
+</Item>
+
+</Items> 
+</Data> 
+</CoEIA-Plugins>

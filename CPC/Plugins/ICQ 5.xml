@@ -7,7 +7,7 @@
 <Data>
 <Items>
 <Item>
-<Name>ICQ 5 History Files</Name> 
+<Name>ICQ History Files</Name> 
 <Objects>
 <Object>
 <Type>Key</Type>
@@ -48,6 +48,27 @@
 </Path>
 </Object>
 
+<Object>
+<Type>File</Type>
+<Command>FillAndDelete</Command>
+
+<Path>
+	<OS name="XP">
+		<Location>%USERPROFILE%\Application Data\Roaming\ICQ\%FILLPATH%</Location>
+		<Patterns>
+			<Pattern>*.QDB</Pattern>
+		</Patterns>
+	</OS>
+	
+	<OS name="SEVEN">
+		<Location>%USERPROFILE%\AppData\Roaming\Roaming\ICQ\%FILLPATH%</Location>
+		<Patterns>
+			<Pattern>*.QDB</Pattern>
+		</Patterns>
+	</OS>
+</Path>
+</Object>
+					
 </Objects> 
 </Item> 
 </Items> 
