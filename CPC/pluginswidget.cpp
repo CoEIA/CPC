@@ -14,7 +14,7 @@ PluginsWidget::PluginsWidget(const QMultiMap<QString, Plugins>& category, QWidge
     this->category = category;
     itemNumber = 0;
 
-    ui->treeView->setRootIsDecorated(false);
+    ui->treeView->setRootIsDecorated(true);
     ui->treeView->setModel(createTreeModel());
     ui->treeView->setColumnWidth(0, 350);
     ui->treeView->setHeaderHidden(true);
