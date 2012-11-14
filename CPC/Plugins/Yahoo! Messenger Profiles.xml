@@ -14,11 +14,26 @@
 <Command>DeleteAllBellow</Command>
 <Path>
 <OS name="ALL">
-<Location>%ProgramFiles%\Yahoo \Messenger\Profiles</Location>
+<Location>%ProgramFiles%\Yahoo!\Messenger\Profiles</Location>
 <Patterns>
 <Pattern>*.*</Pattern>
 </Patterns>
 </OS>
+
+<OS name="SEVEN">
+<Location>%USERPROFILE%\AppData\Local\VirtualStore\Program Files\Yahoo!\Messenger\Profiles</Location>
+<Patterns>
+<Pattern>*.*</Pattern>
+</Patterns>	
+</OS>
+
+<OS name="SEVEN">
+<Location>%USERPROFILE%\AppData\Local\VirtualStore\Program Files (x86)\Yahoo!\Messenger\Profiles</Location>
+<Patterns>
+<Pattern>*.*</Pattern>
+</Patterns>	
+</OS>
+
 </Path>
 </Object>
 

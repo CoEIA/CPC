@@ -288,6 +288,8 @@
         <file>Plugins/Yamaha S-YXG100.xml</file>
         <file>Plugins/ZipMagic.xml</file>
         <file>Plugins/Zone Alarm.xml</file>
+		<file>Plugins/Windows Media Player.xml</file>
+        <file>Plugins/Opera.xml</file>
         <file>icons/Chat and Instant Messaging History.PNG</file>
         <file>icons/Desktop Search History.PNG</file>
         <file>icons/Download and Upload History.PNG</file>

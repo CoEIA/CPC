@@ -1,0 +1,142 @@
+<CoEIA-Plugins>
+<Metadata>
+<Plugin-Name>Opera 9.x - 11.x</Plugin-Name>
+<Plugin-Category>Internet Browsing History</Plugin-Category>
+<Plugin-Version>1.0</Plugin-Version>
+</Metadata>
+<Data>
+<Items>
+
+<Item>
+<Name>Cache</Name> 
+<Objects>
+<Object>
+<Type>Folder</Type>
+<Command>DeleteAllBellow</Command>
+<Path>
+<OS name="ALL">
+<Location>%USERPROFILE%\AppData\Local\Opera\Opera\cache</Location>
+<Patterns>
+<Pattern>*.*</Pattern>
+</Patterns>
+</OS>
+</Path>
+</Object>
+</Objects> 
+</Item> 
+
+
+<Item>
+<Name>History of Visited Pages</Name> 
+<Objects>
+	<Object>
+		<Type>File</Type>
+		<Command>Delete</Command>
+		
+		<Path>
+			<OS name="ALL">
+				<Location>%USERPROFILE%\AppData\Roaming\Opera\Opera</Location>
+				<Patterns>
+					<Pattern>pagefile.sys</Pattern>
+					<Pattern>global_history.dat</Pattern>
+					<Pattern>autosave.*</Pattern>
+				</Patterns>								
+			</OS>
+		</Path>
+	</Object>
+	
+	<Object>
+	<Type>Folder</Type>
+	<Command>DeleteAllBellow</Command>
+	<Path>
+	<OS name="ALL">
+	<Location>%USERPROFILE%\AppData\Roaming\Opera\Opera\vps</Location>
+	<Patterns>
+	<Pattern>*.*</Pattern>
+	</Patterns>
+	</OS>
+	</Path>
+	</Object>	
+</Objects> 
+</Item> 
+
+<Item>
+<Name>History of typed-in addresses</Name> 
+<Objects>
+	<Object>
+		<Type>File</Type>
+		<Command>Delete</Command>
+		
+		<Path>
+			<OS name="ALL">
+				<Location>%USERPROFILE%\AppData\Roaming\Opera\Opera</Location>
+				<Patterns>
+					<Pattern>vlink4.dat</Pattern>
+					<Pattern>typed_history.xml</Pattern>
+				</Patterns>								
+			</OS>
+		</Path>
+	</Object>	
+</Objects> 
+</Item> 
+
+<Item>
+<Name>Cookies</Name> 
+<Objects>
+	<Object>
+		<Type>File</Type>
+		<Command>Delete</Command>
+		
+		<Path>
+			<OS name="ALL">
+				<Location>%USERPROFILE%\AppData\Roaming\Opera\Opera</Location>
+				<Patterns>
+					<Pattern>cookies4.dat</Pattern>
+				</Patterns>								
+			</OS>
+		</Path>
+	</Object>	
+</Objects> 
+</Item> 
+
+<Item>
+<Name>Histroy of files download</Name> 
+<Objects>
+	<Object>
+		<Type>File</Type>
+		<Command>Delete</Command>
+		
+		<Path>
+			<OS name="ALL">
+				<Location>%USERPROFILE%\AppData\Roaming\Opera\Opera</Location>
+				<Patterns>
+					<Pattern>download.dat</Pattern>
+				</Patterns>								
+			</OS>
+		</Path>
+	</Object>	
+</Objects> 
+</Item> 
+
+<Item>
+<Name>Website icons</Name> 
+<Objects>
+	<Object>
+	<Type>Folder</Type>
+	<Command>DeleteAllBellow</Command>
+		
+		<Path>
+			<OS name="ALL">
+				<Location>%USERPROFILE%\AppData\Local\Opera\Opera\icons</Location>
+				<Patterns>
+					<Pattern>*.*</Pattern>
+				</Patterns>								
+			</OS>
+		</Path>
+	</Object>	
+</Objects> 
+</Item> 
+
+</Items> 
+</Data> 
+</CoEIA-Plugins>
