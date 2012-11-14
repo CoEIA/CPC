@@ -69,8 +69,6 @@ MainWindow::MainWindow(bool scan, QWidget *parent)
    connect(&thread, SIGNAL(finishUpdateSignal(bool)), this, SLOT(finishUpdateSlot(bool)));
    connect(&thread, SIGNAL(errorUpdateSignal()), this, SLOT(errorUpdateSlot()));
 
-   //Arif code added
-   //connect(trayIcon, SIGNAL(trigger()),this, SLOT(hide()));
 
    connect(trayIcon, SIGNAL(activated(QSystemTrayIcon::ActivationReason)),
                 this, SLOT(iconActivated(QSystemTrayIcon::ActivationReason)));
@@ -140,9 +138,6 @@ void MainWindow::createActions()
 
     scanAction = new QAction(tr("Begin Scan"),this);
     connect(scanAction, SIGNAL(triggered()), this, SLOT(scanTraySlot()));
-
-    //maximizeAction = new QAction(tr("Ma&ximize"), this);
-    //connect(maximizeAction, SIGNAL(triggered()), this, SLOT(showMaximized()));
 
     restoreAction = new QAction(tr("Open CPC Application"), this);
     connect(restoreAction, SIGNAL(triggered()), this, SLOT(showNormal()));
