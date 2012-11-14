@@ -22,6 +22,6 @@ aboutdialog::~aboutdialog()
 void aboutdialog::abouthideSlot()
 {
      qDebug() << "in hide slot";
-     this->hide();
-     //setVisible(false);
+     showNormal();
+     this->setVisible(false);
 }
