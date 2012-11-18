@@ -227,9 +227,10 @@ QStatusBar::item{
 
 QToolTip {
     border: 2px solid darkkhaki;
-    padding: 5px;
+    height:auto;
     border-radius: 3px;
     opacity: 300;
+    direction:rtl;
 }
 
 QComboBox, QLineEdit, QSpinBox, QTextEdit, QListView,QProgressBar, QTreeView{
