@@ -60,6 +60,29 @@ ShredWidget::~ShredWidget()
     delete ui;
 }
 
+void ShredWidget::addFile(QString filePath) {
+    ui->shredListWidget->addItem(filePath);
+}
+
+void ShredWidget::setShredLevel(int level) {
+    switch ( level ) {
+    case 1:
+        this->ui->quickRadioButton->setChecked(true);
+        break;
+
+    case 2:
+        this->ui->safeRadioButton->setChecked(true);
+        break;
+
+    case 3:
+        this->ui->thoroughRadioButton->setChecked(true);
+        break;
+
+    default:
+        this->ui->quickRadioButton->setChecked(true);
+    }
+}
+
 void ShredWidget::addAdvancedFiles() {
     AdvancedShredDialog *dialog = new AdvancedShredDialog(this);
     dialog->setModal(true);
@@ -71,7 +94,7 @@ void ShredWidget::addAdvancedFiles() {
         foreach(QString fileName, fileNames) {
 
             if ( ! fileName.isEmpty() && !containInList(fileName, ui->shredListWidget) )
-                ui->shredListWidget->addItem(fileName);
+                addFile(fileName);
         }
     }
 }
@@ -81,7 +104,7 @@ void ShredWidget::addFiles(){
 
     foreach(QString fileName,  fileNames) {
         if ( ! fileName.isEmpty() && !containInList(fileName, ui->shredListWidget) )
-            ui->shredListWidget->addItem(fileName);
+            addFile(fileName);
     }
 }
 
@@ -113,7 +136,7 @@ void ShredWidget::addDeletedFiles(){
 
     foreach(QString file, files)
         if ( ! containInList(file, ui->shredListWidget))
-            ui->shredListWidget->addItem(file);
+            addFile(file);
 }
 
 QList<QString> ShredWidget:: showFillAllBellow (const QString& location){

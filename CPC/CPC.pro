@@ -36,7 +36,8 @@ SOURCES += main.cpp\
     htmlreport.cpp \
     enumeratethread.cpp \
     application.cpp \
-    aboutdialog.cpp
+    aboutdialog.cpp \
+    commandlineparser.cpp
 
 HEADERS  += mainwindow.h \
     optionswidget.h \
@@ -66,7 +67,8 @@ HEADERS  += mainwindow.h \
     htmlreport.h \
     enumeratethread.h \
     application.h \
-    aboutdialog.h
+    aboutdialog.h \
+    commandlineparser.h
 
 FORMS    += \
     optionswidget.ui \

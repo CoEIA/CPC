@@ -13,7 +13,7 @@
 // http://127.0.0.1/wajdy/info.php?serial=OTkwR-lVHQ0-w2NTg-3MTJ9
 // http://127.0.0.1/wajdy/save.php?serial=asdf&ip=20.23.123
 
-MainWindow::MainWindow(bool scan, QWidget *parent)
+MainWindow::MainWindow(CommandLineParser parser, QWidget *parent)
     : QMainWindow(parent)
 {
    // set windows size, title and icon image
@@ -94,16 +94,37 @@ MainWindow::MainWindow(bool scan, QWidget *parent)
        }
    }
 
-   if ( scan ) {
-       readSettings();
-       doAutoScan();
+   readSettings();
+
+   if ( parser.isValidParameter() ) {
+       if ( parser.isScanParameter() ) {
+           doAutoScan();
+       }
+       else if ( parser.isShredQuickParameter() ) {
+           QString path = parser.getPath();
+           setShredFile(path, 1);
+       }
+       else if ( parser.isShredSafeParameter() ) {
+            QString path = parser.getPath();
+            setShredFile(path, 2);
+       }
+       else if ( parser.isShredThroughParameter() ) {
+           QString path = parser.getPath();
+           setShredFile(path, 3);
+       }
+       else {
+           automaticCheckForUpdate();
+       }
    }
-   else {
-       readSettings();
+   else { // if wrong parameter , just show the application and ignore the parameters
        automaticCheckForUpdate();
    }
+}
 
-
+void MainWindow::setShredFile(QString path, int shredLevel) {
+    setCurrentWindow(Shred);
+    shredWidget->addFile(path);
+    shredWidget->setShredLevel(shredLevel);
 }
 
 void MainWindow::changeEvent(QEvent* event) {
