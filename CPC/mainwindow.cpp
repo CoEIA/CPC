@@ -520,8 +520,18 @@ void MainWindow::setCurrentWindow(int id){
 }
 
 void MainWindow::openAnotherInstanceMessage(const QString& message) {
-    QStringList arguments = qApp->arguments();
     showNormal();
+
+    QStringList arguments = message.split(",");
+
+//    QString result = "";
+//    for(int i=0; i<arguments.size(); i++) {
+//        result += "Line: " + arguments.at(i) + "\n";
+//    }
+
+//    QMessageBox msg;
+//    msg.setText(result);
+//    msg.exec();
 
     CommandLineParser parser(arguments);
     handleCommandLineOptions(parser);

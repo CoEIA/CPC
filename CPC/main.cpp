@@ -17,13 +17,14 @@ int main(int argc, char *argv[])
 {
     QtSingleApplication instance(argc, argv);
 
-    if (instance.sendMessage("There is already opened instance of this CPC.exe"))
+    if (instance.sendMessage(Utilities::buildQStringFromQStringList(instance.arguments())))
         return 0;
 
 //    Application a(argc, argv);
 //    a.loadTranslations(":/translations");
-//    Application::setLanguage(QLocale::system().name());
-//    a.setLayoutDirection(QObject::tr("LTR")=="RTL" ? Qt::RightToLeft : Qt::LeftToRight);
+
+    Application::setLanguage(QLocale::system().name());
+    instance.setLayoutDirection(QObject::tr("LTR")=="RTL" ? Qt::RightToLeft : Qt::LeftToRight);
 
     QTextCodec::setCodecForCStrings(QTextCodec::codecForName("UTF-8"));
     QTextCodec::setCodecForTr(QTextCodec::codecForName("UTF-8"));
