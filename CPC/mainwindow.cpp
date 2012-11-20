@@ -95,30 +95,33 @@ MainWindow::MainWindow(CommandLineParser parser, QWidget *parent)
    }
 
    readSettings();
+   handleCommandLineOptions(parser);
+}
 
-   if ( parser.isValidParameter() ) {
-       if ( parser.isScanParameter() ) {
-           doAutoScan();
-       }
-       else if ( parser.isShredQuickParameter() ) {
-           QString path = parser.getPath();
-           setShredFile(path, 1);
-       }
-       else if ( parser.isShredSafeParameter() ) {
+void MainWindow::handleCommandLineOptions(CommandLineParser parser) {
+    if ( parser.isValidParameter() ) {
+        if ( parser.isScanParameter() ) {
+            doAutoScan();
+        }
+        else if ( parser.isShredQuickParameter() ) {
             QString path = parser.getPath();
-            setShredFile(path, 2);
-       }
-       else if ( parser.isShredThroughParameter() ) {
-           QString path = parser.getPath();
-           setShredFile(path, 3);
-       }
-       else {
-           //automaticCheckForUpdate();
-       }
-   }
-   else { // if wrong parameter , just show the application and ignore the parameters
-       //automaticCheckForUpdate();
-   }
+            setShredFile(path, 1);
+        }
+        else if ( parser.isShredSafeParameter() ) {
+             QString path = parser.getPath();
+             setShredFile(path, 2);
+        }
+        else if ( parser.isShredThroughParameter() ) {
+            QString path = parser.getPath();
+            setShredFile(path, 3);
+        }
+        else {
+            //automaticCheckForUpdate();
+        }
+    }
+    else { // if wrong parameter , just show the application and ignore the parameters
+        //automaticCheckForUpdate();
+    }
 }
 
 void MainWindow::setShredFile(QString path, int shredLevel) {
@@ -517,9 +520,11 @@ void MainWindow::setCurrentWindow(int id){
 }
 
 void MainWindow::openAnotherInstanceMessage(const QString& message) {
+    QStringList arguments = qApp->arguments();
     showNormal();
-    doAutoScan();
-    qDebug() << "Another Run: " << message;
+
+    CommandLineParser parser(arguments);
+    handleCommandLineOptions(parser);
 }
 
 void MainWindow::setLanguage(QAction* action) {

@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 {
     QtSingleApplication instance(argc, argv);
 
-    if (instance.sendMessage("Wake up!"))
+    if (instance.sendMessage("There is already opened instance of this CPC.exe"))
         return 0;
 
 //    Application a(argc, argv);
