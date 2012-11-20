@@ -10,7 +10,7 @@ SettingsHandler::SettingsHandler()
 }
 
 void SettingsHandler:: writeKey (const KeySettings& key){
-    QSettings settings("CoEIA", "CPC 1.1");
+    QSettings settings("CoEIA", "CPC");
 
     settings.setValue("key", key.key);
     settings.setValue("version",key.version);
@@ -21,12 +21,12 @@ void SettingsHandler:: writeKey (const KeySettings& key){
 }
 
 void SettingsHandler:: writeInstallTime (const QDateTime& installTime){
-    QSettings settings("CoEIA", "CPC 1.1");
+    QSettings settings("CoEIA", "CPC");
     settings.setValue("InstallTime",installTime);
 }
 
 void SettingsHandler:: writeLastUsageTime (const QDateTime& lastUsageTime){
-    QSettings settings("CoEIA", "CPC 1.1");
+    QSettings settings("CoEIA", "CPC");
     settings.setValue("LastUsageTime", lastUsageTime);
 }
 
@@ -34,13 +34,13 @@ void SettingsHandler:: writeApplicationInfo() {
     QString appPath = QDir::toNativeSeparators(QApplication::applicationDirPath());
     QString schedPath =  QDir::toNativeSeparators(appPath + "\\" + "Schedules");
 
-    QSettings settings("CoEIA", "CPC 1.1");
+    QSettings settings("CoEIA", "CPC");
     settings.setValue("APP_PATH", appPath);
     settings.setValue("SCHED_PATH", schedPath);
 }
 
 KeySettings SettingsHandler:: readKey () {
-    QSettings settings("CoEIA", "CPC 1.1");
+    QSettings settings("CoEIA", "CPC");
 
     QString key = settings.value("key","-").toString();
     QString version = settings.value("version","Demo").toString();
@@ -55,7 +55,7 @@ KeySettings SettingsHandler:: readKey () {
 bool SettingsHandler::isExpireVersion () {
     bool state = false ;
 
-    QSettings settings("CoEIA", "CPC 1.1");
+    QSettings settings("CoEIA", "CPC");
     QDateTime current = QDateTime::currentDateTime();
 
     QDateTime installTime = settings.value("InstallTime", current).toDateTime();
@@ -82,7 +82,7 @@ bool SettingsHandler::isExpireVersion () {
 }
 
 bool SettingsHandler:: isFreeVersion() {
-    QSettings settings("CoEIA", "CPC 1.1");
+    QSettings settings("CoEIA", "CPC");
     QString version = settings.value("version","Demo").toString();
 
     if ( version == "Demo")
@@ -92,7 +92,7 @@ bool SettingsHandler:: isFreeVersion() {
 }
 
 bool SettingsHandler:: isCleanState () {
-    QSettings settings("CoEIA", "CPC 1.1");
+    QSettings settings("CoEIA", "CPC");
     KeyState state = (KeyState) (settings.value("state", UNKNOWN_STATE).toInt());
 
     if ( state == KNOWN_STATE )
