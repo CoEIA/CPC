@@ -113,11 +113,11 @@ MainWindow::MainWindow(CommandLineParser parser, QWidget *parent)
            setShredFile(path, 3);
        }
        else {
-           automaticCheckForUpdate();
+           //automaticCheckForUpdate();
        }
    }
    else { // if wrong parameter , just show the application and ignore the parameters
-       automaticCheckForUpdate();
+       //automaticCheckForUpdate();
    }
 }
 
@@ -514,6 +514,12 @@ void MainWindow::setCurrentWindow(int id){
     }
 
     stackedWidget->setCurrentIndex(id);
+}
+
+void MainWindow::openAnotherInstanceMessage(const QString& message) {
+    showNormal();
+    doAutoScan();
+    qDebug() << "Another Run: " << message;
 }
 
 void MainWindow::setLanguage(QAction* action) {
