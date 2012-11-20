@@ -9,6 +9,11 @@
 //    EMAIL,  DESKTOP_SEARCH, TOOLBAR,    THIRD_PART
 //};
 
+const QString SCAN_PARAM = "-Scan";
+const QString SHRED_QUICK_PARAM = "-Shred_Quick";
+const QString SHRED_SAFE_PARAM = "-Shred_Safe";
+const QString SHRED_THROUGH_PARAM = "-Shred_Through";
+
 #define STARTUP TEXT("Software\\Microsoft\\Windows\\CurrentVersion\\Run")
 #define HKLM HKEY_LOCAL_MACHINE
 

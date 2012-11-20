@@ -13,6 +13,7 @@
 #include "resultwidget.h"
 #include "constants.h"
 #include "updatechecker.h"
+#include "commandlineparser.h"
 
 class QAction;
 
@@ -21,7 +22,7 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
 public:
-    MainWindow(bool scan = false, QWidget *parent = 0);
+    MainWindow(CommandLineParser parser, QWidget *parent = 0);
     void setVisible(bool visible);
     ~MainWindow();
 
@@ -69,6 +70,7 @@ private:
     void readSettings();
     void automaticCheckForUpdate();
     void retranslate();
+    void setShredFile(QString path, int shredLevel);
 
 private:
     WelcomeWidget *welcomeWidget ;

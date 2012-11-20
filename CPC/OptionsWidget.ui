@@ -29,7 +29,7 @@
       </sizepolicy>
      </property>
      <property name="text">
-      <string>Choose the items to be scanned. Double click on any category and select or clear the check boxes.</string>
+      <string>You can set your choices to be remove or scan at the time of scan process. Double click to any category option to see the detail and checked or unchecked items based on your requirement</string>
      </property>
      <property name="wordWrap">
       <bool>true</bool>

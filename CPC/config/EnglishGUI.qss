@@ -97,6 +97,15 @@
     background-color: transparent;
 }
 
+#qLblBeginScanNote{
+    padding:10px;
+    color:white;
+    font-size:14px;
+    border:5px groove gray;
+    height:auto;
+    width:auto;
+}
+
 QPushButton#startScanButton {
     background-image: url(:/images/icons/start/startblack-en.png);
     background-color: transparent;
@@ -226,10 +235,10 @@ QStatusBar::item{
 }
 
 QToolTip {
-    border: 2px solid darkkhaki;
-    padding: 5px;
+    border: 1px solid darkkhaki;
     border-radius: 3px;
     opacity: 300;
+    height:auto;
 }
 
 QComboBox, QLineEdit, QSpinBox, QTextEdit, QListView,QProgressBar, QTreeView{

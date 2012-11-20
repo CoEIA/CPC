@@ -21,6 +21,9 @@ public:
     ~ShredWidget();
     void retranslateUi();
 
+    void addFile(QString filepath);
+    void setShredLevel(int level);
+
 private:
     Ui::ShredWidget *ui;
 

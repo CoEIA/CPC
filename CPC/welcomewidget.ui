@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>400</height>
+    <width>601</width>
+    <height>564</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -22,11 +22,14 @@
   <widget class="QPushButton" name="startScanButton">
    <property name="geometry">
     <rect>
-     <x>110</x>
-     <y>270</y>
+     <x>90</x>
+     <y>380</y>
      <width>380</width>
      <height>104</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>Click on start scan button to begin</string>
    </property>
    <property name="styleSheet">
     <string notr="true"/>
@@ -41,21 +44,34 @@
     </size>
    </property>
   </widget>
-  <widget class="QLabel" name="label_2">
+  <widget class="QLabel" name="qLblBeginScanNote">
    <property name="geometry">
     <rect>
-     <x>220</x>
-     <y>250</y>
-     <width>181</width>
-     <height>16</height>
+     <x>20</x>
+     <y>170</y>
+     <width>521</width>
+     <height>155</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
-    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; color:#ffffff;&quot;&gt;Click on Start Scan Button to Begin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>Scan the whole windows system and find all the traces of recorded history. When user surf on internet or on the computer than hundreds of activities actually recorded down in the form of cookies, logs , temporary internet files and application logs. Some of these files are useful, but some actually do harm. It would be safe to clean out unwanted traces of your online journeys. CPC version 2.0 gives you the power to clean such traces and protect your privacy from predators and harmful incidents</string>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
    </property>
   </widget>
  </widget>

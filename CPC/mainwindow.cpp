@@ -13,7 +13,7 @@
 // http://127.0.0.1/wajdy/info.php?serial=OTkwR-lVHQ0-w2NTg-3MTJ9
 // http://127.0.0.1/wajdy/save.php?serial=asdf&ip=20.23.123
 
-MainWindow::MainWindow(bool scan, QWidget *parent)
+MainWindow::MainWindow(CommandLineParser parser, QWidget *parent)
     : QMainWindow(parent)
 {
    // set windows size, title and icon image
@@ -94,16 +94,37 @@ MainWindow::MainWindow(bool scan, QWidget *parent)
        }
    }
 
-   if ( scan ) {
-       readSettings();
-       doAutoScan();
+   readSettings();
+
+   if ( parser.isValidParameter() ) {
+       if ( parser.isScanParameter() ) {
+           doAutoScan();
+       }
+       else if ( parser.isShredQuickParameter() ) {
+           QString path = parser.getPath();
+           setShredFile(path, 1);
+       }
+       else if ( parser.isShredSafeParameter() ) {
+            QString path = parser.getPath();
+            setShredFile(path, 2);
+       }
+       else if ( parser.isShredThroughParameter() ) {
+           QString path = parser.getPath();
+           setShredFile(path, 3);
+       }
+       else {
+           automaticCheckForUpdate();
+       }
    }
-   else {
-       readSettings();
+   else { // if wrong parameter , just show the application and ignore the parameters
        automaticCheckForUpdate();
    }
+}
 
-
+void MainWindow::setShredFile(QString path, int shredLevel) {
+    setCurrentWindow(Shred);
+    shredWidget->addFile(path);
+    shredWidget->setShredLevel(shredLevel);
 }
 
 void MainWindow::changeEvent(QEvent* event) {
@@ -385,8 +406,8 @@ void MainWindow:: createDockWidget () {
     scanButton->setChecked(true);
     scanButton->setGeometry(19,y,175,height);
     scanButton->setObjectName("0_toolButton");
-    scanButton->setToolTip("Strart Scanning");
-    scanButton->setStatusTip("Start Scanning");
+    scanButton->setToolTip(tr("Scan the whole window system and find all the traces of recorded history"));
+    scanButton->setStatusTip(tr("Scan the whole window system and find all the traces of recorded history"));
     connect(scanButton, SIGNAL(clicked()), signalMapper, SLOT(map()));
 
     signalMapper->setMapping(scanButton, Start);
@@ -396,8 +417,8 @@ void MainWindow:: createDockWidget () {
     z += height + space;
     optionsButton->setGeometry(19,z,175,height);
     optionsButton->setObjectName("1_toolButton");
-    optionsButton->setToolTip("Options");
-    optionsButton->setStatusTip("Options");
+    optionsButton->setToolTip(tr("User filter options for history scanning"));
+    optionsButton->setStatusTip(tr("User filter options for history scanning"));
     connect(optionsButton, SIGNAL(clicked()), signalMapper, SLOT(map()));
     signalMapper->setMapping(optionsButton, Options);
 
@@ -406,8 +427,8 @@ void MainWindow:: createDockWidget () {
     scheduleButton->setGeometry(19,z,175,height);
     scheduleButton->setCheckable(true);
     scheduleButton->setObjectName("2_toolButton");
-    scheduleButton->setToolTip("Schedule");
-    scheduleButton->setStatusTip("Schedule");
+    scheduleButton->setToolTip(tr("Create personal schedule for system wide scanning and actions"));
+    scheduleButton->setStatusTip(tr("Create personal schedule for system wide scanning and actions"));
     connect(scheduleButton, SIGNAL(clicked()), signalMapper, SLOT(map()));
     signalMapper->setMapping(scheduleButton, Schedule);
 
@@ -416,8 +437,8 @@ void MainWindow:: createDockWidget () {
     shredButton->setGeometry(19,z,175,height);
     shredButton->setCheckable(true);
     shredButton->setObjectName("3_toolButton");
-    shredButton->setToolTip("Shredded");
-    shredButton->setStatusTip("Shredded");
+    shredButton->setToolTip(tr("Shred files from the system to remove them permanently"));
+    shredButton->setStatusTip(tr("Shred files from the system to remove them permanently"));
     connect(shredButton, SIGNAL(clicked()), signalMapper, SLOT(map()));
     signalMapper->setMapping(shredButton, Shred);
 
