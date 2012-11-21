@@ -8,76 +8,77 @@
         <source>Form</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+    <message utf8="true">
         <location filename="../aboutwidget.ui" line="48"/>
-        <source>CoEIA Privacy Control
-Copyright 2011 CoEIA. All right reserved.</source>
+        <source>CoEIA Privacy Control&lt;br/&gt;
+Warning: This computer program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties.&lt;br/&gt;
+Copyright © 2013 CoEIA. All right reserved.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../aboutwidget.ui" line="62"/>
+        <location filename="../aboutwidget.ui" line="69"/>
         <source>Updates</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../aboutwidget.ui" line="73"/>
+        <location filename="../aboutwidget.ui" line="80"/>
         <source>Program Version:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../aboutwidget.ui" line="80"/>
-        <location filename="../aboutwidget.ui" line="94"/>
-        <source>1.1</source>
+        <location filename="../aboutwidget.ui" line="87"/>
+        <location filename="../aboutwidget.ui" line="101"/>
+        <source>2.0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../aboutwidget.ui" line="87"/>
+        <location filename="../aboutwidget.ui" line="94"/>
         <source>Database Version:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../aboutwidget.ui" line="116"/>
+        <location filename="../aboutwidget.ui" line="123"/>
         <source>Update ...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../aboutwidget.ui" line="132"/>
+        <location filename="../aboutwidget.ui" line="139"/>
         <source>Registrations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../aboutwidget.ui" line="143"/>
+        <location filename="../aboutwidget.ui" line="150"/>
         <source>Licence Version:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../aboutwidget.ui" line="150"/>
+        <location filename="../aboutwidget.ui" line="157"/>
         <source>Free Scan</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../aboutwidget.ui" line="157"/>
+        <location filename="../aboutwidget.ui" line="164"/>
         <source>Licene Key:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../aboutwidget.ui" line="164"/>
-        <location filename="../aboutwidget.ui" line="178"/>
+        <location filename="../aboutwidget.ui" line="171"/>
+        <location filename="../aboutwidget.ui" line="185"/>
         <source> -</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../aboutwidget.ui" line="171"/>
+        <location filename="../aboutwidget.ui" line="178"/>
         <source>License Valid Until:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../aboutwidget.ui" line="185"/>
+        <location filename="../aboutwidget.ui" line="192"/>
         <source>Enter Licence Key:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../aboutwidget.ui" line="210"/>
+        <location filename="../aboutwidget.ui" line="217"/>
         <source>Register   </source>
         <translation type="unfinished"></translation>
     </message>
@@ -326,7 +327,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../optionswidget.ui" line="32"/>
-        <source>Choose the items to be scanned. Double click on any category and select or clear the check boxes.</source>
+        <source>You can set your choices to be remove or scan at the time of scan process. Double click to any category option to see the detail and checked or unchecked items based on your requirement</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -835,12 +836,13 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../welcomewidget.ui" line="54"/>
-        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; color:#ffffff;&quot;&gt;Click on Start Scan Button to Begin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <location filename="../welcomewidget.ui" line="32"/>
+        <source>Click on start scan button to begin</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../welcomewidget.ui" line="65"/>
+        <source>Scan the whole windows system and find all the traces of recorded history. When user surf on internet or on the computer than hundreds of activities actually recorded down in the form of cookies, logs , temporary internet files and application logs. Some of these files are useful, but some actually do harm. It would be safe to clean out unwanted traces of your online journeys. CPC version 2.0 gives you the power to clean such traces and protect your privacy from predators and harmful incidents</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

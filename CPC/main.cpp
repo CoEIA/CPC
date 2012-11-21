@@ -1,6 +1,7 @@
 #include <QtGui/QApplication>
 #include <QTranslator>
 
+#include <qtsingleapplication.h>
 #include "mainwindow.h"
 #include "application.h"
 #include "utilities.h"
@@ -14,10 +15,16 @@
 
 int main(int argc, char *argv[])
 {
-    Application a(argc, argv);
-    a.loadTranslations(":/translations");
+    QtSingleApplication instance(argc, argv);
+
+    if (instance.sendMessage(Utilities::buildQStringFromQStringList(instance.arguments())))
+        return 0;
+
+//    Application a(argc, argv);
+//    a.loadTranslations(":/translations");
+
     Application::setLanguage(QLocale::system().name());
-    a.setLayoutDirection(QObject::tr("LTR")=="RTL" ? Qt::RightToLeft : Qt::LeftToRight);
+    instance.setLayoutDirection(QObject::tr("LTR")=="RTL" ? Qt::RightToLeft : Qt::LeftToRight);
 
     QTextCodec::setCodecForCStrings(QTextCodec::codecForName("UTF-8"));
     QTextCodec::setCodecForTr(QTextCodec::codecForName("UTF-8"));
@@ -25,11 +32,15 @@ int main(int argc, char *argv[])
     QDir::setCurrent(QCoreApplication::applicationDirPath());
     Utilities::loadEnglishStyle();
 
-    QStringList args = a.arguments();
+    QStringList args = instance.arguments();
     CommandLineParser parser(args);
 
     MainWindow w(parser);
     w.show();
 
-    return a.exec();
+    instance.setActivationWindow(&w);
+    QObject::connect(&instance, SIGNAL(messageReceived(const QString&)),
+             &w, SLOT(openAnotherInstanceMessage(const QString&)));
+
+    return instance.exec();
 }

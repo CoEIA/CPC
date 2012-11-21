@@ -300,3 +300,19 @@ void Utilities:: loadArabicStyle() {
     qApp->setStyleSheet(StyleSheet);
     file.close();
 }
+
+
+QString Utilities::buildQStringFromQStringList(QStringList arguments) {
+    QString result = "";
+
+    for(int i=0; i<arguments.size(); i++) {
+        QString argument = arguments.at(i);
+        result += argument;
+
+        if ( i < arguments.size() -1 ) {
+            result += ",";
+        }
+    }
+
+    return result;
+}
