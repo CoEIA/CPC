@@ -4,7 +4,7 @@
 #include <QDialog>
 #include <QProgressDialog>
 
-#include "enumeratethread.h"
+#include "..\util\enumeratethread.h"
 
 namespace Ui {
     class AdvancedShredDialog;

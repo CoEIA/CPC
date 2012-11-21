@@ -1,10 +1,5 @@
 #include "pluginswidget.h"
 #include "ui_pluginswidget.h"
-#include "utilities.h"
-#include "constants.h"
-
-#include <QDebug>
-#include <QHBoxLayout>
 
 PluginsWidget::PluginsWidget(const QMultiMap<QString, Plugins>& category, QWidget *parent) :
     QWidget(parent),

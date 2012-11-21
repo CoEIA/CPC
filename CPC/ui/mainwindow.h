@@ -2,8 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QtGui/QMainWindow>
-#include <plugins.h>
 #include <QtGui>
+
 #include "welcomewidget.h"
 #include "optionswidget.h"
 #include "schedulewidget.h"
@@ -11,9 +11,18 @@
 #include "aboutwidget.h"
 #include "scanwidget.h"
 #include "resultwidget.h"
-#include "constants.h"
-#include "updatechecker.h"
-#include "commandlineparser.h"
+#include "aboutdialog.h"
+
+#include "..\util\utilities.h"
+#include "..\util\scannerthread.h"
+#include "..\util\pluginsresult.h"
+#include "..\util\keyvalidator.h"
+#include "..\util\settingshandler.h"
+#include "..\util\application.h"
+#include "..\util\plugins.h"
+#include "..\util\constants.h"
+#include "..\util\updatechecker.h"
+#include "..\util\commandlineparser.h"
 
 class QAction;
 

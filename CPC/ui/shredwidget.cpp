@@ -1,10 +1,6 @@
 #include "shredwidget.h"
 #include "ui_shredwidget.h"
-#include "constants.h"
-#include "fileoperations.h"
-#include "utilities.h"
-#include "advancedshreddialog.h"
-#include "htmlreport.h"
+
 
 #include <QAction>
 #include <QMenu>

@@ -4,7 +4,7 @@
 #include <QHBoxLayout>
 #include <QDebug>
 
-#include "utilities.h"
+#include "..\util\utilities.h"
 
 OptionsWidget::OptionsWidget(const QMultiMap<QString, Plugins>& category, QWidget *parent) :
     QWidget(parent),

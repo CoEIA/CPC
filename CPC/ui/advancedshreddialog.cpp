@@ -1,7 +1,7 @@
 #include "advancedshreddialog.h"
 #include "ui_advancedshreddialog.h"
 
-#include "fileoperations.h"
+#include "..\util\fileoperations.h"
 
 #include <QFileDialog>
 #include <QDebug>

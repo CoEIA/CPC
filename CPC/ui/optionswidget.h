@@ -4,9 +4,10 @@
 #include <QWidget>
 #include <QMultiMap>
 
-#include "plugins.h"
 #include "pluginswidget.h"
-#include "constants.h"
+
+#include "..\util\plugins.h"
+#include "..\util\constants.h"
 
 namespace Ui {
     class OptionsWidget;

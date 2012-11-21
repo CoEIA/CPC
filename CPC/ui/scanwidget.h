@@ -5,9 +5,9 @@
 #include <QStandardItemModel>
 #include <QPair>
 
-#include "plugins.h"
-#include "pluginsresult.h"
-#include "scannerthread.h"
+#include "..\util\plugins.h"
+#include "..\util\pluginsresult.h"
+#include "..\util\scannerthread.h"
 
 namespace Ui {
     class ScanWidget;

@@ -1,14 +1,6 @@
 #include "aboutwidget.h"
 #include "ui_aboutwidget.h"
 
-#include <QMessageBox>
-
-#include "keyvalidator.h"
-#include "internethandler.h"
-#include "constants.h"
-#include "settingshandler.h"
-#include "utilities.h"
-
 AboutWidget::AboutWidget(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::AboutWidget)

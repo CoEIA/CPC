@@ -5,10 +5,14 @@
 #include <QStandardItem>
 #include <QStandardItemModel>
 #include <QItemSelection>
+#include <QDebug>
+#include <QHBoxLayout>
 
-#include "plugins.h"
-#include "MyQTreeView.h"
-#include "CheckableItemModel.h"
+#include "..\util\utilities.h"
+#include "..\util\constants.h"
+#include "..\util\plugins.h"
+#include "..\util\MyQTreeView.h"
+#include "..\util\CheckableItemModel.h"
 
 namespace Ui {
     class PluginsWidget;

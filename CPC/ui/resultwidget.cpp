@@ -7,12 +7,12 @@
 #include <QHBoxLayout>
 #include <QPair>
 
-#include "constants.h"
-#include "fileoperations.h"
-#include "registeryoperations.h"
-#include "settingshandler.h"
-#include "utilities.h"
-#include "htmlreport.h"
+#include "..\util\constants.h"
+#include "..\util\fileoperations.h"
+#include "..\util\registeryoperations.h"
+#include "..\util\settingshandler.h"
+#include "..\util\utilities.h"
+#include "..\util\htmlreport.h"
 
 ResultWidget::ResultWidget(QWidget *parent) :
     QWidget(parent),

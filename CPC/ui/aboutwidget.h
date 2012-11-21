@@ -2,9 +2,14 @@
 #define ABOUTWIDGET_H
 
 #include <QWidget>
+#include <QMessageBox>
 
-#include "settingshandler.h"
-#include "constants.h"
+#include "..\util\settingshandler.h"
+#include "..\util\constants.h"
+#include "..\util\keyvalidator.h"
+#include "..\util\internethandler.h"
+#include "..\util\constants.h"
+#include "..\util\utilities.h"
 
 namespace Ui {
     class AboutWidget;

@@ -10,10 +10,10 @@
 #include <QGraphicsScene>
 #include <QGraphicsView>
 
-#include "fileoperations.h"
-#include "constants.h"
-#include "utilities.h"
-#include "pluginsresult.h"
+#include "..\util\fileoperations.h"
+#include "..\util\constants.h"
+#include "..\util\utilities.h"
+#include "..\util\pluginsresult.h"
 
 ScanWidget::ScanWidget(QWidget *parent) :
     QWidget(parent),

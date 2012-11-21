@@ -6,7 +6,12 @@
 #include <QProgressDialog>
 #include <QFile>
 
-#include "constants.h"
+#include "advancedshreddialog.h"
+
+#include "..\util\constants.h"
+#include "..\util\fileoperations.h"
+#include "..\util\utilities.h"
+#include "..\util\htmlreport.h"
 
 namespace Ui {
     class ShredWidget;

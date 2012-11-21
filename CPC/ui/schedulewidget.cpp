@@ -8,8 +8,8 @@
 #include <QFileInfo>
 #include <QMessageBox>
 
-#include "utilities.h"
-#include "fileoperations.h"
+#include "..\util\utilities.h"
+#include "..\util\fileoperations.h"
 
 ScheduleWidget::ScheduleWidget(QWidget *parent) :
         QWidget(parent),

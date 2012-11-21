@@ -7,9 +7,9 @@
 #include <QProgressDialog>
 #include <QFile>
 
-#include "pluginsresult.h"
-#include "MyQTreeView.h"
-#include "CheckableItemModel.h"
+#include "..\util\pluginsresult.h"
+#include "..\util\MyQTreeView.h"
+#include "..\util\CheckableItemModel.h"
 
 namespace Ui {
     class ResultWidget;

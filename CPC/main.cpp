@@ -2,10 +2,10 @@
 #include <QTranslator>
 
 #include <qtsingleapplication.h>
-#include "mainwindow.h"
-#include "application.h"
-#include "utilities.h"
-#include "commandlineparser.h"
+#include "ui\mainwindow.h"
+#include "util\application.h"
+#include "util\utilities.h"
+#include "util\commandlineparser.h"
 
 // CPC Application have 4 different Parameters:
 // CPC.exe -Scan

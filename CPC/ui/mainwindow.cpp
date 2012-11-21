@@ -1,14 +1,4 @@
 #include "mainwindow.h"
-#include "utilities.h"
-#include "scannerthread.h"
-#include "pluginsresult.h"
-
-#include "keyvalidator.h"
-#include "settingshandler.h"
-#include "application.h"
-
-#include "aboutdialog.h"
-
 
 // http://127.0.0.1/wajdy/info.php?serial=OTkwR-lVHQ0-w2NTg-3MTJ9
 // http://127.0.0.1/wajdy/save.php?serial=asdf&ip=20.23.123
