@@ -43,6 +43,8 @@ public:
     static void loadEnglishStyle();
     static void loadArabicStyle();
 
+    static QString buildQStringFromQStringList(QStringList arguments);
+
 };
 
 #endif // UTILITIES_H

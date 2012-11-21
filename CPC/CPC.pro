@@ -12,6 +12,8 @@ LIBS += -lshlwapi
 TRANSLATIONS = config/ar_sa.ts \
                config/en_us.ts
 
+include(3rdparty/qtsingleapplication.pri)
+
 SOURCES += main.cpp\
     mainwindow.cpp \
     optionswidget.cpp \
@@ -36,7 +38,8 @@ SOURCES += main.cpp\
     htmlreport.cpp \
     enumeratethread.cpp \
     application.cpp \
-    aboutdialog.cpp
+    aboutdialog.cpp \
+    commandlineparser.cpp
 
 HEADERS  += mainwindow.h \
     optionswidget.h \
@@ -66,7 +69,8 @@ HEADERS  += mainwindow.h \
     htmlreport.h \
     enumeratethread.h \
     application.h \
-    aboutdialog.h
+    aboutdialog.h \
+    commandlineparser.h
 
 FORMS    += \
     optionswidget.ui \

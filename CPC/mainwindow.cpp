@@ -13,7 +13,7 @@
 // http://127.0.0.1/wajdy/info.php?serial=OTkwR-lVHQ0-w2NTg-3MTJ9
 // http://127.0.0.1/wajdy/save.php?serial=asdf&ip=20.23.123
 
-MainWindow::MainWindow(bool scan, QWidget *parent)
+MainWindow::MainWindow(CommandLineParser parser, QWidget *parent)
     : QMainWindow(parent)
 {
    // set windows size, title and icon image
@@ -94,25 +94,51 @@ MainWindow::MainWindow(bool scan, QWidget *parent)
        }
    }
 
-   if ( scan ) {
-       readSettings();
-       doAutoScan();
-   }
-   else {
-       readSettings();
-       automaticCheckForUpdate();
-   }
+   readSettings();
+   handleCommandLineOptions(parser);
+}
 
+void MainWindow::handleCommandLineOptions(CommandLineParser parser) {
+    if ( parser.isValidParameter() ) {
+        if ( parser.isScanParameter() ) {
+            doAutoScan();
+        }
+        else if ( parser.isShredQuickParameter() ) {
+            QString path = parser.getPath();
+            setShredFile(path, 1);
+        }
+        else if ( parser.isShredSafeParameter() ) {
+             QString path = parser.getPath();
+             setShredFile(path, 2);
+        }
+        else if ( parser.isShredThroughParameter() ) {
+            QString path = parser.getPath();
+            setShredFile(path, 3);
+        }
+        else {
+            //automaticCheckForUpdate();
+        }
+    }
+    else { // if wrong parameter , just show the application and ignore the parameters
+        //automaticCheckForUpdate();
+    }
+}
 
+void MainWindow::setShredFile(QString path, int shredLevel) {
+    setCurrentWindow(Shred);
+    shredWidget->addFile(path);
+    shredWidget->setShredLevel(shredLevel);
 }
 
 void MainWindow::changeEvent(QEvent* event) {
+
     if (event->type() == QEvent::LanguageChange) {
         retranslate();
     }
     else
         QMainWindow::changeEvent(event);
 }
+
 
 void MainWindow::closeEvent(QCloseEvent *event) {
     SettingsHandler::writeLastUsageTime(QDateTime::currentDateTime());
@@ -123,15 +149,15 @@ void MainWindow::closeEvent(QCloseEvent *event) {
 }
 void MainWindow::setVisible(bool visible)
 {
-    minimizeAction->setEnabled(visible);
+    //minimizeAction->setEnabled(visible);
     //maximizeAction->setEnabled(!isMaximized());
     restoreAction->setEnabled(isMaximized() || !visible);
     QMainWindow::setVisible(visible);
 }
 void MainWindow::createActions()
 {
-    minimizeAction = new QAction(tr("Mi&nimize"), this);
-    connect(minimizeAction, SIGNAL(triggered()), this, SLOT(hide()));
+    //minimizeAction = new QAction(tr("Mi&nimize"), this);
+    //connect(minimizeAction, SIGNAL(triggered()), this, SLOT(hide()));
 
     aboutAction = new QAction(tr("About"),this);
     connect(aboutAction, SIGNAL(triggered()), this, SLOT(aboutTraySlot()));
@@ -149,7 +175,7 @@ void MainWindow::createActions()
 void  MainWindow::createTrayIcon()
 {
     trayIconMenu = new QMenu(this);
-    trayIconMenu->addAction(minimizeAction);
+    //trayIconMenu->addAction(minimizeAction);
     trayIconMenu->addAction(aboutAction);
     //trayIconMenu->addAction(maximizeAction);
     trayIconMenu->addAction(scanAction);
@@ -491,6 +517,24 @@ void MainWindow::setCurrentWindow(int id){
     }
 
     stackedWidget->setCurrentIndex(id);
+}
+
+void MainWindow::openAnotherInstanceMessage(const QString& message) {
+    showNormal();
+
+    QStringList arguments = message.split(",");
+
+//    QString result = "";
+//    for(int i=0; i<arguments.size(); i++) {
+//        result += "Line: " + arguments.at(i) + "\n";
+//    }
+
+//    QMessageBox msg;
+//    msg.setText(result);
+//    msg.exec();
+
+    CommandLineParser parser(arguments);
+    handleCommandLineOptions(parser);
 }
 
 void MainWindow::setLanguage(QAction* action) {

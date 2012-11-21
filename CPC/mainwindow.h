@@ -13,6 +13,7 @@
 #include "resultwidget.h"
 #include "constants.h"
 #include "updatechecker.h"
+#include "commandlineparser.h"
 
 class QAction;
 
@@ -21,7 +22,7 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
 public:
-    MainWindow(bool scan = false, QWidget *parent = 0);
+    MainWindow(CommandLineParser parser, QWidget *parent = 0);
     void setVisible(bool visible);
     ~MainWindow();
 
@@ -45,7 +46,8 @@ private slots:
     void finishUpdateSlot(bool);
     void errorUpdateSlot();
     void setLanguage(QAction* action) ;
-
+    void handleCommandLineOptions(CommandLineParser parser);
+    void openAnotherInstanceMessage(const QString& message);
     void aboutTraySlot();//Tray Slot added
     void iconActivated(QSystemTrayIcon::ActivationReason reason);
 
@@ -69,6 +71,7 @@ private:
     void readSettings();
     void automaticCheckForUpdate();
     void retranslate();
+    void setShredFile(QString path, int shredLevel);
 
 private:
     WelcomeWidget *welcomeWidget ;
