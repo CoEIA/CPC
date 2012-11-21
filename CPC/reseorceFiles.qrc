@@ -361,6 +361,7 @@
         <file>config/ArabicGUI.qss</file>
         <file>config/EnglishGUI.qss</file>
         <file>images/cpcIcon.png</file>
+        <file>iconpath.rc</file>
     </qresource>
     <qresource prefix="/images">
         <file>images/back-icon.png</file>
