@@ -224,12 +224,12 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="546"/>
+        <location filename="../ui/mainwindow.cpp" line="545"/>
         <source>Trial Version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="493"/>
+        <location filename="../ui/mainwindow.cpp" line="492"/>
         <source>&lt;a href=&quot;%1&quot; style=&quot;color:yellow;&quot;&gt;User Manual&lt;/a&gt;&lt;/font&gt;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -264,51 +264,51 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../ui/mainwindow.cpp" line="401"/>
         <location filename="../ui/mainwindow.cpp" line="402"/>
-        <location filename="../ui/mainwindow.cpp" line="403"/>
         <source>Scan the whole window system and find all the traces of recorded history</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../ui/mainwindow.cpp" line="412"/>
         <location filename="../ui/mainwindow.cpp" line="413"/>
-        <location filename="../ui/mainwindow.cpp" line="414"/>
         <source>User filter options for history scanning</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../ui/mainwindow.cpp" line="422"/>
         <location filename="../ui/mainwindow.cpp" line="423"/>
-        <location filename="../ui/mainwindow.cpp" line="424"/>
         <source>Create personal schedule for system wide scanning and actions</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../ui/mainwindow.cpp" line="432"/>
         <location filename="../ui/mainwindow.cpp" line="433"/>
-        <location filename="../ui/mainwindow.cpp" line="434"/>
         <source>Shred files from the system to remove them permanently</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="453"/>
+        <location filename="../ui/mainwindow.cpp" line="452"/>
         <source>CoEIA - Privacy Control - 2.0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="551"/>
+        <location filename="../ui/mainwindow.cpp" line="550"/>
         <source>CoEIA Privacy Control - 2.0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="494"/>
+        <location filename="../ui/mainwindow.cpp" line="493"/>
         <source>Language...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="495"/>
+        <location filename="../ui/mainwindow.cpp" line="494"/>
         <source>Arabic</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="496"/>
+        <location filename="../ui/mainwindow.cpp" line="495"/>
         <source>English</source>
         <translation type="unfinished"></translation>
     </message>
@@ -438,7 +438,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../main.cpp" line="23"/>
-        <location filename="../ui/mainwindow.cpp" line="532"/>
+        <location filename="../ui/mainwindow.cpp" line="531"/>
         <source>LTR</source>
         <translation type="unfinished"></translation>
     </message>

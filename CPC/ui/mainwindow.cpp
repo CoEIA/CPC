@@ -146,9 +146,6 @@ void MainWindow::setVisible(bool visible)
 }
 void MainWindow::createActions()
 {
-    //minimizeAction = new QAction(tr("Mi&nimize"), this);
-    //connect(minimizeAction, SIGNAL(triggered()), this, SLOT(hide()));
-
     aboutAction = new QAction(tr("About"),this);
     connect(aboutAction, SIGNAL(triggered()), this, SLOT(aboutTraySlot()));
 
@@ -165,14 +162,11 @@ void MainWindow::createActions()
 void  MainWindow::createTrayIcon()
 {
     trayIconMenu = new QMenu(this);
-    //trayIconMenu->addAction(minimizeAction);
     trayIconMenu->addAction(aboutAction);
-    //trayIconMenu->addAction(maximizeAction);
     trayIconMenu->addAction(scanAction);
     trayIconMenu->addAction(restoreAction);
     trayIconMenu->addSeparator();
     trayIconMenu->addAction(quitAction);
-
     trayIcon = new QSystemTrayIcon(this);
     trayIcon->setIcon(QIcon(":/images/cpcIcon.ico"));
     trayIcon->setContextMenu(trayIconMenu);
