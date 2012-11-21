@@ -9,76 +9,109 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../aboutwidget.ui" line="62"/>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;CoEIA Privacy Control&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; color:#ffffff;&quot;&gt;Warning: This computer program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Copyright &amp;copy; 2013 CoEIA. All right reserved.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="obsolete">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;CoEIA Privacy Control&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; color:#ffffff;&quot;&gt;تحذير: هذا البرنامج محمي بقوانين حقوق الملكية و القوانين الدولية. محاولة إعادة إنتاج أو توزيع جزء أو كل من هذا البرنامج قد يترتطب عليه عقوبات جنائية&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Copyright &amp;copy; 2013 CoEIA. All right reserved.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../aboutwidget.ui" line="69"/>
         <source>Updates</source>
         <translation type="unfinished">التحديثات</translation>
     </message>
     <message>
-        <location filename="../aboutwidget.ui" line="73"/>
+        <location filename="../aboutwidget.ui" line="80"/>
         <source>Program Version:</source>
         <translation type="unfinished">نسخة البرنامج</translation>
     </message>
     <message>
-        <location filename="../aboutwidget.ui" line="80"/>
-        <location filename="../aboutwidget.ui" line="94"/>
         <source>1.1</source>
-        <translation type="unfinished">1.1</translation>
+        <translation type="obsolete">1.1</translation>
     </message>
     <message>
-        <location filename="../aboutwidget.ui" line="87"/>
+        <location filename="../aboutwidget.ui" line="94"/>
         <source>Database Version:</source>
         <translation type="unfinished">نسخه قاعدة البيانات</translation>
     </message>
     <message>
-        <location filename="../aboutwidget.ui" line="116"/>
+        <location filename="../aboutwidget.ui" line="123"/>
         <source>Update ...</source>
         <translation type="unfinished">بدء التحديث...</translation>
     </message>
     <message>
-        <location filename="../aboutwidget.ui" line="48"/>
         <source>CoEIA Privacy Control
 Copyright 2011 CoEIA. All right reserved.</source>
-        <translation type="unfinished"> برنامج ماسح الأثر 
-جميع الحقوق محفوظة لمركز التميز لأمن المعلومات 2011</translation>
+        <translation type="obsolete"> برنامج ماسح الأثر 
+
+جميع الحقوق محفوظة لمركز التميز لأمن المعلومات 2013</translation>
+    </message>
+    <message utf8="true">
+        <location filename="../aboutwidget.ui" line="48"/>
+        <source>CoEIA Privacy Control&lt;br/&gt;
+Warning: This computer program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties.&lt;br/&gt;
+Copyright © 2013 CoEIA. All right reserved.</source>
+        <translation type="unfinished">برنامج ماسح الأثر&lt;br/&gt;
+تحذير: هذا البرنامج محمي بقوانين حقوق الملكية و القوانين الدولية. محاولة إعادة إنتاج أو توزيع جزء أو كل من هذا البرنامج قد يترتب عليه عقوبات جنائية&lt;br/&gt;
+جميع حقوق الطبع محفوظة لمركز التميز لأمن المعلومات 2013</translation>
     </message>
     <message>
-        <location filename="../aboutwidget.ui" line="132"/>
+        <location filename="../aboutwidget.ui" line="87"/>
+        <location filename="../aboutwidget.ui" line="101"/>
+        <source>2.0</source>
+        <translation type="unfinished">2.0</translation>
+    </message>
+    <message>
+        <location filename="../aboutwidget.ui" line="139"/>
         <source>Registrations</source>
         <translation type="unfinished">تسجيل برنامج ماسح الأثر</translation>
     </message>
     <message>
-        <location filename="../aboutwidget.ui" line="143"/>
+        <location filename="../aboutwidget.ui" line="150"/>
         <source>Licence Version:</source>
         <translation type="unfinished">نوع نسخه البرنامج</translation>
     </message>
     <message>
-        <location filename="../aboutwidget.ui" line="150"/>
+        <location filename="../aboutwidget.ui" line="157"/>
         <source>Free Scan</source>
         <translation type="unfinished">امكانية عمل البحث</translation>
     </message>
     <message>
-        <location filename="../aboutwidget.ui" line="157"/>
+        <location filename="../aboutwidget.ui" line="164"/>
         <source>Licene Key:</source>
         <translation type="unfinished">مفتاح تسجيل البرنامج</translation>
     </message>
     <message>
-        <location filename="../aboutwidget.ui" line="164"/>
-        <location filename="../aboutwidget.ui" line="178"/>
+        <location filename="../aboutwidget.ui" line="171"/>
+        <location filename="../aboutwidget.ui" line="185"/>
         <source> -</source>
         <translation type="unfinished">-</translation>
     </message>
     <message>
-        <location filename="../aboutwidget.ui" line="171"/>
+        <location filename="../aboutwidget.ui" line="178"/>
         <source>License Valid Until:</source>
         <translation type="unfinished">صلاحية مفتاح البرنامج</translation>
     </message>
     <message>
-        <location filename="../aboutwidget.ui" line="185"/>
+        <location filename="../aboutwidget.ui" line="192"/>
         <source>Enter Licence Key:</source>
         <translation type="unfinished">أدخال مفتاح التسجيل</translation>
     </message>
     <message>
-        <location filename="../aboutwidget.ui" line="210"/>
+        <location filename="../aboutwidget.ui" line="217"/>
         <source>Register   </source>
         <translation type="unfinished">تسجيل المفتاح</translation>
     </message>
@@ -269,51 +302,51 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../mainwindow.cpp" line="136"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">حول</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="139"/>
         <source>Begin Scan</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">أبدأ الفحص</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="142"/>
         <source>Open CPC Application</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">أفتح ماسح الأثر</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="145"/>
         <source>Exit</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">خروج</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="386"/>
         <location filename="../mainwindow.cpp" line="387"/>
         <source>Scan the whole window system and find all the traces of recorded history</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">فحص كافة النظام و إيجاد كافة الأثار الخاصة بالسجلات</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="397"/>
         <location filename="../mainwindow.cpp" line="398"/>
         <source>User filter options for history scanning</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">التحكم بإعدادات و خصائص الفحص و مسح السجلات</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="407"/>
         <location filename="../mainwindow.cpp" line="408"/>
         <source>Create personal schedule for system wide scanning and actions</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">انشاء مسح دوري لكافة أجزاء النظام</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="417"/>
         <location filename="../mainwindow.cpp" line="418"/>
         <source>Shred files from the system to remove them permanently</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">تمزيق الملفات من النظام بطريقة دائمة و غير رجعية</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="437"/>
         <source>CoEIA - Privacy Controls</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">برنامج ماسح الأثر - مركز التميز لأمن المعلومات</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="479"/>
@@ -344,8 +377,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../optionswidget.ui" line="32"/>
-        <source>Choose the items to be scanned. Double click on any category and select or clear the check boxes.</source>
-        <translation type="unfinished"></translation>
+        <source>You can set your choices to be remove or scan at the time of scan process. Double click to any category option to see the detail and checked or unchecked items based on your requirement</source>
+        <translation type="unfinished">بإمكانك أن تقوم بضبط التصنيفات التي سوف يتم تتبع اثارها و مسحها. قم بالنقر المزدوج على أي تصنيف لكي ترى التفاصيل الخاصة به و من ثم قم بتحديد ما ترغب بالكشف عنه و مسحه.</translation>
     </message>
     <message>
         <location filename="../optionswidget.ui" line="42"/>
@@ -866,13 +899,23 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../welcomewidget.ui" line="54"/>
+        <location filename="../welcomewidget.ui" line="32"/>
+        <source>Click on start scan button to begin</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../welcomewidget.ui" line="65"/>
+        <source>Scan the whole windows system and find all the traces of recorded history. When user surf on internet or on the computer than hundreds of activities actually recorded down in the form of cookies, logs , temporary internet files and application logs. Some of these files are useful, but some actually do harm. It would be safe to clean out unwanted traces of your online journeys. CPC version 2.0 gives you the power to clean such traces and protect your privacy from predators and harmful incidents</source>
+        <translation type="unfinished">يقوم البرنامج بفحص جميع أجزاء النظام و إيجاد أثار السجلات المخزنة. عندما تتصفح الإنترنت فإنه يتم تخزين المئات من الأنشطة أثناء التصفح على شكل ملفات مؤقتة و سجلات أنشطة و غيرها, بعض هذه الملفات مفيدة و لكن البعض الاخر 
+ضار. لذلك فإن مسح هذه الملفات يعد اختيارا امنا. برنامج ماسح الأثر الإصدار رقم 2 يعطيك القدرة على مسح و تنظيف مثل هذه الأثار و حماية خصوصيتك من المتلصصين و الأنشطة الضارة.</translation>
+    </message>
+    <message>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; color:#ffffff;&quot;&gt;Click on Start Scan Button to Begin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+        <translation type="obsolete">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
