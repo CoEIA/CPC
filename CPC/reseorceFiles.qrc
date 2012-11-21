@@ -360,6 +360,7 @@
         <file>images/cpcIcon.ico</file>
         <file>config/ArabicGUI.qss</file>
         <file>config/EnglishGUI.qss</file>
+        <file>iconpath.rc</file>
     </qresource>
     <qresource prefix="/images">
         <file>images/back-icon.png</file>

@@ -174,8 +174,7 @@ void  MainWindow::createTrayIcon()
     trayIconMenu->addAction(quitAction);
 
     trayIcon = new QSystemTrayIcon(this);
-    QIcon icon(":/images/cpcIcon.ico");
-    trayIcon->setIcon(icon);
+    trayIcon->setIcon(QIcon(":/images/cpcIcon.ico"));
     trayIcon->setContextMenu(trayIconMenu);
 
 }
