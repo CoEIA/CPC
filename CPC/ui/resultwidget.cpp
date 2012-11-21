@@ -24,7 +24,7 @@ ResultWidget::ResultWidget(QWidget *parent) :
     connect(ui->removeButton, SIGNAL(clicked()), this, SLOT(removeSlot()));
 
     ui->treeView->setColumnWidth(0, 350);
-    ui->treeView->setRootIsDecorated(false);
+    ui->treeView->setRootIsDecorated(true);
     ui->treeView->setWordWrap(true);
     ui->treeView->setHeaderHidden(true);
     ui->treeView->hideColumn(1);

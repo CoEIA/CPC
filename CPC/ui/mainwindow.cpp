@@ -450,7 +450,7 @@ void MainWindow:: createDockWidget () {
 
 void MainWindow::createStatusBar() {
     this->statusBar()->showMessage("");
-    this->statusBar()->addPermanentWidget(new QLabel(tr("CoEIA - Privacy Controls")));
+    this->statusBar()->addPermanentWidget(new QLabel(tr("CoEIA - Privacy Control - 2.0")));
     this->statusBar()->addPermanentWidget(versionLabel);
 
     helpLabel = new QLabel(this);
@@ -548,6 +548,6 @@ void MainWindow:: retranslate () {
         cpcEdition = QString("Version %1").arg(Utilities::getProgramVersion());
 
     versionLabel->setText(cpcEdition);
-    this->setWindowTitle(tr("CoEIA Privacy Control"));
+    this->setWindowTitle(tr("CoEIA Privacy Control - 2.0"));
     setStatusBarText();
 }

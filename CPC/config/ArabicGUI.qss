@@ -97,6 +97,20 @@
     background-color: transparent;
 }
 
+#qLblCopyright{
+    direction:rtl;
+}
+
+#qLblBeginScanNote{
+    padding:10px;
+    color:white;
+    font-size:12px;
+    border:5px groove gray;
+    height:autoi;
+    width:auto;
+    direction:rtl;
+}
+
 QPushButton#startScanButton {
     background-image: url(:/images/icons/start/startblack-ar.png);
     background-color: transparent;

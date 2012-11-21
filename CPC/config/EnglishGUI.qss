@@ -105,6 +105,9 @@
     height:auto;
     width:auto;
 }
+#qLblCopyright{
+
+}
 
 QPushButton#startScanButton {
     background-image: url(:/images/icons/start/startblack-en.png);
