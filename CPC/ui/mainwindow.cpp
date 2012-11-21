@@ -174,7 +174,7 @@ void  MainWindow::createTrayIcon()
     trayIconMenu->addAction(quitAction);
 
     trayIcon = new QSystemTrayIcon(this);
-    QIcon icon(":/images/cpcIcon.ico");
+    QIcon icon(":/images/cpcIcon.png");
     trayIcon->setIcon(icon);
     trayIcon->setContextMenu(trayIconMenu);
 
@@ -266,7 +266,7 @@ void MainWindow::setupWindow() {
 
     this->setGeometry(windowRect);
     this->setMinimumSize(80, 60);
-    this->setWindowIcon(QIcon(":/images/cpcIcon.ico"));
+    this->setWindowIcon(QIcon(":/images/cpcIcon.png"));
     this->setFixedSize(this->size().width(), this->size().height());
     this->setStyleSheet("MainWindow {background-image: url(:/images/cpc_background.PNG);}");
 }
