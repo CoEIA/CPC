@@ -23,7 +23,12 @@ int main(int argc, char *argv[])
 //    Application a(argc, argv);
 //    a.loadTranslations(":/translations");
 
-    Application::setLanguage(QLocale::system().name());
+
+    QTranslator translator;
+    translator.load(":/translations/" + QLocale::system().name() + ".qm");
+    instance.installTranslator(&translator);
+
+    //Application::setLanguage(QLocale::system().name());
     instance.setLayoutDirection(QObject::tr("LTR")=="RTL" ? Qt::RightToLeft : Qt::LeftToRight);
 
     QTextCodec::setCodecForCStrings(QTextCodec::codecForName("UTF-8"));

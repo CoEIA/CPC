@@ -301,7 +301,6 @@ void Utilities:: loadArabicStyle() {
     file.close();
 }
 
-
 QString Utilities::buildQStringFromQStringList(QStringList arguments) {
     QString result = "";
 
