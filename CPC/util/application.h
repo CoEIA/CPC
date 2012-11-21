@@ -1,15 +1,17 @@
 #ifndef APPLICATION_H
 #define APPLICATION_H
 
-#include <QApplication>
 #include <QHash>
 #include <QStringList>
+#include <QTranslator>
+#include <qtsingleapplication.h>
+
 class QDir;
 class QTranslator;
 
 typedef QHash<QString, QTranslator*> Translators;
 
-class Application : public QApplication {
+class Application : public QtSingleApplication {
     Q_OBJECT
 
 public:

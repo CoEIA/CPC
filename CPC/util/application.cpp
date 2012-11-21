@@ -7,7 +7,7 @@ QTranslator* Application::current = 0;
 Translators Application::translators;
 
 Application::Application(int& argc, char* argv[])
-    : QApplication(argc, argv)
+    : QtSingleApplication(argc, argv)
 {
 }
 
