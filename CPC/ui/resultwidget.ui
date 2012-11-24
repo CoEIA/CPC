@@ -84,8 +84,8 @@ To remove unwanted items, click the Remove button.</string>
          <string>Back</string>
         </property>
         <property name="icon">
-         <iconset resource="reseorceFiles.qrc">
-          <normaloff>:/images/images/back-icon.png</normaloff>:/images/images/back-icon.png</iconset>
+         <iconset resource="../reseorceFiles.qrc">
+          <normaloff>:/images/back-icon.png</normaloff>:/images/back-icon.png</iconset>
         </property>
        </widget>
       </item>
@@ -113,7 +113,7 @@ To remove unwanted items, click the Remove button.</string>
          <string>Remove</string>
         </property>
         <property name="icon">
-         <iconset resource="reseorceFiles.qrc">
+         <iconset resource="../reseorceFiles.qrc">
           <normaloff>:/images/ok.png</normaloff>:/images/ok.png</iconset>
         </property>
        </widget>
@@ -124,7 +124,7 @@ To remove unwanted items, click the Remove button.</string>
   </layout>
  </widget>
  <resources>
-  <include location="reseorceFiles.qrc"/>
+  <include location="../reseorceFiles.qrc"/>
  </resources>
  <connections/>
 </ui>
