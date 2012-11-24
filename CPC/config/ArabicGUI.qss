@@ -106,7 +106,7 @@
     color:white;
     font-size:12px;
     border:5px groove gray;
-    height:autoi;
+    height:auto;
     width:auto;
     direction:rtl;
 }
