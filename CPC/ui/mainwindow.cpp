@@ -132,15 +132,17 @@ void MainWindow::changeEvent(QEvent* event) {
 
 void MainWindow::closeEvent(QCloseEvent *event) {
     SettingsHandler::writeLastUsageTime(QDateTime::currentDateTime());
-    //event->accept();
-    //exit(0);
     hide();
     event->ignore();
+
+    trayIcon->showMessage(
+        tr("CPC"),
+        tr("The program will keep running in the "
+         "system tray")
+    );
 }
 void MainWindow::setVisible(bool visible)
 {
-    //minimizeAction->setEnabled(visible);
-    //maximizeAction->setEnabled(!isMaximized());
     restoreAction->setEnabled(isMaximized() || !visible);
     QMainWindow::setVisible(visible);
 }
@@ -543,5 +545,10 @@ void MainWindow:: retranslate () {
 
     versionLabel->setText(cpcEdition);
     this->setWindowTitle(tr("CoEIA Privacy Control - 2.0"));
-    setStatusBarText();
+    setStatusBarText();        
+
+    aboutAction->setText(tr("About"));
+    scanAction->setText(tr("Begin Scan"));
+    restoreAction->setText(tr("Open CPC Application"));
+    quitAction->setText(tr("Exit"));
 }

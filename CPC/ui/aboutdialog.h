@@ -17,6 +17,10 @@ public:
     
 private:
     Ui::aboutdialog *ui;
+    void retranslateUi();
+
+protected:
+      void changeEvent(QEvent* event);
 
 private slots:
     void abouthideSlot();

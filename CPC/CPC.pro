@@ -11,9 +11,6 @@ TEMPLATE = app
 
 LIBS += -lshlwapi
 
-TRANSLATIONS = config/ar_sa.ts \
-               config/en_us.ts
-
 include(3rdparty/qtsingleapplication.pri)
 
 SOURCES += main.cpp \

@@ -26,3 +26,15 @@ void aboutdialog::abouthideSlot()
      showNormal();
      this->setVisible(false);
 }
+
+void aboutdialog::retranslateUi () {
+    ui->retranslateUi(this);
+}
+
+void aboutdialog::changeEvent(QEvent* event) {
+    if (event->type() == QEvent::LanguageChange) {
+        ui->retranslateUi(this);
+    }
+    else
+        QDialog::changeEvent(event);
+}

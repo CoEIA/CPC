@@ -270,101 +270,111 @@ p, li { white-space: pre-wrap; }
         <translation type="obsolete">نسخه تجريبية</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="545"/>
+        <location filename="../ui/mainwindow.cpp" line="541"/>
         <source>Trial Version</source>
-        <translation type="unfinished">نسخة تجريبية</translation>
+        <translation>نسخة تجريبية</translation>
     </message>
     <message>
         <source>CoEIA Privacy Control</source>
         <translation type="obsolete">ماسح الأثر - مركز التميز لأمن المعلومات</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="492"/>
+        <location filename="../ui/mainwindow.cpp" line="488"/>
         <source>&lt;a href=&quot;%1&quot; style=&quot;color:yellow;&quot;&gt;User Manual&lt;/a&gt;&lt;/font&gt;</source>
-        <translation type="unfinished">&lt;a href=&quot;%1&quot; style=&quot;color:yellow;&quot;&gt;دليل المستخدم&lt;/a&gt;&lt;/font&gt;</translation>
+        <translation>&lt;a href=&quot;%1&quot; style=&quot;color:yellow;&quot;&gt;دليل المستخدم&lt;/a&gt;&lt;/font&gt;</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.cpp" line="77"/>
         <source>Trial Version Expired</source>
-        <translation type="unfinished">انتهت النسخة التجريبية</translation>
+        <translation>انتهت النسخة التجريبية</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.cpp" line="77"/>
         <source>Please Enter CPC Serial Number</source>
-        <translation type="unfinished">من فضلك أدخل مفتاح التسجيل</translation>
+        <translation>من فضلك أدخل مفتاح التسجيل</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="152"/>
+        <location filename="../ui/mainwindow.cpp" line="138"/>
+        <source>CPC</source>
+        <translation>ماسح الأثر</translation>
+    </message>
+    <message>
+        <location filename="../ui/mainwindow.cpp" line="139"/>
+        <source>The program will keep running in the system tray</source>
+        <translation>البرنامج يعمل في الخلفية</translation>
+    </message>
+    <message>
+        <location filename="../ui/mainwindow.cpp" line="150"/>
         <source>About</source>
         <translation>حول</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="155"/>
+        <location filename="../ui/mainwindow.cpp" line="153"/>
         <source>Begin Scan</source>
         <translation>أبدأ الفحص</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="158"/>
+        <location filename="../ui/mainwindow.cpp" line="156"/>
         <source>Open CPC Application</source>
         <translation>أفتح ماسح الأثر</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="161"/>
+        <location filename="../ui/mainwindow.cpp" line="159"/>
         <source>Exit</source>
         <translation>خروج</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="401"/>
-        <location filename="../ui/mainwindow.cpp" line="402"/>
+        <location filename="../ui/mainwindow.cpp" line="397"/>
+        <location filename="../ui/mainwindow.cpp" line="398"/>
         <source>Scan the whole window system and find all the traces of recorded history</source>
-        <translation type="unfinished">فحص كافة النظام و إيجاد كافة الأثار الخاصة بالسجلات</translation>
+        <translation>فحص كافة النظام و إيجاد كافة الأثار الخاصة بالسجلات</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="412"/>
-        <location filename="../ui/mainwindow.cpp" line="413"/>
+        <location filename="../ui/mainwindow.cpp" line="408"/>
+        <location filename="../ui/mainwindow.cpp" line="409"/>
         <source>User filter options for history scanning</source>
-        <translation type="unfinished">التحكم بإعدادات و خصائص الفحص و مسح السجلات</translation>
+        <translation>التحكم بإعدادات و خصائص الفحص و مسح السجلات</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="422"/>
-        <location filename="../ui/mainwindow.cpp" line="423"/>
+        <location filename="../ui/mainwindow.cpp" line="418"/>
+        <location filename="../ui/mainwindow.cpp" line="419"/>
         <source>Create personal schedule for system wide scanning and actions</source>
-        <translation type="unfinished">انشاء مسح دوري لكافة أجزاء النظام</translation>
+        <translation>انشاء مسح دوري لكافة أجزاء النظام</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="432"/>
-        <location filename="../ui/mainwindow.cpp" line="433"/>
+        <location filename="../ui/mainwindow.cpp" line="428"/>
+        <location filename="../ui/mainwindow.cpp" line="429"/>
         <source>Shred files from the system to remove them permanently</source>
-        <translation type="unfinished">تمزيق الملفات من النظام بطريقة دائمة و غير رجعية</translation>
+        <translation>حذف الملفات من النظام بطريقة دائمة و غير رجعية</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="452"/>
+        <location filename="../ui/mainwindow.cpp" line="448"/>
         <source>CoEIA - Privacy Control - 2.0</source>
-        <translation type="unfinished"></translation>
+        <translation>ماسح الأثر النسخه الثانية</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="550"/>
+        <location filename="../ui/mainwindow.cpp" line="546"/>
         <source>CoEIA Privacy Control - 2.0</source>
-        <translation type="unfinished"></translation>
+        <translation>ماسح الأثر النسخه الثانية</translation>
     </message>
     <message>
         <source>CoEIA - Privacy Controls</source>
         <translation type="obsolete">برنامج ماسح الأثر - مركز التميز لأمن المعلومات</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="494"/>
+        <location filename="../ui/mainwindow.cpp" line="490"/>
         <source>Arabic</source>
-        <translation type="unfinished">العربية</translation>
+        <translation>العربية</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="495"/>
+        <location filename="../ui/mainwindow.cpp" line="491"/>
         <source>English</source>
-        <translation type="unfinished">الإنجليزية</translation>
+        <translation>الإنجليزية</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="493"/>
+        <location filename="../ui/mainwindow.cpp" line="489"/>
         <source>Language...</source>
-        <translation type="unfinished">اللغة...</translation>
+        <translation>اللغة...</translation>
     </message>
 </context>
 <context>
@@ -556,7 +566,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../main.cpp" line="23"/>
-        <location filename="../ui/mainwindow.cpp" line="531"/>
+        <location filename="../ui/mainwindow.cpp" line="527"/>
         <source>LTR</source>
         <translation type="unfinished">RTL</translation>
     </message>
@@ -806,37 +816,37 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished">قائمة الملفات التي سيتم حذفها</translation>
     </message>
     <message>
-        <location filename="../ui/shredwidget.ui" line="79"/>
+        <location filename="../ui/shredwidget.ui" line="85"/>
         <source>Add..</source>
-        <translation type="unfinished">أضافة ملفات ...</translation>
+        <translation>أضافة ملفات ...</translation>
     </message>
     <message>
-        <location filename="../ui/shredwidget.ui" line="86"/>
+        <location filename="../ui/shredwidget.ui" line="98"/>
         <source>Clear...</source>
         <translation type="unfinished">مسح القائمة ...</translation>
     </message>
     <message>
-        <location filename="../ui/shredwidget.ui" line="98"/>
+        <location filename="../ui/shredwidget.ui" line="110"/>
         <source>Shred Level</source>
         <translation type="unfinished">خيارات الحذف</translation>
     </message>
     <message>
-        <location filename="../ui/shredwidget.ui" line="107"/>
+        <location filename="../ui/shredwidget.ui" line="119"/>
         <source>Quick ( 1 overwrite pass)</source>
         <translation type="unfinished">حذف سريع (اعادة كتابة مرة واحدة)</translation>
     </message>
     <message>
-        <location filename="../ui/shredwidget.ui" line="114"/>
+        <location filename="../ui/shredwidget.ui" line="126"/>
         <source>Safe (DOD 5220.22-M: 3 overwrite passes)</source>
         <translation type="unfinished">حذف أمن (اعادة كتابة 3 مرات)</translation>
     </message>
     <message>
-        <location filename="../ui/shredwidget.ui" line="121"/>
+        <location filename="../ui/shredwidget.ui" line="133"/>
         <source>Thorough ( 7 overwrite passes)</source>
         <translation type="unfinished">حذف بطيء (اعادة كتابة 7 مرات)</translation>
     </message>
     <message>
-        <location filename="../ui/shredwidget.ui" line="131"/>
+        <location filename="../ui/shredwidget.ui" line="143"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -849,7 +859,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; font-weight:600; color:#ffff00;&quot;&gt;تحذير: الملفات التي سيتم حذفها لن يمكن استرجاعها بتاتاً&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../ui/shredwidget.ui" line="142"/>
+        <location filename="../ui/shredwidget.ui" line="154"/>
         <source>Shred</source>
         <translation type="unfinished">الحذف</translation>
     </message>
@@ -938,8 +948,13 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; color:#550000;&quot;&gt;Warning: This computer program is protected by copyright law and international treaties. Unauthorized reproduction or distribution, or any portion of it, may result in severe civil and criminal penalties.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; color:#ffffff;&quot;&gt;Warning: This computer program is protected by copyright law and international treaties. Unauthorized reproduction or distribution, or any portion of it, may result in severe civil and criminal penalties.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; color:#ffffff;&quot;&gt;
+تحذير: هذا البرنامج محمي بالقوانين الدولية والتعامل غير المصرح به قد يعرضك للمسائلة القانونية.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../ui/aboutdialog.ui" line="79"/>
@@ -947,9 +962,14 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; color:#550000;&quot;&gt;CoEIA Privacy Control 2.0&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; color:#550000;&quot;&gt;Copyright 2011 CoEIA. All right reserved.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;CoEIA Privacy Control 2.0&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; color:#ffffff;&quot;&gt;Copyright 2011 CoEIA. All right reserved.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;ماسح الأثر النسخه الثانية&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; color:#ffffff;&quot;&gt;كل الحقوق محفوظة لمركز التمي لأمن المعلومات&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../ui/aboutdialog.ui" line="103"/>
@@ -957,13 +977,17 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; color:#550000;&quot;&gt;For more information: &lt;/span&gt;&lt;a href=&quot;www.coeia.edu.sa&quot;&gt;&lt;span style=&quot; font-size:8pt; text-decoration: underline; color:#0000ff;&quot;&gt;Center of Excellence in Information Assurance (CoEIA)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; color:#ffffff;&quot;&gt;For more information: &lt;/span&gt;&lt;a href=&quot;www.coeia.edu.sa&quot;&gt;&lt;span style=&quot; font-size:8pt; text-decoration: underline; color:#ffffff;&quot;&gt;Center of Excellence in Information Assurance (CoEIA)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; color:#ffffff;&quot;&gt;للمزيد من المعلومات&lt;/span&gt;&lt;a href=&quot;www.coeia.edu.sa&quot;&gt;&lt;span style=&quot; font-size:8pt; text-decoration: underline; color:#ffffff;&quot;&gt; مركز التميز لأمن المعلومات (CoEIA)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.cpp" line="13"/>
+        <location filename="../ui/aboutdialog.cpp" line="14"/>
         <source>About</source>
-        <translation type="unfinished">حول</translation>
+        <translation>حول البرنامج</translation>
     </message>
 </context>
 </TS>
