@@ -97,10 +97,6 @@
     background-color: transparent;
 }
 
-#qLblCopyright{
-    direction:rtl;
-}
-
 #qLblBeginScanNote{
     padding:10px;
     color:white;
@@ -108,7 +104,6 @@
     border:5px groove gray;
     height:auto;
     width:auto;
-    direction:rtl;
 }
 
 QPushButton#startScanButton {
@@ -244,7 +239,6 @@ QToolTip {
     height:auto;
     border-radius: 3px;
     opacity: 300;
-    direction:rtl;
 }
 
 QComboBox, QLineEdit, QSpinBox, QTextEdit, QListView,QProgressBar, QTreeView{
