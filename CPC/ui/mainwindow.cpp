@@ -379,7 +379,6 @@ void MainWindow:: createDockWidget () {
     headerDockWidget->setObjectName("headerDockWidget");
     headerDockWidget->setFloating(false);
     headerDockWidget->setTitleBarWidget(new QWidget);
-
     headerDockWidget->setFixedWidth(220);
     headerDockWidget->setFixedHeight(490);
 
@@ -392,56 +391,48 @@ void MainWindow:: createDockWidget () {
     int height = 72 ;
     int z = y ;
 
-    QPushButton *scanButton = new QPushButton(this);
+    scanButton = new QPushButton(this);
     scanButton->setCheckable(true);
     scanButton->setChecked(true);
     scanButton->setGeometry(19,y,175,height);
     scanButton->setObjectName("0_toolButton");
-    scanButton->setToolTip(tr("Scan the whole window system and find all the traces of recorded history"));
-    scanButton->setStatusTip(tr("Scan the whole window system and find all the traces of recorded history"));
     connect(scanButton, SIGNAL(clicked()), signalMapper, SLOT(map()));
 
     signalMapper->setMapping(scanButton, Start);
 
-    QPushButton *optionsButton = new QPushButton(this);
+    optionsButton = new QPushButton(this);
     optionsButton->setCheckable(true);
     z += height + space;
     optionsButton->setGeometry(19,z,175,height);
     optionsButton->setObjectName("1_toolButton");
-    optionsButton->setToolTip(tr("User filter options for history scanning"));
-    optionsButton->setStatusTip(tr("User filter options for history scanning"));
     connect(optionsButton, SIGNAL(clicked()), signalMapper, SLOT(map()));
     signalMapper->setMapping(optionsButton, Options);
 
-    QPushButton *scheduleButton = new QPushButton(this);
+    scheduleButton = new QPushButton(this);
     z += height + space;
     scheduleButton->setGeometry(19,z,175,height);
     scheduleButton->setCheckable(true);
     scheduleButton->setObjectName("2_toolButton");
-    scheduleButton->setToolTip(tr("Create personal schedule for system wide scanning and actions"));
-    scheduleButton->setStatusTip(tr("Create personal schedule for system wide scanning and actions"));
     connect(scheduleButton, SIGNAL(clicked()), signalMapper, SLOT(map()));
     signalMapper->setMapping(scheduleButton, Schedule);
 
-    QPushButton *shredButton = new QPushButton(this);
+    shredButton = new QPushButton(this);
     z += height + space;
     shredButton->setGeometry(19,z,175,height);
     shredButton->setCheckable(true);
     shredButton->setObjectName("3_toolButton");
-    shredButton->setToolTip(tr("Shred files from the system to remove them permanently"));
-    shredButton->setStatusTip(tr("Shred files from the system to remove them permanently"));
     connect(shredButton, SIGNAL(clicked()), signalMapper, SLOT(map()));
     signalMapper->setMapping(shredButton, Shred);
 
-    QPushButton *aboutButton = new QPushButton(this);
+    aboutButton = new QPushButton(this);
     z += height + space;
     aboutButton->setGeometry(19,z,175,height);
     aboutButton->setCheckable(true);
     aboutButton->setObjectName("4_toolButton");
-    aboutButton->setToolTip("About");
-    aboutButton->setStatusTip("About");
     connect(aboutButton, SIGNAL(clicked()), signalMapper, SLOT(map()));
     signalMapper->setMapping(aboutButton, About);
+
+    setButtonsText();
 
     connect(signalMapper, SIGNAL(mapped(int)), this, SLOT(setCurrentWindow(int)));
 }
@@ -484,6 +475,19 @@ void MainWindow::createStatusBar() {
     languageButton->setPopupMode(QToolButton::InstantPopup);
 
     this->statusBar()->addPermanentWidget(languageButton);
+}
+
+void MainWindow::setButtonsText() {
+    scanButton->setToolTip(tr("Scan the whole window system and find all the traces of recorded history"));
+    scanButton->setStatusTip(tr("Scan the whole window system and find all the traces of recorded history"));
+    optionsButton->setToolTip(tr("User filter options for history scanning"));
+    optionsButton->setStatusTip(tr("User filter options for history scanning"));
+    scheduleButton->setToolTip(tr("Create personal schedule for system wide scanning and actions"));
+    scheduleButton->setStatusTip(tr("Create personal schedule for system wide scanning and actions"));
+    shredButton->setToolTip(tr("Shred files from the system to remove them permanently"));
+    shredButton->setStatusTip(tr("Shred files from the system to remove them permanently"));
+    aboutButton->setToolTip("About");
+    aboutButton->setStatusTip("About");
 }
 
 void MainWindow::setStatusBarText() {
@@ -553,4 +557,5 @@ void MainWindow:: retranslate () {
     scanAction->setText(tr("Begin Scan"));
     restoreAction->setText(tr("Open CPC Application"));
     quitAction->setText(tr("Exit"));
+    setButtonsText();
 }

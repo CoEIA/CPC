@@ -71,6 +71,7 @@ private:
 private:
     void createStatusBar();
     void setStatusBarText();
+    void setButtonsText();
     void createDockWidget();
     void setupWindow();
     void drawBackgroundToPixmap();
@@ -112,16 +113,19 @@ private:
     void createActions();
     void createTrayIcon();
 
+    QPushButton *scanButton;
+    QPushButton *optionsButton;
+    QPushButton *scheduleButton;
+    QPushButton *shredButton ;
+    QPushButton *aboutButton;
+
     QAction *minimizeAction;
     QAction *aboutAction;
-    // QAction *maximizeAction;
     QAction *restoreAction;
     QAction *quitAction;
     QAction *scanAction;
-
     QSystemTrayIcon *trayIcon;
     QMenu *trayIconMenu;
-
 };
 
 #endif // MAINWINDOW_H
