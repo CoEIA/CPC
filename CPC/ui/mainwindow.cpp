@@ -170,7 +170,6 @@ void  MainWindow::createTrayIcon()
     trayIcon = new QSystemTrayIcon(this);
     trayIcon->setIcon(QIcon(":/images/cpcIcon.ico"));
     trayIcon->setContextMenu(trayIconMenu);
-
 }
 
 void MainWindow::aboutTraySlot()
