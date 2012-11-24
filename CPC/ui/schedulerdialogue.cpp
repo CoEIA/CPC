@@ -91,7 +91,6 @@ void SchedulerDialogue::retranslateUi () {
 void SchedulerDialogue::changeEvent(QEvent* event) {
     if (event->type() == QEvent::LanguageChange) {
         ui->retranslateUi(this);
-        //retranslate();
     }
     else
         QDialog::changeEvent(event);

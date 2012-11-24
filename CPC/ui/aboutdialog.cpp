@@ -10,7 +10,7 @@ aboutdialog::aboutdialog(QWidget *parent) :
     ui(new Ui::aboutdialog)
 {
     ui->setupUi(this);
-     this->setStyleSheet("QDialog {background-image: url(:/images/background.PNG);}");
+    this->setStyleSheet("QDialog {background-image: url(:/images/background.PNG);}");
     this->setWindowTitle(tr("About"));
     this->connect(qApp,SIGNAL(lastWindowClosed()),this,SLOT(abouthideSlot()));
 }
@@ -22,7 +22,18 @@ aboutdialog::~aboutdialog()
 
 void aboutdialog::abouthideSlot()
 {
-     qDebug() << "in hide slot";
      showNormal();
      this->setVisible(false);
+}
+
+void aboutdialog::retranslateUi () {
+    ui->retranslateUi(this);
+}
+
+void aboutdialog::changeEvent(QEvent* event) {
+    if (event->type() == QEvent::LanguageChange) {
+        ui->retranslateUi(this);
+    }
+    else
+        QDialog::changeEvent(event);
 }
