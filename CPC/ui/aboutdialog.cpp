@@ -10,6 +10,7 @@ aboutdialog::aboutdialog(QWidget *parent) :
     ui(new Ui::aboutdialog)
 {
     ui->setupUi(this);
+     this->setStyleSheet("QDialog {background-image: url(:/images/background.PNG);}");
     this->setWindowTitle(tr("About"));
     this->connect(qApp,SIGNAL(lastWindowClosed()),this,SLOT(abouthideSlot()));
 }
