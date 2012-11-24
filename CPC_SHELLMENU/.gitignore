@@ -41,8 +41,6 @@ QuickAuthApplication/Release/*.*
 *.ilk
 *.log
 *tlog
-*.vcxproj
-*.vcxproj.filters
 [Dd]ebug*/
 *.lib
 *.sbr
