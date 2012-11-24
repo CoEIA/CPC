@@ -190,7 +190,9 @@ void MainWindow::aboutTraySlot()
 void MainWindow::iconActivated(QSystemTrayIcon::ActivationReason reason)
 {
     switch (reason) {
-         case QSystemTrayIcon::Trigger:
+
+        case QSystemTrayIcon::Unknown:
+        case QSystemTrayIcon::Trigger:
             trayIconMenu->hide();
             break;
          case QSystemTrayIcon::DoubleClick:
