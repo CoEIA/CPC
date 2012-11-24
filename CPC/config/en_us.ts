@@ -222,14 +222,66 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
+    <name>GeneratorWidget</name>
+    <message>
+        <location filename="../../CPC-SERIAL-GENERATOR/generatorwidget.ui" line="14"/>
+        <source>CPC Serial Generator</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../CPC-SERIAL-GENERATOR/generatorwidget.ui" line="20"/>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;Serial Number Generator&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../CPC-SERIAL-GENERATOR/generatorwidget.ui" line="31"/>
+        <source>New Serial Commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../CPC-SERIAL-GENERATOR/generatorwidget.ui" line="40"/>
+        <source>New Serial:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../CPC-SERIAL-GENERATOR/generatorwidget.ui" line="56"/>
+        <source>Generate 1000 Serial And Save it in DB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../CPC-SERIAL-GENERATOR/generatorwidget.ui" line="63"/>
+        <source>Save Serial into DB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../CPC-SERIAL-GENERATOR/generatorwidget.ui" line="70"/>
+        <source>Generate One New Serial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../CPC-SERIAL-GENERATOR/generatorwidget.ui" line="82"/>
+        <source>Saved Serials</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../CPC-SERIAL-GENERATOR/generatorwidget.ui" line="94"/>
+        <source>Remove Selected Line</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>MainWindow</name>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="541"/>
+        <location filename="../ui/mainwindow.cpp" line="548"/>
         <source>Trial Version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="488"/>
+        <location filename="../ui/mainwindow.cpp" line="495"/>
         <source>&lt;a href=&quot;%1&quot; style=&quot;color:yellow;&quot;&gt;User Manual&lt;/a&gt;&lt;/font&gt;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -244,81 +296,85 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="138"/>
+        <location filename="../ui/mainwindow.cpp" line="139"/>
         <source>CPC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="139"/>
+        <location filename="../ui/mainwindow.cpp" line="140"/>
         <source>The program will keep running in the system tray</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="150"/>
+        <location filename="../ui/mainwindow.cpp" line="151"/>
+        <location filename="../ui/mainwindow.cpp" line="556"/>
         <source>About</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="153"/>
+        <location filename="../ui/mainwindow.cpp" line="154"/>
+        <location filename="../ui/mainwindow.cpp" line="557"/>
         <source>Begin Scan</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="156"/>
+        <location filename="../ui/mainwindow.cpp" line="157"/>
+        <location filename="../ui/mainwindow.cpp" line="558"/>
         <source>Open CPC Application</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="159"/>
+        <location filename="../ui/mainwindow.cpp" line="160"/>
+        <location filename="../ui/mainwindow.cpp" line="559"/>
         <source>Exit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="397"/>
-        <location filename="../ui/mainwindow.cpp" line="398"/>
+        <location filename="../ui/mainwindow.cpp" line="481"/>
+        <location filename="../ui/mainwindow.cpp" line="482"/>
         <source>Scan the whole window system and find all the traces of recorded history</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="408"/>
-        <location filename="../ui/mainwindow.cpp" line="409"/>
+        <location filename="../ui/mainwindow.cpp" line="483"/>
+        <location filename="../ui/mainwindow.cpp" line="484"/>
         <source>User filter options for history scanning</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="418"/>
-        <location filename="../ui/mainwindow.cpp" line="419"/>
+        <location filename="../ui/mainwindow.cpp" line="485"/>
+        <location filename="../ui/mainwindow.cpp" line="486"/>
         <source>Create personal schedule for system wide scanning and actions</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="428"/>
-        <location filename="../ui/mainwindow.cpp" line="429"/>
+        <location filename="../ui/mainwindow.cpp" line="487"/>
+        <location filename="../ui/mainwindow.cpp" line="488"/>
         <source>Shred files from the system to remove them permanently</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="448"/>
+        <location filename="../ui/mainwindow.cpp" line="442"/>
         <source>CoEIA - Privacy Control - 2.0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="546"/>
+        <location filename="../ui/mainwindow.cpp" line="553"/>
         <source>CoEIA Privacy Control - 2.0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="489"/>
+        <location filename="../ui/mainwindow.cpp" line="496"/>
         <source>Language...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="490"/>
+        <location filename="../ui/mainwindow.cpp" line="497"/>
         <source>Arabic</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="491"/>
+        <location filename="../ui/mainwindow.cpp" line="498"/>
         <source>English</source>
         <translation type="unfinished"></translation>
     </message>
@@ -448,7 +504,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../main.cpp" line="23"/>
-        <location filename="../ui/mainwindow.cpp" line="527"/>
+        <location filename="../ui/mainwindow.cpp" line="534"/>
         <source>LTR</source>
         <translation type="unfinished"></translation>
     </message>
