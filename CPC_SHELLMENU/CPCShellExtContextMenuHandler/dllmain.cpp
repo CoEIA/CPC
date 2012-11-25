@@ -139,7 +139,15 @@ STDAPI DllRegisterServer(void)
             CLSID_FileContextMenuExt, 
             L"CPCShellExtContextMenuHandler.FileContextMenuExt");
 
+		hr = RegisterShellExtContextMenuHandler(L"AllFileSystemObjects", 
+			CLSID_FileContextMenuExt, 
+			L"CPCShellExtContextMenuHandler.FileContextMenuExt");
+
 		hr = RegisterShellExtContextMenuHandler(L"Directory", 
+			CLSID_FileContextMenuExt, 
+			L"CPCShellExtContextMenuHandler.FileContextMenuExt");
+
+		hr = RegisterShellExtContextMenuHandler(L"Folder", 
 			CLSID_FileContextMenuExt, 
 			L"CPCShellExtContextMenuHandler.FileContextMenuExt");
     }
@@ -172,7 +180,13 @@ STDAPI DllUnregisterServer(void)
         hr = UnregisterShellExtContextMenuHandler(L"*", 
             CLSID_FileContextMenuExt);
 
+		hr = UnregisterShellExtContextMenuHandler(L"AllFileSystemObjects", 
+			CLSID_FileContextMenuExt);
+
 		hr = UnregisterShellExtContextMenuHandler(L"Directory", 
+			CLSID_FileContextMenuExt);
+
+		hr = UnregisterShellExtContextMenuHandler(L"Folder", 
 			CLSID_FileContextMenuExt);
     }
 
