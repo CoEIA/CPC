@@ -133,23 +133,11 @@ STDAPI DllRegisterServer(void)
         L"Apartment");
     if (SUCCEEDED(hr))
     {
-        // Register the context menu handler. The context menu handler is 
-        // associated with the .cpp file class.
-        hr = RegisterShellExtContextMenuHandler(L"*", 
-            CLSID_FileContextMenuExt, 
-            L"CPCShellExtContextMenuHandler.FileContextMenuExt");
 
 		hr = RegisterShellExtContextMenuHandler(L"AllFileSystemObjects", 
 			CLSID_FileContextMenuExt, 
 			L"CPCShellExtContextMenuHandler.FileContextMenuExt");
 
-		hr = RegisterShellExtContextMenuHandler(L"Directory", 
-			CLSID_FileContextMenuExt, 
-			L"CPCShellExtContextMenuHandler.FileContextMenuExt");
-
-		hr = RegisterShellExtContextMenuHandler(L"Folder", 
-			CLSID_FileContextMenuExt, 
-			L"CPCShellExtContextMenuHandler.FileContextMenuExt");
     }
 
     return hr;
@@ -176,17 +164,7 @@ STDAPI DllUnregisterServer(void)
     hr = UnregisterInprocServer(CLSID_FileContextMenuExt);
     if (SUCCEEDED(hr))
     {
-        // Unregister the context menu handler.
-        hr = UnregisterShellExtContextMenuHandler(L"*", 
-            CLSID_FileContextMenuExt);
-
 		hr = UnregisterShellExtContextMenuHandler(L"AllFileSystemObjects", 
-			CLSID_FileContextMenuExt);
-
-		hr = UnregisterShellExtContextMenuHandler(L"Directory", 
-			CLSID_FileContextMenuExt);
-
-		hr = UnregisterShellExtContextMenuHandler(L"Folder", 
 			CLSID_FileContextMenuExt);
     }
 

@@ -88,7 +88,7 @@ void FileContextMenuExt::OnVerbScanFileName(HWND hWnd)
 
 void FileContextMenuExt::OnVerbQuickItem(HWND hWnd)
 {
-	wchar_t szMessage[300];
+	wchar_t szMessage[2000];
 
     if (SUCCEEDED(StringCchPrintf(szMessage, ARRAYSIZE(szMessage),L"-Shred_Quick \"%s\"", getSelectedNames().c_str())))
     {
@@ -111,7 +111,7 @@ std::basic_string<wchar_t> FileContextMenuExt::getSelectedNames() {
 
 void FileContextMenuExt::OnVerbSafeItem(HWND hWnd) 
 {
-	wchar_t szMessage[300];
+	wchar_t szMessage[2000];
     if (SUCCEEDED(StringCchPrintf(szMessage, ARRAYSIZE(szMessage),L"-Shred_Safe \"%s\"", getSelectedNames().c_str())))
     {
         ShellExecute( NULL, L"open", GetApplicationPath().c_str(), szMessage, NULL, SW_SHOWNORMAL );
@@ -120,7 +120,7 @@ void FileContextMenuExt::OnVerbSafeItem(HWND hWnd)
 
 void FileContextMenuExt::OnVerbThroughItem(HWND hWnd)
 {
-	wchar_t szMessage[300];
+	wchar_t szMessage[2000];
 	if (SUCCEEDED(StringCchPrintf(szMessage, ARRAYSIZE(szMessage),L"-Shred_Through \"%s\"", getSelectedNames().c_str())))
 	{
 		ShellExecute( NULL, L"open", GetApplicationPath().c_str(), szMessage, NULL, SW_SHOWNORMAL );
