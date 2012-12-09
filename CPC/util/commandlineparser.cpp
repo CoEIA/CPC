@@ -3,7 +3,6 @@
 CommandLineParser::CommandLineParser(QStringList args)
 {
     this->m_isValidParameter = false;
-    this->m_filePath = "";
     this->m_optionName = "";
 
     if ( args.count() > 1 ) {
@@ -19,10 +18,13 @@ CommandLineParser::CommandLineParser(QStringList args)
             if ( option == SHRED_QUICK_PARAM ||
                      option == SHRED_SAFE_PARAM ||
                      option == SHRED_THROUGH_PARAM ) {
-                QString path = args.at(2);
+                QStringList paths = args.at(2).split(",");
+
+                foreach(QString aPath, paths) {
+                    this->m_filePaths.append(aPath);
+                }
 
                 this->m_optionName = option;
-                this->m_filePath = path;
                 this->m_isValidParameter = true;
             }
         }
@@ -52,6 +54,6 @@ bool CommandLineParser::isShredThroughParameter() const {
     return this->m_optionName == SHRED_THROUGH_PARAM;
 }
 
-QString CommandLineParser::getPath() const{
-    return this->m_filePath;
+QStringList CommandLineParser::getPaths() const{
+    return this->m_filePaths;
 }

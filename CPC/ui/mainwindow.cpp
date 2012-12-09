@@ -94,16 +94,16 @@ void MainWindow::handleCommandLineOptions(CommandLineParser parser) {
             doAutoScan();
         }
         else if ( parser.isShredQuickParameter() ) {
-            QString path = parser.getPath();
-            setShredFile(path, 1);
+            QStringList paths = parser.getPaths();
+            setShredFile(paths, 1);
         }
         else if ( parser.isShredSafeParameter() ) {
-             QString path = parser.getPath();
-             setShredFile(path, 2);
+             QStringList paths = parser.getPaths();
+             setShredFile(paths, 2);
         }
         else if ( parser.isShredThroughParameter() ) {
-            QString path = parser.getPath();
-            setShredFile(path, 3);
+            QStringList paths = parser.getPaths();
+            setShredFile(paths, 3);
         }
         else {
             //automaticCheckForUpdate();
@@ -114,9 +114,13 @@ void MainWindow::handleCommandLineOptions(CommandLineParser parser) {
     }
 }
 
-void MainWindow::setShredFile(QString path, int shredLevel) {
+void MainWindow::setShredFile(QStringList paths, int shredLevel) {
     setCurrentWindow(Shred);
-    shredWidget->addFile(path);
+
+    foreach(QString p, paths) {
+        shredWidget->addFile(p);
+    }
+
     shredWidget->setShredLevel(shredLevel);
 }
 

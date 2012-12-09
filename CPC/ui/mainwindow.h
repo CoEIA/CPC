@@ -81,7 +81,7 @@ private:
     void readSettings();
     void automaticCheckForUpdate();
     void retranslate();
-    void setShredFile(QString path, int shredLevel);
+    void setShredFile(QStringList paths, int shredLevel);
 
 private:
     WelcomeWidget *welcomeWidget ;

@@ -15,11 +15,11 @@ public:
     bool isShredSafeParameter() const;
     bool isShredThroughParameter() const;
 
-    QString getPath() const ;
+    QStringList getPaths() const ;
 
 private:
     QString m_optionName;
-    QString m_filePath;
+    QStringList m_filePaths;
     bool m_isValidParameter;
 };
 

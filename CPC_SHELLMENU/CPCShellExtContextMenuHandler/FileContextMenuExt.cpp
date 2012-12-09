@@ -85,19 +85,34 @@ void FileContextMenuExt::OnVerbScanFileName(HWND hWnd)
 	ShellExecute( NULL, L"open", GetApplicationPath().c_str(), L"-Scan", NULL, SW_SHOWNORMAL );
 }
 
+
 void FileContextMenuExt::OnVerbQuickItem(HWND hWnd)
 {
 	wchar_t szMessage[300];
-    if (SUCCEEDED(StringCchPrintf(szMessage, ARRAYSIZE(szMessage),L"-Shred_Quick \"%s\"", this->m_szSelectedFile)))
+
+    if (SUCCEEDED(StringCchPrintf(szMessage, ARRAYSIZE(szMessage),L"-Shred_Quick \"%s\"", getSelectedNames().c_str())))
     {
         ShellExecute( NULL, L"open", GetApplicationPath().c_str(), szMessage, NULL, SW_SHOWNORMAL );
     }
 }
 
+std::basic_string<wchar_t> FileContextMenuExt::getSelectedNames() {
+	std::basic_string<wchar_t> names = L"";
+
+	for(int i=0; i<m_Files.size(); i++) {
+		names += m_Files[i];
+
+		if ( i < m_Files.size() - 1 )
+			names += L",";
+	}
+
+	return names;
+}
+
 void FileContextMenuExt::OnVerbSafeItem(HWND hWnd) 
 {
 	wchar_t szMessage[300];
-    if (SUCCEEDED(StringCchPrintf(szMessage, ARRAYSIZE(szMessage),L"-Shred_Safe \"%s\"", this->m_szSelectedFile)))
+    if (SUCCEEDED(StringCchPrintf(szMessage, ARRAYSIZE(szMessage),L"-Shred_Safe \"%s\"", getSelectedNames().c_str())))
     {
         ShellExecute( NULL, L"open", GetApplicationPath().c_str(), szMessage, NULL, SW_SHOWNORMAL );
     }
@@ -106,7 +121,7 @@ void FileContextMenuExt::OnVerbSafeItem(HWND hWnd)
 void FileContextMenuExt::OnVerbThroughItem(HWND hWnd)
 {
 	wchar_t szMessage[300];
-	if (SUCCEEDED(StringCchPrintf(szMessage, ARRAYSIZE(szMessage),L"-Shred_Through \"%s\"", this->m_szSelectedFile)))
+	if (SUCCEEDED(StringCchPrintf(szMessage, ARRAYSIZE(szMessage),L"-Shred_Through \"%s\"", getSelectedNames().c_str())))
 	{
 		ShellExecute( NULL, L"open", GetApplicationPath().c_str(), szMessage, NULL, SW_SHOWNORMAL );
 	}
@@ -187,7 +202,10 @@ IFACEMETHODIMP FileContextMenuExt::Initialize(
         return E_INVALIDARG;
     }
 
+
     HRESULT hr = E_FAIL;
+	TCHAR szFile[MAX_PATH];
+	m_Files.clear();
 
     FORMATETC fe = { CF_HDROP, NULL, DVASPECT_CONTENT, -1, TYMED_HGLOBAL };
     STGMEDIUM stm;
@@ -205,15 +223,27 @@ IFACEMETHODIMP FileContextMenuExt::Initialize(
             // code sample displays the custom context menu item when only 
             // one file is selected. 
             UINT nFiles = DragQueryFile(hDrop, 0xFFFFFFFF, NULL, 0);
-            if (nFiles == 1)
-            {
-                // Get the path of the file.
-                if (0 != DragQueryFile(hDrop, 0, m_szSelectedFile, 
-                    ARRAYSIZE(m_szSelectedFile)))
-                {
-                    hr = S_OK;
-                }
-            }
+
+			for (UINT i = 0; i < nFiles; i++) {
+				// Get path length in chars
+				UINT len = DragQueryFile(hDrop, i, NULL, 0);
+				if (len == 0 || len >= MAX_PATH)
+					continue;
+
+				// Get the name of the file
+				if (DragQueryFile(hDrop, i, szFile, len+1) == 0)
+					continue;
+
+				std::basic_string<wchar_t> str = std::basic_string<wchar_t>(szFile);
+				if (str.empty())
+					continue;
+
+				m_Files.push_back(str);
+			}
+
+			if (!m_Files.empty()) {
+				hr = S_OK;
+			}
 
             GlobalUnlock(stm.hGlobal);
         }

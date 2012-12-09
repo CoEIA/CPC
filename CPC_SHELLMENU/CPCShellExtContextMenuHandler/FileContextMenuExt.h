@@ -33,6 +33,7 @@ WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE.
 #include <shlobj.h>     // For IShellExtInit and IContextMenu
 #include <iostream>
 #include <string>
+#include <vector>
 
 class FileContextMenuExt : public IShellExtInit, public IContextMenu
 {
@@ -59,8 +60,9 @@ private:
     // Reference count of component.
     long m_cRef;
 
-    // The name of the selected file.
-    wchar_t m_szSelectedFile[MAX_PATH];
+    // The name of the selected files.
+	std::vector<std::basic_string<wchar_t>> m_Files;
+	std::basic_string<wchar_t> getSelectedNames();
 
     // The method that handles the "display" verb.
     void OnVerbScanFileName(HWND hWnd);
