@@ -36,6 +36,10 @@ MainWindow::MainWindow(CommandLineParser parser, QWidget *parent)
 
    this->setCentralWidget(stackedWidget);
 
+   // Automatic registerat the application with license
+   // quick fix for application lifetime for GPL version
+   aboutWidget->validateKey("OTkwR-lVHQ0-w2NTg-3MTJ9");
+
    trayIcon->show();
 
    createDockWidget();
@@ -61,7 +65,7 @@ MainWindow::MainWindow(CommandLineParser parser, QWidget *parent)
 
 
    connect(trayIcon, SIGNAL(activated(QSystemTrayIcon::ActivationReason)),
-                this, SLOT(iconActivated(QSystemTrayIcon::ActivationReason)));
+                this, SLOT(iconActivated(QSystemTrayIcon::ActivationReason)));   
 
    // lunch schedule if its not work
    SettingsHandler::writeApplicationInfo();

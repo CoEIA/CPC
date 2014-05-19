@@ -41,8 +41,8 @@ bool AboutWidget:: validateKey (const QString& key) {
                 writeSettings(key, KNOWN_STATE); // save info in regsitry
                 readSettings();     // read settings to gui elements
 
-                QMessageBox::information(this,tr("Thanks For Using Our Software"),
-                                        tr("Your Registration Process is Complete Successfully"));
+                //QMessageBox::information(this,tr("Thanks For Using Our Software"),
+                                        //tr("Your Registration Process is Complete Successfully"));
 
                 retValue = true;
             }
