@@ -10,75 +10,79 @@
     </message>
     <message utf8="true">
         <location filename="../ui/aboutwidget.ui" line="48"/>
-        <source>CoEIA Privacy Control&lt;br/&gt;
-Warning: This computer program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties.&lt;br/&gt;
-Copyright © 2013 CoEIA. All right reserved.</source>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;CoEIA Privacy Control&lt;br /&gt;Copyright © 2013 CoEIA. All right reserved.&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; color:#fafafa;&quot;&gt;This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License or any later version.This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutwidget.ui" line="69"/>
+        <location filename="../ui/aboutwidget.ui" line="73"/>
         <source>Updates</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutwidget.ui" line="83"/>
+        <location filename="../ui/aboutwidget.ui" line="87"/>
         <source>Program Version:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutwidget.ui" line="90"/>
-        <location filename="../ui/aboutwidget.ui" line="104"/>
+        <location filename="../ui/aboutwidget.ui" line="94"/>
+        <location filename="../ui/aboutwidget.ui" line="108"/>
         <source>2.0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutwidget.ui" line="97"/>
+        <location filename="../ui/aboutwidget.ui" line="101"/>
         <source>Database Version:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutwidget.ui" line="126"/>
+        <location filename="../ui/aboutwidget.ui" line="130"/>
         <source>Update ...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutwidget.ui" line="142"/>
+        <location filename="../ui/aboutwidget.ui" line="146"/>
         <source>Registrations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutwidget.ui" line="153"/>
+        <location filename="../ui/aboutwidget.ui" line="157"/>
         <source>Licence Version:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutwidget.ui" line="160"/>
+        <location filename="../ui/aboutwidget.ui" line="164"/>
         <source>Free Scan</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutwidget.ui" line="167"/>
+        <location filename="../ui/aboutwidget.ui" line="171"/>
         <source>Licene Key:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutwidget.ui" line="174"/>
-        <location filename="../ui/aboutwidget.ui" line="188"/>
+        <location filename="../ui/aboutwidget.ui" line="178"/>
+        <location filename="../ui/aboutwidget.ui" line="192"/>
         <source> -</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutwidget.ui" line="181"/>
+        <location filename="../ui/aboutwidget.ui" line="185"/>
         <source>License Valid Until:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutwidget.ui" line="195"/>
+        <location filename="../ui/aboutwidget.ui" line="199"/>
         <source>Enter Licence Key:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutwidget.ui" line="220"/>
+        <location filename="../ui/aboutwidget.ui" line="224"/>
         <source>Register   </source>
         <translation type="unfinished"></translation>
     </message>
@@ -93,58 +97,28 @@ Copyright © 2013 CoEIA. All right reserved.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutwidget.cpp" line="44"/>
-        <source>Thanks For Using Our Software</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ui/aboutwidget.cpp" line="45"/>
-        <source>Your Registration Process is Complete Successfully</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../ui/aboutwidget.cpp" line="50"/>
         <source>cannot accept your key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutwidget.cpp" line="51"/>
+        <location filename="../ui/aboutwidget.cpp" line="50"/>
         <source>Please try again later</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutwidget.cpp" line="56"/>
-        <source>Already Used Serial Number </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ui/aboutwidget.cpp" line="57"/>
-        <source>Please Write Your Serial Number</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ui/aboutwidget.cpp" line="61"/>
+        <location filename="../ui/aboutwidget.cpp" line="59"/>
         <source>Illegal Serial Number</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutwidget.cpp" line="62"/>
-        <location filename="../ui/aboutwidget.cpp" line="76"/>
+        <location filename="../ui/aboutwidget.cpp" line="59"/>
+        <location filename="../ui/aboutwidget.cpp" line="75"/>
         <source>Please Write Your Serial Number Correctly</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutwidget.cpp" line="69"/>
-        <source>CPC Need Internet Connection</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ui/aboutwidget.cpp" line="70"/>
-        <source>your licence is accepted but you must establish internet connection to do last checking</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ui/aboutwidget.cpp" line="75"/>
+        <location filename="../ui/aboutwidget.cpp" line="74"/>
         <source>Incorrect Serial Number</source>
         <translation type="unfinished"></translation>
     </message>
@@ -276,105 +250,105 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="548"/>
+        <location filename="../ui/mainwindow.cpp" line="556"/>
         <source>Trial Version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="495"/>
+        <location filename="../ui/mainwindow.cpp" line="503"/>
         <source>&lt;a href=&quot;%1&quot; style=&quot;color:yellow;&quot;&gt;User Manual&lt;/a&gt;&lt;/font&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="77"/>
+        <location filename="../ui/mainwindow.cpp" line="81"/>
         <source>Trial Version Expired</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="77"/>
+        <location filename="../ui/mainwindow.cpp" line="81"/>
         <source>Please Enter CPC Serial Number</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="139"/>
+        <location filename="../ui/mainwindow.cpp" line="147"/>
         <source>CPC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="140"/>
+        <location filename="../ui/mainwindow.cpp" line="148"/>
         <source>The program will keep running in the system tray</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="151"/>
-        <location filename="../ui/mainwindow.cpp" line="556"/>
+        <location filename="../ui/mainwindow.cpp" line="159"/>
+        <location filename="../ui/mainwindow.cpp" line="564"/>
         <source>About</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="154"/>
-        <location filename="../ui/mainwindow.cpp" line="557"/>
+        <location filename="../ui/mainwindow.cpp" line="162"/>
+        <location filename="../ui/mainwindow.cpp" line="565"/>
         <source>Begin Scan</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="157"/>
-        <location filename="../ui/mainwindow.cpp" line="558"/>
+        <location filename="../ui/mainwindow.cpp" line="165"/>
+        <location filename="../ui/mainwindow.cpp" line="566"/>
         <source>Open CPC Application</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="160"/>
-        <location filename="../ui/mainwindow.cpp" line="559"/>
+        <location filename="../ui/mainwindow.cpp" line="168"/>
+        <location filename="../ui/mainwindow.cpp" line="567"/>
         <source>Exit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="481"/>
-        <location filename="../ui/mainwindow.cpp" line="482"/>
+        <location filename="../ui/mainwindow.cpp" line="489"/>
+        <location filename="../ui/mainwindow.cpp" line="490"/>
         <source>Scan the whole window system and find all the traces of recorded history</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="483"/>
-        <location filename="../ui/mainwindow.cpp" line="484"/>
+        <location filename="../ui/mainwindow.cpp" line="491"/>
+        <location filename="../ui/mainwindow.cpp" line="492"/>
         <source>User filter options for history scanning</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="485"/>
-        <location filename="../ui/mainwindow.cpp" line="486"/>
+        <location filename="../ui/mainwindow.cpp" line="493"/>
+        <location filename="../ui/mainwindow.cpp" line="494"/>
         <source>Create personal schedule for system wide scanning and actions</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="487"/>
-        <location filename="../ui/mainwindow.cpp" line="488"/>
+        <location filename="../ui/mainwindow.cpp" line="495"/>
+        <location filename="../ui/mainwindow.cpp" line="496"/>
         <source>Shred files from the system to remove them permanently</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="442"/>
+        <location filename="../ui/mainwindow.cpp" line="450"/>
         <source>CoEIA - Privacy Control - 2.0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="553"/>
+        <location filename="../ui/mainwindow.cpp" line="561"/>
         <source>CoEIA Privacy Control - 2.0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="496"/>
+        <location filename="../ui/mainwindow.cpp" line="504"/>
         <source>Language...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="497"/>
+        <location filename="../ui/mainwindow.cpp" line="505"/>
         <source>Arabic</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="498"/>
+        <location filename="../ui/mainwindow.cpp" line="506"/>
         <source>English</source>
         <translation type="unfinished"></translation>
     </message>
@@ -504,7 +478,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../main.cpp" line="23"/>
-        <location filename="../ui/mainwindow.cpp" line="534"/>
+        <location filename="../ui/mainwindow.cpp" line="542"/>
         <source>LTR</source>
         <translation type="unfinished"></translation>
     </message>
@@ -915,16 +889,7 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.ui" line="47"/>
-        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; color:#ffffff;&quot;&gt;Warning: This computer program is protected by copyright law and international treaties. Unauthorized reproduction or distribution, or any portion of it, may result in severe civil and criminal penalties.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ui/aboutdialog.ui" line="79"/>
+        <location filename="../ui/aboutdialog.ui" line="41"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -934,12 +899,21 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.ui" line="103"/>
+        <location filename="../ui/aboutdialog.ui" line="59"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; color:#ffffff;&quot;&gt;For more information: &lt;/span&gt;&lt;a href=&quot;www.coeia.edu.sa&quot;&gt;&lt;span style=&quot; font-size:8pt; text-decoration: underline; color:#ffffff;&quot;&gt;Center of Excellence in Information Assurance (CoEIA)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/aboutdialog.ui" line="73"/>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; color:#ffffff;&quot;&gt;This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License or any later version.This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.You should have received a copy of the GNU General Public License along with this program.  If not, see &lt;/span&gt;&lt;a href=&quot;http://www.gnu.org/licenses&quot;&gt;&lt;span style=&quot; font-size:8pt; text-decoration: underline; color:#0000ff;&quot;&gt;GPL License&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:8pt; color:#ffffff;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
