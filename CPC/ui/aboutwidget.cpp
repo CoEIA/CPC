@@ -47,27 +47,26 @@ bool AboutWidget:: validateKey (const QString& key) {
                 retValue = true;
             }
             else {
-                QMessageBox::warning(this, tr("cannot accept your key"),
-                                     tr("Please try again later"));
+                QMessageBox::warning(this, tr("cannot accept your key"), tr("Please try again later"));
                 retValue = false;
             }
         }
         else if ( state == USED_KEY ) {
-            QMessageBox::warning(this, tr("Already Used Serial Number "),
-                                 tr("Please Write Your Serial Number"));
+            //QMessageBox::warning(this, tr("Already Used Serial Number "), tr("Please Write Your Serial Number"));
             retValue = false;
         }
         else if ( state == ILLEGAL_KEY) {
-            QMessageBox::warning(this, tr("Illegal Serial Number"),
-                                 tr("Please Write Your Serial Number Correctly"));
+            QMessageBox::warning(this, tr("Illegal Serial Number"), tr("Please Write Your Serial Number Correctly"));
             retValue = false;
         }
         else {
-            writeSettings(key, UNKNOWN_STATE); // save info in regsitry
+            //writeSettings(key, UNKNOWN_STATE); // save info in regsitry
+
+            //QUICK Fix Of GPL:
+            writeSettings(key, KNOWN_STATE); // save info in regsitry
             readSettings();     // read settings to gui elements
 
-            QMessageBox::information(this, tr("CPC Need Internet Connection"),
-                                 tr("your licence is accepted but you must establish internet connection to do last checking"));
+            //QMessageBox::information(this, tr("CPC Need Internet Connection"), tr("your licence is accepted but you must establish internet connection to do last checking"));
             retValue = true;
         }
     }
