@@ -1,0 +1,42 @@
+			README
+
+	CoEIA Privacy Control Version 1.1
+
+INTRODUCTION
+
+CPC provides easy and efficient methods of finding and erasing unwanted and unnecessary items on your computer. With CPC you can erase items that are created automatically and are temporarily cached on your system. This frees up space on your hard drive and improves computer performance. 
+
+CPC cleans your hard drive of unwanted files. It features full support to erase files related to Internet Explorer, Firefox, VLC, Skype, DivX, BitTorrent and about 200 others software.
+
+Installation and Configuration
+1. Check the requirement
+	- Operating Systems Supported and already tested: 
+	- Windows® 7 Operating System 32-bit/64-bit 
+	- Windows® 7 Windows® XP Operating System 32-bit 
+ 
+2. Minimum System configuration 
+	The following are the minimum levels required. For improved responsiveness we 
+	recommend higher system specifications than those presented here: 
+	1. 10 MB free hard disk space required for initial installation 
+	2. Internet connection 
+	3. Microsoft Internet Explorer 6.0 and above 
+	4. Operating privileges: logged on as administrator 3. Install the software 
+	- Double-click on the CPC.exe file to launch the installer. And accept all 	setting be click next-next until installing complete CPC.
+
+Getting Started With CPC
+
+CPC is a history erase and file removal program; a powerful tool that puts you in control of erasing unwanted files from your system without leaving any trace or means of recovery. There are two ways to permanently remove files: 
+
+1. Scan and Remove 
+	You can scan and remove numerous unwanted files at one time including history 	files, application temp items, cached items, logs from commonly used 	programs, and more. 
+	There are different erase options to choose from including Shred levels. 
+2. Advanced Shred 
+	With the Shred tool you can select files you want to permanently erase. 
+
+For more information about this project, please visit: http://coeia.ksu.edu.sa/cpc
+The source code for this application is available at https://github.com/coeia/cpc
+
+Copyright (c) 2014 Center of Excellence in Information Assurance. All rights reserved.
+
+
+
